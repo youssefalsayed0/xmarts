@@ -3,7 +3,7 @@ import React from "react";
 export default function Marquee() {
 	return (
 		<>
-			<div className="tf-marquee bg_yellow-2">
+			<div className="tf-marquee bg_grey-4">
 				<div className="wrap-marquee">
 					<div className="marquee-item">
 						<div className="icon">

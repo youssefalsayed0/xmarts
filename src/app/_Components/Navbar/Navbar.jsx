@@ -693,7 +693,7 @@ export default function Navbar() {
 																					>
 																						<span className="icon icon-compare added" />
 																						<span className="tooltip">
-																							{" "}
+
 																							{/* */}Already Compared
 																						</span>
 																						<span className="icon icon-check" />
@@ -721,7 +721,7 @@ export default function Navbar() {
 																					className="title link"
 																					href="/product-detail/1"
 																				>
-																					Ribbed Tank Top
+																					PLATE OF EGGS
 																				</a>
 																				<span className="price">
 																					${/* */}16.95
@@ -849,7 +849,7 @@ export default function Navbar() {
 																					>
 																						<span className="icon icon-compare added" />
 																						<span className="tooltip">
-																							{" "}
+
 																							{/* */}Already Compared
 																						</span>
 																						<span className="icon icon-check" />
@@ -873,7 +873,7 @@ export default function Navbar() {
 																						>
 																							<span className="countdown__item">
 																								<span className="countdown__value countdown__value--0 js-countdown__value--0">
-																									164{" "}
+																									164
 																								</span>
 																								<span className="countdown__label">
 																									d :
@@ -881,7 +881,7 @@ export default function Navbar() {
 																							</span>
 																							<span className="countdown__item">
 																								<span className="countdown__value countdown__value--1 js-countdown__value--1">
-																									8{" "}
+																									8
 																								</span>
 																								<span className="countdown__label">
 																									h :
@@ -889,7 +889,7 @@ export default function Navbar() {
 																							</span>
 																							<span className="countdown__item">
 																								<span className="countdown__value countdown__value--2 js-countdown__value--2">
-																									40{" "}
+																									40
 																								</span>
 																								<span className="countdown__label">
 																									m :
@@ -897,7 +897,7 @@ export default function Navbar() {
 																							</span>
 																							<span className="countdown__item">
 																								<span className="countdown__value countdown__value--3 js-countdown__value--3">
-																									16{" "}
+																									16
 																								</span>
 																								<span className="countdown__label">
 																									s
@@ -1045,7 +1045,7 @@ export default function Navbar() {
 																					>
 																						<span className="icon icon-compare added" />
 																						<span className="tooltip">
-																							{" "}
+
 																							{/* */}Already Compared
 																						</span>
 																						<span className="icon icon-check" />
@@ -1145,7 +1145,7 @@ export default function Navbar() {
 																					>
 																						<span className="icon icon-compare " />
 																						<span className="tooltip">
-																							{" "}
+
 																							{/* */}Add to Compare
 																						</span>
 																						<span className="icon icon-check" />
@@ -1264,7 +1264,7 @@ export default function Navbar() {
 														style={{ position: "relative" }}
 														href="/about-us"
 													>
-														About us{/* */}{" "}
+														About us{/* */}
 													</a>
 												</li>
 												<li className="menu-item-2 ">
@@ -1388,7 +1388,7 @@ export default function Navbar() {
 														style={{ position: "relative" }}
 														href="/timeline"
 													>
-														Timeline{/* */}{" "}
+														Timeline{/* */}
 														<div className="demo-label">
 															<span className="demo-new">New</span>
 														</div>
@@ -1400,7 +1400,7 @@ export default function Navbar() {
 														style={{ position: "relative" }}
 														href="/view-cart"
 													>
-														View cart{/* */}{" "}
+														View cart{/* */}
 													</a>
 												</li>
 												<li className>
@@ -1409,7 +1409,7 @@ export default function Navbar() {
 														style={{ position: "relative" }}
 														href="/checkout"
 													>
-														Check out{/* */}{" "}
+														Check out{/* */}
 													</a>
 												</li>
 												<li className="menu-item-2 ">
@@ -1506,7 +1506,7 @@ export default function Navbar() {
 														style={{ position: "relative" }}
 														href="/invoice"
 													>
-														Invoice{/* */}{" "}
+														Invoice{/* */}
 													</a>
 												</li>
 												<li className>
@@ -1515,7 +1515,7 @@ export default function Navbar() {
 														style={{ position: "relative" }}
 														href="/page-not-found"
 													>
-														404{/* */}{" "}
+														404{/* */}
 													</a>
 												</li>
 											</ul>
@@ -1634,7 +1634,7 @@ export default function Navbar() {
 						</div>
 					</div>
 				</div>
-				
+
 				<div
 					className="offcanvas offcanvas-start canvas-mb "
 					id="mobileMenu"
@@ -2629,7 +2629,7 @@ export default function Navbar() {
 														/>
 														USD $ | United States
 													</div>
-												</div>{" "}
+												</div>
 											</div>
 										</button>
 										<div
@@ -2811,8 +2811,8 @@ export default function Navbar() {
 					</div>
 				</div>
 
-	
-				
+
+
 			</header>
 		</>
 	);

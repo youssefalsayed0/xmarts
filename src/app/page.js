@@ -14,7 +14,7 @@ export default function Home() {
    <>
    <Hero />
    <CallToAction_1 />
-  <GetProducts/>
+   <GetProducts/>
    <Marquee />
    <DiscountSlider />
    <BestDealsSection/>

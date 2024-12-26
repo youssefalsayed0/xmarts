@@ -1,21 +1,22 @@
 import React from "react";
-
+import bg from "@images/best deal discount.png";
+import Image from "next/image";
 export default function BestDealsSection() {
 	return (
 		<section className="flat-spacing-8 ">
 			<div className="container">
 				<div className="tf-banner-collection">
-					<img
-						data-src="/images/collections/banner-collection-3.jpg"
+					<Image
+						data-src={bg}
 						alt="img-banner"
 						loading="lazy"
 						width={1400}
 						height={532}
-						decoding="async"
+					
 						data-nimg={1}
 						className="lazyload"
 						style={{ color: "transparent" }}
-						src="/images/collections/banner-collection-3.jpg"
+						src={bg}
 					/>
 					<div className="box-content">
 						<div
@@ -23,16 +24,15 @@ export default function BestDealsSection() {
 							data-wow-delay="0s"
 							style={{ visibility: "visible", animationDelay: "0s" }}
 						>
-							<div className="sub fw-7 text_white">
+							<h2 className="heading fw-6 text_white">Best Deals Discounts</h2>
+							<div className="sub fw-7 text_white mt-4">
 								SALE UP TO 30% OFF TODAY
 							</div>
-							<h2 className="heading fw-6 text_white">Best Deals Discounts</h2>
-							<p className="text_white">Fast wireless charging on-the-go.</p>
 							<a
-								className="rounded-full tf-btn btn-primary-main style-3 fw-6 btn-light-icon animate-hover-btn"
+								className="rounded-full tf-btn btn-color-1 style-3 border-0 fw-6 btn-light-icon animate-hover-btn mt-5"
 								href="/shop-default"
 							>
-								<span>Shop Collection</span>
+								<span>Shop Now</span>
 							</a>
 						</div>
 					</div>

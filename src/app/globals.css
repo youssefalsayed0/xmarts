@@ -1,4 +1,5 @@
-@import"/fonts/fonts.css";@import"/fonts/font-icons.css";@import"/css/bootstrap.min.css";@import"/css/swiper-bundle.min.css";@import"/css/animate.css";@import"/css/bootstrap-select.min.css";:root {
+@import"../assets/css/fonts.css";@import"../../node_modules/wowjs/css/libs/animate.css";
+:root {
     --main: #000;
     --white: #fff;
     --primary: #db1215;
@@ -9614,8 +9615,8 @@ header.header-bg {
 
 .card-product .card-product-wrapper img {
     display: block;
-    height: 100%;
     width: 100%;
+    height: 400px;
     object-fit: cover;
     object-position: center;
     transition: opacity .5s ease,transform 2s cubic-bezier(0,0,.44,1.18)
@@ -11115,7 +11116,6 @@ blockquote .text {
 
 .tf-page-title {
     padding: 69px 0 65px;
-    background-image: url(/images/shop/file/page-title-blog.png);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover
@@ -20482,7 +20482,7 @@ blockquote .text {
 }
 
 .rtl .tf-marquee .wrap-marquee {
-    animation: slide-har-reverse 6s linear infinite
+    animation: slide-har-reverse 6s linear infinite 
 }
 
 .rtl .box-sw-announcement-bar {
@@ -20917,3 +20917,4 @@ html[dir=rtl] .swiper-wrapper {
     height: 100%;
     width: 100%
 }
+

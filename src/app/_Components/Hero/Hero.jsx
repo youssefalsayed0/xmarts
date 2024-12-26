@@ -1,7 +1,6 @@
 "use client"
 import Image from "next/image";
 import React, { useEffect } from "react";
-import Swiper from "swiper";
 import hero from "../../../assets/images/sneaker-1.jpg.png";
 export default function Hero() {
  
@@ -15,7 +14,7 @@ export default function Hero() {
 					className="swiper-wrapper"
 					style={{ transitionDuration: "0ms", transitionDelay: "0ms" }}
 				>
-					{/* <div
+					<div
 						className="swiper-slide swiper-slide-prev"
 						style={{
 							width: 1382,
@@ -56,7 +55,7 @@ export default function Hero() {
 								<Image
 								
 									alt="fashion-slideshow"
-									fetchpriority="high"
+									
 									width={960}
 									height={862}
 									decoding="async"
@@ -67,7 +66,7 @@ export default function Hero() {
 								/>
 							</div>
 						</div>
-					</div> */}
+					</div>
 					<div
 						className="swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-active"
 						style={{
@@ -109,7 +108,7 @@ export default function Hero() {
 								<Image
 									data-src="/images/slider/fashion-06-slide2.jpg"
 									alt="fashion-slideshow"
-									fetchpriority="high"
+								
 									width={960}
 									height={862}
 									decoding="async"
@@ -121,7 +120,7 @@ export default function Hero() {
 							</div>
 						</div>
 					</div>
-					{/* <div
+					<div
 						className="swiper-slide swiper-slide-next"
 						style={{
 							width: 1382,
@@ -162,7 +161,7 @@ export default function Hero() {
 								<img
 									data-src="/images/slider/fashion-06-slide3.jpg"
 									alt="fashion-slideshow"
-									fetchpriority="high"
+							
 									width={960}
 									height={862}
 									decoding="async"
@@ -173,7 +172,7 @@ export default function Hero() {
 								/>
 							</div>
 						</div>
-					</div> */}
+					</div>
 				</div>
 			</div>
 			<div className="wrap-pagination">

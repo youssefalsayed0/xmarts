@@ -1,8 +1,11 @@
+'use client';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import React from "react";
 export default function Features() {
 	return (
 		<>
-			<section className="flat-spacing-9 flat-iconbox-v2">
+
+			<section className="flat-spacing-9 flat-iconbox-v2 featured-section">
 				<div className="container">
 					<div
 						className="wrap-carousel wrap-mobile wow fadeInUp"
@@ -13,7 +16,23 @@ export default function Features() {
 							className="swiper swiper-initialized swiper-horizontal tf-sw-mobile swiper-backface-hidden"
 							dir="ltr"
 						>
-							<div
+							<Swiper
+							   slidesPerView={3}
+							   breakpoints={{
+								// Define breakpoints for different screen sizes
+								100: {
+								  slidesPerView: 1, // 2 slides per view on screens >= 640px
+								
+								},
+								768: {
+								  slidesPerView: 2, // 3 slides per view on screens >= 768px
+								  
+								},
+								1024:{
+									slidesPerView: 3, // 3 slides per view on screens >= 768px
+								}
+	
+							  }}
 								className="swiper-wrapper"
 								style={{
 									transitionDuration: "0ms",
@@ -21,7 +40,7 @@ export default function Features() {
 									transform: "translate3d(0px, 0px, 0px)",
 								}}
 							>
-								<div
+								<SwiperSlide
 									className="swiper-slide swiper-slide-active"
 									style={{ width: "469.333px", marginRight: 15 }}
 								>
@@ -34,8 +53,8 @@ export default function Features() {
 											<p>Free shipping over order $120</p>
 										</div>
 									</div>
-								</div>
-								<div
+								</SwiperSlide>
+								<SwiperSlide
 									className="swiper-slide swiper-slide-next"
 									style={{ width: "469.333px", marginRight: 15 }}
 								>
@@ -48,9 +67,9 @@ export default function Features() {
 											<p>Pay with Multiple Credit Cards</p>
 										</div>
 									</div>
-								</div>
-								<div
-									className="swiper-slide"
+								</SwiperSlide>
+								<SwiperSlide
+									className=""
 									style={{ width: "469.333px", marginRight: 15 }}
 								>
 									<div className="tf-icon-box text-center">
@@ -62,8 +81,8 @@ export default function Features() {
 											<p>Within 30 days for an exchange</p>
 										</div>
 									</div>
-								</div>
-							</div>
+								</SwiperSlide>
+							</Swiper>
 						</div>
 						<div className="sw-dots style-2 sw-pagination-mb justify-content-center spd124 swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal swiper-pagination-lock">
 							<span className="swiper-pagination-bullet swiper-pagination-bullet-active" />

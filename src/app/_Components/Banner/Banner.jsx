@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
 
-export default function Banner() {
+export default function Banner({ text, bg }) {
   return (
-<>
-<div className="tf-page-title"><div className="container-full"><div className="heading text-center">My Orders</div></div></div>
-</>
-  )
+    <div
+      className="tf-page-title"
+      style={{ backgroundImage: `url(${bg})` }} // Correct usage
+    >
+      <div className="container-full">
+        <div className="heading text-center">{text}</div>
+      </div>
+    </div>
+  );
 }

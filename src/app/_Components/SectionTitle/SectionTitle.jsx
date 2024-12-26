@@ -9,16 +9,9 @@ export default function SectionTitle({ text }) {
 					data-wow-delay="0s"
 					style={{ visibility: "visible", animationDelay: "0s" }}
 				>
-{text}
-			</span>
-				<div className="box-sw-navigation">
-					<div className="nav-sw square nav-next-slider nav-next-product snbp156 swiper-button-disabled">
-						<span className="icon icon-arrow1-left" />
-					</div>
-					<div className="nav-sw square nav-prev-slider nav-prev-product snbn156">
-						<span className="icon icon-arrow1-right" />
-					</div>
-				</div>
+					{text}
+				</span>
+			
 			</div>
 		</>
 	);

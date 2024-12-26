@@ -90,7 +90,7 @@ export default function Cart() {
 										</span>
 									</div>
 									<div className="tf-progress-msg">
-										Buy <span className="price fw-6">$75.00</span> more to enjoy{" "}
+										Buy <span className="price fw-6">$75.00</span> more to enjoy
 										<span className="fw-6">Free Shipping</span>
 									</div>
 								</div>
@@ -277,7 +277,7 @@ export default function Cart() {
 										<span className="total-value">$0.00 USD</span>
 									</div>
 									<p className="tf-cart-tax">
-										Taxes and<a href="/shipping-delivery">shipping</a>{" "}
+										Taxes and<a href="/shipping-delivery">shipping</a>
 										calculated at checkout
 									</p>
 									<div className="cart-checkbox">
