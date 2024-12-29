@@ -5,9 +5,8 @@ import img1 from "@images/footer/img-1.png"
 import img2 from "@images/footer/img-2.png"
 import img3 from "@images/footer/img-3.png"
 import img4 from "@images/footer/img-4.png"
-import paypal from "@images/footer/paypal.png"
 import visa from "@images/footer/visa.png"
-import logo from "@images/xmarts.png"
+import logo1 from "@images/Xmarts.png"
 export default function Footer() {
   return (
     <>
@@ -19,7 +18,7 @@ export default function Footer() {
                 <div className="col-xl-3 col-md-6 col-12">
                   <div className="footer-infor">
                     <div className="footer-logo">
-                      <Link href="/"><Image alt="image" loading="lazy" width={136} height={21} style={{ color: 'transparent' }} src={logo} /></Link>
+                      <Link href="/"><Image alt="image" loading="lazy" width={136} height={21} style={{ color: 'transparent' }} src={logo1} /></Link>
                     </div>
                     <ul>
                       <li>
