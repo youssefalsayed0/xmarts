@@ -54,9 +54,8 @@ export default function Footer() {
                   </div>
                 </div>
                 <div className="col-xl-3 col-md-6 col-12 footer-col-block">
-                  <div className="footer-heading footer-heading-desktop"><h6>Help</h6></div>
-                  <div className="footer-heading footer-heading-moblie"><h6>Help</h6></div>
-                  <ul className="footer-menu-list tf-collapse-content">
+                  <div className="footer-heading "><h6>Help</h6></div>
+                  <ul className="footer-menu-list ">
                     <li><Link className="footer-menu_item" href="/">Home</Link></li>
                     <li><Link className="footer-menu_item" href="/delivery-return">Returns + Exchanges</Link></li>
                     <li><Link className="footer-menu_item" href="/shipping-delivery">Shipping</Link></li>
@@ -66,9 +65,8 @@ export default function Footer() {
                   </ul>
                 </div>
                 <div className="col-xl-3 col-md-6 col-12 footer-col-block">
-                  <div className="footer-heading footer-heading-desktop"><h6>About us</h6></div>
-                  <div className="footer-heading footer-heading-moblie"><h6>About us</h6></div>
-                  <ul className="footer-menu-list tf-collapse-content">
+                  <div className="footer-heading "><h6>About us</h6></div>
+                  <ul className="footer-menu-list">
                     <li><Link className="footer-menu_item" href="/about-us">Our Story</Link></li>
                     <li><Link className="footer-menu_item" href="/our-store">Visit Our Store</Link></li>
                     <li><Link className="footer-menu_item" href="/contact-1">Contact Us</Link></li>
@@ -77,9 +75,9 @@ export default function Footer() {
                 </div>
                 <div className="col-xl-3 col-md-6 col-12">
                   <div className="footer-newsletter footer-col-block">
-                    <div className="footer-heading footer-heading-desktop"><h6>Sign Up for Email</h6></div>
-                    <div className="footer-heading footer-heading-moblie"><h6>Sign Up for Email</h6></div>
-                    <div className="tf-collapse-content">
+                    <div className="footer-heading "><h6>Sign Up for Email</h6></div>
+                    
+                    <div className="">
                       <div className="footer-menu_item">Sign up to get first dibs on new arrivals, sales, exclusive content, events and more!</div>
                       <div className="tfSubscribeMsg"><p style={{ color: 'rgb(52, 168, 83)' }}>You have successfully subscribed.</p></div>
                       <form className="form-newsletter subscribe-form" acceptCharset="utf-8" data-mailchimp="true" action="#" method="post">

@@ -975,7 +975,7 @@ export default function MenuOffcanvcas() {
 								<i className="icon icon-account" />
 								Login
 							</Link>
-							<div className="bottom-bar-language">
+							{/* <div className="bottom-bar-language">
 								<div className="tf-currencies">
 									<div className="dropdown bootstrap-select image-select center style-default type-currencies  dropup">
 										<button
@@ -1177,7 +1177,7 @@ export default function MenuOffcanvcas() {
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</div>

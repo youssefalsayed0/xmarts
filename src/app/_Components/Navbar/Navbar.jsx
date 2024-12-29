@@ -38,7 +38,7 @@ export default function Navbar() {
 							<nav className="box-navigation text-center">
 								<ul className="box-nav-ul d-flex align-items-center gap-40">
 									<li className="menu-item">
-										<Link href="#" className="item-link   activeMenu ">
+										<Link href="/" className="item-link   activeMenu ">
 											Home
 										</Link>
 									</li>
@@ -896,7 +896,7 @@ export default function Navbar() {
 							</nav>
 						</div>
 						<div className="col-xl-2 col-md-4 col-6 text-center">
-							<Link className="logo-header" href="dasd">
+							<Link className="logo-header" href="/">
 								<Image
 									alt="logo"
 									loading="lazy"
