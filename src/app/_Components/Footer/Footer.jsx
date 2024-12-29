@@ -1,6 +1,13 @@
 import React from 'react'
 import Link from "next/link";
-
+import Image from 'next/image';
+import img1 from "@images/footer/img-1.png"
+import img2 from "@images/footer/img-2.png"
+import img3 from "@images/footer/img-3.png"
+import img4 from "@images/footer/img-4.png"
+import paypal from "@images/footer/paypal.png"
+import visa from "@images/footer/visa.png"
+import logo from "@images/xmarts.png"
 export default function Footer() {
   return (
     <>
@@ -12,23 +19,22 @@ export default function Footer() {
                 <div className="col-xl-3 col-md-6 col-12">
                   <div className="footer-infor">
                     <div className="footer-logo">
-                      <Link href="/"><img alt="image" loading="lazy" width={136} height={21} style={{ color: 'transparent' }} src="/images/logo/logo.svg" /></Link>
+                      <Link href="/"><Image alt="image" loading="lazy" width={136} height={21} style={{ color: 'transparent' }} src={logo} /></Link>
                     </div>
                     <ul>
                       <li>
                         <p>
-                          Address: 1234 Fashion Street, Suite 567, <br />
-                          New York, NY 10001
+                        Address: 1234 Mohamed Street,Cairo 
                         </p>
                       </li>
                       <li>
-                        <p>Email: <Link href="#">info@fashionshop.com</Link></p>
+                        <p>Email: <Link href="#">info@xmrts.com</Link></p>
                       </li>
                       <li>
-                        <p>Phone: <Link href="#">(212) 555-1234</Link></p>
+                        <p>Phone: <Link href="#">(+02)01125636570</Link></p>
                       </li>
                     </ul>
-                    <Link className="tf-btn btn-line" href="/contact-1">Get direction<i className="icon icon-arrow1-top-left" /></Link>
+                    <Link className="tf-btn btn-line" href="/contact-1">Get Branches<i className="icon icon-arrow1-top-left" /></Link>
                     <ul className="tf-social-icon d-flex gap-10">
                       <li>
                         <Link href="#" className="box-icon w_34 round social-facebook social-line"><i className="icon fs-14 icon-fb" /></Link>
@@ -52,12 +58,11 @@ export default function Footer() {
                   <div className="footer-heading footer-heading-desktop"><h6>Help</h6></div>
                   <div className="footer-heading footer-heading-moblie"><h6>Help</h6></div>
                   <ul className="footer-menu-list tf-collapse-content">
-                    <li><Link className="footer-menu_item" href="/privacy-policy">Privacy Policy</Link></li>
+                    <li><Link className="footer-menu_item" href="/">Home</Link></li>
                     <li><Link className="footer-menu_item" href="/delivery-return">Returns + Exchanges</Link></li>
                     <li><Link className="footer-menu_item" href="/shipping-delivery">Shipping</Link></li>
                     <li><Link className="footer-menu_item" href="/terms-conditions">Terms &amp; Conditions</Link></li>
                     <li><Link className="footer-menu_item" href="/faq-1">FAQ’s</Link></li>
-                    <li><Link className="footer-menu_item" href="/compare">Compare</Link></li>
                     <li><Link className="footer-menu_item" href="/wishlist">My Wishlist</Link></li>
                   </ul>
                 </div>
@@ -68,7 +73,7 @@ export default function Footer() {
                     <li><Link className="footer-menu_item" href="/about-us">Our Story</Link></li>
                     <li><Link className="footer-menu_item" href="/our-store">Visit Our Store</Link></li>
                     <li><Link className="footer-menu_item" href="/contact-1">Contact Us</Link></li>
-                    <li><Link className="footer-menu_item" href="/about-us">About Us</Link></li>
+                    <li><Link className="footer-menu_item" href="/about-us">Account</Link></li>
                   </ul>
                 </div>
                 <div className="col-xl-3 col-md-6 col-12">
@@ -89,14 +94,14 @@ export default function Footer() {
                         </div>
                         <div className="subscribe-msg" />
                       </form>
-                      <div className="tf-cur">
+                      {/* <div className="tf-cur">
                         <div className="tf-currencies">
                           <div className="dropdown bootstrap-select image-select center style-default type-currencies dropup">
                             <button type="button" tabIndex={-1} className="btn dropdown-toggle btn-light" title="USD $ | United States">
                               <div className="filter-option">
                                 <div className="filter-option-inner">
                                   <div className="filter-option-inner-inner">
-                                    <img alt="image" loading="lazy" width={640} height={480} style={{ color: 'transparent' }} src="/images/country/us.svg" />USD $ | United States
+                                   <Image alt="image" loading="lazy" width={640} height={480} style={{ color: 'transparent' }} src="/images/country/us.svg" />USD $ | United States
                                   </div>
                                 </div>
                               </div>
@@ -107,7 +112,7 @@ export default function Footer() {
                                   <li>
                                     <button className="dropdown-item">
                                       <span className="text">
-                                        <img alt="image" loading="lazy" width={640} height={480} style={{ color: 'transparent' }} src="/images/country/fr.svg" />EUR € |
+                                       <Image alt="image" loading="lazy" width={640} height={480} style={{ color: 'transparent' }} src="/images/country/fr.svg" />EUR € |
                                         France
                                       </span>
                                     </button>
@@ -115,7 +120,7 @@ export default function Footer() {
                                   <li>
                                     <button className="dropdown-item">
                                       <span className="text">
-                                        <img alt="image" loading="lazy" width={640} height={480} style={{ color: 'transparent' }} src="/images/country/de.svg" />EUR € |
+                                       <Image alt="image" loading="lazy" width={640} height={480} style={{ color: 'transparent' }} src="/images/country/de.svg" />EUR € |
                                         Germany
                                       </span>
                                     </button>
@@ -123,7 +128,7 @@ export default function Footer() {
                                   <li>
                                     <button className="dropdown-item active selected">
                                       <span className="text">
-                                        <img alt="image" loading="lazy" width={640} height={480} style={{ color: 'transparent' }} src="/images/country/us.svg" />USD $ |
+                                       <Image alt="image" loading="lazy" width={640} height={480} style={{ color: 'transparent' }} src="/images/country/us.svg" />USD $ |
                                         United States
                                       </span>
                                     </button>
@@ -131,7 +136,7 @@ export default function Footer() {
                                   <li>
                                     <button className="dropdown-item">
                                       <span className="text">
-                                        <img alt="image" loading="lazy" width={640} height={480} style={{ color: 'transparent' }} src="/images/country/vn.svg" />VND ₫ |
+                                       <Image alt="image" loading="lazy" width={640} height={480} style={{ color: 'transparent' }} src="/images/country/vn.svg" />VND ₫ |
                                         Vietnam
                                       </span>
                                     </button>
@@ -174,7 +179,7 @@ export default function Footer() {
                             </div>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -189,14 +194,14 @@ export default function Footer() {
                     <div className="footer-menu_item">
                       ©
                       {/* */}2024{/* */}
-                      Ecomus Store. All Rights Reserved
+                      Anonymous. All Rights Reserved
                     </div>
                     <div className="tf-payment">
-                      <img  loading="lazy" width={48} height={30} style={{ color: 'transparent' }} src="/images/payments/visa.png" />
-                      <img  loading="lazy" width={49} height={30} style={{ color: 'transparent' }} src="/images/payments/img-1.png" />
-                      <img  loading="lazy" width={48} height={30} style={{ color: 'transparent' }} src="/images/payments/img-2.png" />
-                      <img  loading="lazy" width={57} height={30} style={{ color: 'transparent' }} src="/images/payments/img-3.png" />
-                      <img  loading="lazy" width={49} height={30} style={{ color: 'transparent' }} src="/images/payments/img-4.png" />
+                     <Image  loading="lazy" width={48} height={30} style={{ color: 'transparent' }} src={visa} alt='payment' />
+                     <Image  loading="lazy" width={49} height={30} style={{ color: 'transparent' }} src={img1} alt='payment'/>
+                     <Image  loading="lazy" width={48} height={30} style={{ color: 'transparent' }} src={img2} alt='payment' />
+                     <Image  loading="lazy" width={57} height={30} style={{ color: 'transparent' }} src={img3} alt='payment'/>
+                     <Image  loading="lazy" width={49} height={30} style={{ color: 'transparent' }} src={img4} alt='payment'/>
                     </div>
                   </div>
                 </div>

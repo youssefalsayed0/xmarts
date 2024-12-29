@@ -1,9 +1,13 @@
 import React from "react";
 import Link from "next/link";
-
+import Image from "next/image";
+import product4 from "@images/products/product4.jpg";
+import Banner from "../Banner/Banner";
+import bg from "@images/cart.jpg";
 export default function Cart() {
 	return (
 		<>
+		<Banner text="Shopping Cart" bg={bg.src}/>
 			<section className="flat-spacing-11">
 				<div className="container">
 					<div className="tf-cart-countdown">
@@ -42,27 +46,91 @@ export default function Cart() {
 											<th>Total</th>
 										</tr>
 									</thead>
-									<tbody />
+									<tbody>
+										<tr className="tf-cart-item file-delete">
+											<td className="tf-cart-item_product">
+												<Link className="img-box" href="/product-detail/2">
+													<Image
+														alt="img-product"
+														loading="lazy"
+														width={668}
+														height={932}
+														src={product4}
+													/>
+												</Link>
+												<div className="cart-info">
+													<Link
+														className="cart-title link"
+														href="/product-detail/2"
+													>
+														Pinto Beans
+													</Link>
+													<div className="cart-meta-variant">450 gm</div>
+													<span className="remove-cart link remove">
+														Remove
+													</span>
+												</div>
+											</td>
+											<td
+												className="tf-cart-item_price"
+												cart-data-title="Price"
+											>
+												<div className="cart-price">$8</div>
+											</td>
+											<td
+												className="tf-cart-item_quantity"
+												cart-data-title="Quantity"
+											>
+												<div className="cart-quantity">
+													<div className="wg-quantity">
+														<span className="btn-quantity minus-btn">
+															<svg
+																className="d-inline-block"
+																width={9}
+																height={1}
+																viewBox="0 0 9 1"
+																fill="currentColor"
+															>
+																<path d="M9 1H5.14286H3.85714H0V1.50201e-05H3.85714L5.14286 0L9 1.50201e-05V1Z" />
+															</svg>
+														</span>
+														<input
+															min={1}
+															type="text"
+															defaultValue={1}
+															name="number"
+														/>
+														<span className="btn-quantity plus-btn">
+															<svg
+																className="d-inline-block"
+																width={9}
+																height={9}
+																viewBox="0 0 9 9"
+																fill="currentColor"
+															>
+																<path d="M9 5.14286H5.14286V9H3.85714V5.14286H0V3.85714H3.85714V0H5.14286V3.85714H9V5.14286Z" />
+															</svg>
+														</span>
+													</div>
+												</div>
+											</td>
+											<td
+												className="tf-cart-item_total"
+												cart-data-title="Total"
+											>
+												<div className="cart-total" style={{ minWidth: 60 }}>
+													$18.95
+												</div>
+											</td>
+										</tr>
+									</tbody>
 								</table>
-								<div className="row align-items-center mb-5">
-									<div className="col-6 fs-18">Your shop cart is empty</div>
-									<div className="col-6">
-										<Link
-											className="tf-btn btn-fill animate-hover-btn radius-3 w-100 justify-content-center"
-											href="/shop-default"
-											style={{ width: "fit-content" }}
-										>
-											Explore Products!
-										</Link>
-									</div>
-								</div>
 								<div className="tf-page-cart-note">
 									<label htmlFor="cart-note">Add Order Note</label>
 									<textarea
 										name="note"
 										id="cart-note"
 										placeholder="How can we help you?"
-										spellCheck="false"
 										defaultValue={""}
 									/>
 								</div>
@@ -91,7 +159,7 @@ export default function Cart() {
 										</span>
 									</div>
 									<div className="tf-progress-msg">
-										Buy <span className="price fw-6">$75.00</span> more to enjoy
+										Buy <span className="price fw-6">$75.00</span> more to enjoy{" "}
 										<span className="fw-6">Free Shipping</span>
 									</div>
 								</div>
@@ -254,7 +322,7 @@ export default function Cart() {
 												</fieldset>
 												<fieldset className="field">
 													<label className="label">Zip code</label>
-													<input placeholder type="text" name="text" />
+													<input placeholder="" type="text" name="text" />
 												</fieldset>
 												<button className="tf-btn btn-fill animate-hover-btn radius-3 justify-content-center">
 													<span>Estimate</span>
@@ -275,10 +343,10 @@ export default function Cart() {
 									</div>
 									<div className="tf-cart-totals-discounts">
 										<h3>Subtotal</h3>
-										<span className="total-value">$0.00 USD</span>
+										<span className="total-value">$18.95 USD</span>
 									</div>
 									<p className="tf-cart-tax">
-										Taxes and<Link href="/shipping-delivery">shipping</Link>
+										Taxes and<Link href="/shipping-delivery">shipping</Link>{" "}
 										calculated at checkout
 									</p>
 									<div className="cart-checkbox">

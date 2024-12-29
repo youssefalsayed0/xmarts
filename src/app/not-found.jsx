@@ -11,7 +11,7 @@ export default function notFound() {
 					<div className="row">
 						<div className="col-12">
 							<div className="image">
-								<Image src={notfound} alt="image" width={50} height={50}/>
+								<Image src={notfound} alt="image" width={300} height={300}/>
 							</div>
 							<div className="title">Oops...That link is broken.</div>
 							<p>
@@ -20,7 +20,7 @@ export default function notFound() {
 							</p>
 							<Link 
 								className="tf-btn btn-sm radius-3 btn-fill btn-icon animate-hover-btn"
-								href="gfdg"
+								href="/"
 							>
 								Go to Home
 							</Link>

@@ -13,6 +13,7 @@ import "./page.module.css";
 import Footer from "./_Components/Footer/Footer";
 import Navbar from "./_Components/Navbar/Navbar";
 import AddBootstrap from './AddBootstrap';
+import ToolBar from './_Components/ToolBar/ToolBar';
 
 
 export default function RootLayout({ children }) {
@@ -26,13 +27,14 @@ export default function RootLayout({ children }) {
   }, []);
 
   return (
-    <html lang="en">
+    <html lang="en" >
       <body >
         <AddBootstrap/>
         <Navbar />
         <main>
           {children}
         </main>
+        <ToolBar/>
         <Footer />
       </body>
     </html>

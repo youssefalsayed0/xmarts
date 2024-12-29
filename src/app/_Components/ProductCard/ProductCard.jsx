@@ -261,7 +261,7 @@ export default function ProductCard({ text }) {
                                             <span className="icon icon-bag" />
                                             <span className="tooltip">Quick Add</span>
                                         </Link>
-                                        <Link className="box-icon bg_white wishlist btn-icon-action">
+                                        <Link className="box-icon bg_white wishlist btn-icon-action" href="#">
                                             <span className="icon icon-heart " />
                                             <span className="tooltip"> Add To Wishlisted</span>
                                             <span className="icon icon-delete" />

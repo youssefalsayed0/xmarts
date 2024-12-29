@@ -10,7 +10,7 @@ export default function SearchBar() {
 						<input
 							required
 							placeholder="Search"
-							className
+							
 							tabIndex={0}
 							aria-required="true"
 							type="text"

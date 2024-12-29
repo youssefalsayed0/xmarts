@@ -1,5 +1,11 @@
 import React from "react";
 import Link from "next/link";
+import catg1 from"@images/category/catg1.jpg"
+import catg2 from"@images/category/catg2.jpg"
+import catg3 from"@images/category/catg3.jpg"
+import catg4 from"@images/category/catg4.jpg"
+import catg5 from"@images/category/catg5.jpg"
+import Image from "next/image";
 
 export default function CategoryCircular() {
 	return (
@@ -15,16 +21,12 @@ export default function CategoryCircular() {
 											className="collection-image img-style"
 											href="/shop-collection-sub"
 										>
-											<img
-												data-src="/images/collections/collection-circle-8.jpg"
+											<Image
 												alt="collection-img"
 												loading="lazy"
 												width={160}
 												height={160}
-
-
-
-												src="/images/collections/collection-circle-8.jpg"
+												src={catg1}
 												style={{ color: "transparent" }}
 											/>
 										</Link>
@@ -33,7 +35,7 @@ export default function CategoryCircular() {
 												className="link title fw-6"
 												href="/shop-collection-sub"
 											>
-												New Arrivals
+												Baby Products
 											</Link>
 										</div>
 									</div>
@@ -42,16 +44,13 @@ export default function CategoryCircular() {
 											className="collection-image img-style"
 											href="/shop-collection-sub"
 										>
-											<img
-												data-src="/images/collections/collection-circle-9.jpg"
+											<Image
+											
 												alt="collection-img"
 												loading="lazy"
 												width={160}
 												height={160}
-
-
-
-												src="/images/collections/collection-circle-9.jpg"
+												src={catg2}
 												style={{ color: "transparent" }}
 											/>
 										</Link>
@@ -60,7 +59,7 @@ export default function CategoryCircular() {
 												className="link title fw-6"
 												href="/shop-collection-sub"
 											>
-												Best Sellers
+												Beverages
 											</Link>
 										</div>
 									</div>
@@ -69,16 +68,13 @@ export default function CategoryCircular() {
 											className="collection-image img-style"
 											href="/shop-collection-sub"
 										>
-											<img
-												data-src="/images/collections/collection-circle-10.jpg"
+											<Image
+										
 												alt="collection-img"
 												loading="lazy"
 												width={160}
 												height={162}
-
-
-
-												src="/images/collections/collection-circle-10.jpg"
+												src={catg3}
 												style={{ color: "transparent" }}
 											/>
 										</Link>
@@ -87,7 +83,7 @@ export default function CategoryCircular() {
 												className="link title fw-6"
 												href="/shop-collection-sub"
 											>
-												Top Rated
+											Household Items
 											</Link>
 										</div>
 									</div>
@@ -96,16 +92,12 @@ export default function CategoryCircular() {
 											className="collection-image img-style"
 											href="/shop-collection-sub"
 										>
-											<img
-												data-src="/images/collections/collection-circle-11.jpg"
+											<Image
 												alt="collection-img"
 												loading="lazy"
 												width={160}
 												height={162}
-
-
-
-												src="/images/collections/collection-circle-11.jpg"
+												src={catg4}
 												style={{ color: "transparent" }}
 											/>
 										</Link>
@@ -114,7 +106,7 @@ export default function CategoryCircular() {
 												className="link title fw-6"
 												href="/shop-collection-sub"
 											>
-												Brands We Love
+												Health and Wellness
 											</Link>
 										</div>
 									</div>
@@ -123,43 +115,12 @@ export default function CategoryCircular() {
 											className="collection-image img-style"
 											href="/shop-collection-sub"
 										>
-											<img
-												data-src="/images/collections/collection-circle-12.jpg"
+											<Image
 												alt="collection-img"
 												loading="lazy"
 												width={160}
 												height={160}
-
-
-
-												src="/images/collections/collection-circle-12.jpg"
-												style={{ color: "transparent" }}
-											/>
-										</Link>
-										<div className="collection-content text-center">
-											<Link
-												className="link title fw-6"
-												href="/shop-collection-sub"
-											>
-												Trending
-											</Link>
-										</div>
-									</div>
-									<div className="collection-item-circle hover-img position-relative">
-										<Link
-											className="collection-image img-style"
-											href="/shop-collection-sub"
-										>
-											<img
-												data-src="/images/collections/collection-circle-13.jpg"
-												alt="collection-img"
-												loading="lazy"
-												width={160}
-												height={160}
-
-
-
-												src="/images/collections/collection-circle-13.jpg"
+												src={catg5}
 												style={{ color: "transparent" }}
 											/>
 										</Link>
@@ -174,7 +135,7 @@ export default function CategoryCircular() {
 												className="link title fw-6"
 												href="/shop-collection-sub"
 											>
-												The Re-Imagined
+												Frozen Foods
 											</Link>
 										</div>
 									</div>
