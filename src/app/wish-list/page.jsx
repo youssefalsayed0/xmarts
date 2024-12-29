@@ -9,7 +9,6 @@ export default function page() {
 	return (
 		<>
 			<Banner text={"Wish List"} />
-	
 			<ProductCard text="Last Likes" />
 			<ProductCard />
 			<YouMightLike />

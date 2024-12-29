@@ -7,12 +7,14 @@ import DiscountSlider from "./_Components/DiscountSlider/DiscountSlider";
 import BestDealsSection from "./_Components/BestDealsSection/BestDealsSection";
 import GetProducts from "./_Components/GetProducts/GetProducts";
 import SubscribeSection from "./_Components/SubscribeSection/SubscribeSection";
+import CategoriesSection from "./_Components/CategoriesSection/CategoriesSection";
 
 
 export default function Home() {
   return (
    <>
    <Hero />
+   <CategoriesSection/>
    <CallToAction_1 />
    <GetProducts/>
    <Marquee />

@@ -1,189 +1,123 @@
-"use client"
+"use client";
+import Link from 'next/link';
 import Image from "next/image";
 import React, { useEffect } from "react";
 import hero from "../../../assets/images/sneaker-1.jpg.png";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination , Autoplay } from 'swiper/modules';
+
+
 export default function Hero() {
- 
 	return (
-		<section className="tf-slideshow slideshow-effect slider-effect-fade position-relative">
-			<div
-				className="swiper swiper-fade swiper-initialized swiper-horizontal swiper-watch-progress tf-sw-effect swiper-backface-hidden"
+		<div className="tf-slideshow slider-effect-fade position-relative hero">
+
+			<Swiper
+				modules={[Pagination , Autoplay]}
+				pagination={{
+					clickable: true,
+					el: '.swiper-pagination'
+				}}
+				loop={true} 
+				speed={1200} 
+				autoplay={{
+					delay: 3000, 
+					disableOnInteraction: false, 
+				  }}
+				className="  swiper-horizontal tf-sw-slideshow swiper-backface-hidden"
 				dir="ltr"
 			>
-				<div
-					className="swiper-wrapper"
-					style={{ transitionDuration: "0ms", transitionDelay: "0ms" }}
-				>
-					<div
-						className="swiper-slide swiper-slide-prev"
-						style={{
-							width: 1382,
-							opacity: 1,
-							transform: "translate3d(0px, 0px, 0px)",
-							transitionDuration: "0ms",
-						}}
-					>
-						<div className="slider-effect wrap-slider">
-							<div className="content-left">
-								<div className="container">
-									<div className="row">
-										<div className="col-md-6 col-12">
-											<div className="box-content">
-												<h1 className="heading fade-item fade-item-1">
-													Summer
-													<br />
-													Escapades
-													<br />
-												</h1>
-												<p className="desc fade-item fade-item-2">
-													Embrace the sun-kissed season with our collection of
-													breezy
-												</p>
-												<a
-													className="fade-item fade-item-3 tf-btn btn-light-icon animate-hover-btn btn-xl radius-3"
-													href="/shop-collection-list"
-												>
-													<span>Shop collection</span>
-													<i className="icon icon-arrow-right" />
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="img-slider">
-								<Image
-								
-									alt="fashion-slideshow"
-									
-									width={960}
-									height={862}
-									decoding="async"
-									data-nimg={1}
-									className="lazyload"
-									style={{ color: "transparent" }}
-									src={hero}
-								/>
-							</div>
-						</div>
-					</div>
-					<div
-						className="swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-active"
-						style={{
-							width: 1382,
-							opacity: 1,
-							transform: "translate3d(-1382px, 0px, 0px)",
-							transitionDuration: "0ms",
-						}}
-					>
-						<div className="slider-effect wrap-slider">
-							<div className="content-left">
-								<div className="container">
-									<div className="row">
-										<div className="col-md-6 col-12">
-											<div className="box-content">
-												<h1 className="heading fade-item fade-item-2">
-													Multi-faceted
-													<br />
-													Beauty
-													<br />
-												</h1>
-												<p className="desc fade-item fade-item-3">
-													Embrace the sun-kissed season with our collection of
-													breezy
-												</p>
-												<a
-													className="fade-item fade-item-4 tf-btn btn-light-icon animate-hover-btn btn-xl radius-3"
-													href="/shop-collection-list"
-												>
-													<span>Shop collection</span>
-													<i className="icon icon-arrow-right" />
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="img-slider">
-								<Image
-									data-src="/images/slider/fashion-06-slide2.jpg"
-									alt="fashion-slideshow"
-								
-									width={960}
-									height={862}
-									decoding="async"
-									data-nimg={1}
-									className="lazyload"
-									style={{ color: "transparent" }}
-									src={hero}
-								/>
-							</div>
-						</div>
-					</div>
-					<div
-						className="swiper-slide swiper-slide-next"
-						style={{
-							width: 1382,
-							opacity: 0,
-							transform: "translate3d(-2764px, 0px, 0px)",
-							transitionDuration: "0ms",
-						}}
-					>
-						<div className="slider-effect wrap-slider">
-							<div className="content-left">
-								<div className="container">
-									<div className="row">
-										<div className="col-md-6 col-12">
-											<div className="box-content">
-												<h1 className="heading fade-item fade-item-3">
-													Effortless
-													<br />
-													Elegance
-													<br />
-												</h1>
-												<p className="desc fade-item fade-item-4">
-													Embrace the sun-kissed season with our collection of
-													breezy
-												</p>
-												<a
-													className="fade-item fade-item-5 tf-btn btn-light-icon animate-hover-btn btn-xl radius-3"
-													href="/shop-collection-list"
-												>
-													<span>Shop collection</span>
-													<i className="icon icon-arrow-right" />
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="img-slider">
-								<img
-									data-src="/images/slider/fashion-06-slide3.jpg"
-									alt="fashion-slideshow"
+				<div className="swiper-wrapper">
+					<SwiperSlide>
+						<div className="wrap-slider">
+							<Image
+								alt="fashion-slideshow"
 							
-									width={960}
-									height={862}
-									decoding="async"
-									data-nimg={1}
-									className="lazyload"
-									style={{ color: "transparent" }}
-									src="/images/slider/fashion-06-slide3.jpg"
-								/>
+								width={1800}
+								height={785}
+
+
+								src={hero}
+								style={{ color: "transparent" }}
+							/>
+							<div className="box-content">
+								<div className="container">
+									<p className="fade-item fade-item-1 fw-8 mb_15">Facilitate shopping</p>
+									<h1 className="fade-item fade-item-2 fw-8">Best Market</h1>
+									<Link
+										className="fade-item fade-item-3 tf-btn btn-fill animate-hover-btn btn-xl radius-3"
+										href="/shop-default"
+									>
+										<span>Shop collection </span>
+										<i className="icon icon-arrow-right" />
+									</Link>
+								</div>
 							</div>
 						</div>
-					</div>
+					</SwiperSlide>
+
+					<SwiperSlide>
+						<div className="wrap-slider">
+							<Image
+								alt="fashion-slideshow"
+								
+								width={1800}
+								height={785}
+
+
+								src={hero}
+								style={{ color: "transparent" }}
+							/>
+							<div className="box-content">
+								<div className="container">
+									<p className="fade-item fade-item-1 fw-8 mb_15">Facilitate shopping</p>
+									<h1 className="fade-item fade-item-2 fw-8">Best Market</h1>
+									<Link
+										className="fade-item fade-item-3 tf-btn btn-fill animate-hover-btn btn-xl radius-3"
+										href="/shop-default"
+									>
+										<span>Shop collection </span>
+										<i className="icon icon-arrow-right" />
+									</Link>
+								</div>
+							</div>
+						</div>
+					</SwiperSlide>
+
+					<SwiperSlide>
+						<div className="wrap-slider">
+							<Image
+								alt="fashion-slideshow"
+								width={1800}
+								height={785}
+								src={hero}
+								style={{ color: "transparent" }}
+							/>
+							<div className="box-content">
+								<div className="container">
+									<p className="fade-item fade-item-1 fw-8 mb_15">Facilitate shopping</p>
+									<h1 className="fade-item fade-item-2 fw-8">Best Market</h1>
+									<Link
+										className="fade-item fade-item-3 tf-btn btn-fill animate-hover-btn btn-xl radius-3"
+										href="/shop-default"
+									>
+										<span>Shop collection </span>
+										<i className="icon icon-arrow-right" />
+									</Link>
+								</div>
+							</div>
+						</div>
+					</SwiperSlide>
 				</div>
-			</div>
+
+			</Swiper>
+
 			<div className="wrap-pagination">
 				<div className="container">
-					<div className="sw-dots sph6 line-pagination sw-pagination-slider swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
-						<span className="swiper-pagination-bullet" />
-						<span className="swiper-pagination-bullet swiper-pagination-bullet-active" />
-						<span className="swiper-pagination-bullet" />
+					<div className=" swiper-pagination sw-dots sw-pagination-slider rectangle-pagination    swiper-pagination-horizontal">
 					</div>
 				</div>
 			</div>
-		</section>
+
+		</div>
 	);
 }

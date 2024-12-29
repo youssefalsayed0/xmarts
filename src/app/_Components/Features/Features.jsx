@@ -1,6 +1,8 @@
 'use client';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import React from "react";
+import Link from 'next/link';
+
 export default function Features() {
 	return (
 		<>

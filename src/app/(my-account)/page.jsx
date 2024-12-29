@@ -4,8 +4,8 @@ import AccountDetails from '../_Components/AccountDetails/AccountDetails'
 
 export default function page() {
   return (
-<>
-<AccountDetails />
-</>
+    <>
+      <AccountDetails />
+    </>
   )
 }

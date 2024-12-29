@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function SearchBar() {
 	return (
@@ -23,9 +24,9 @@ export default function SearchBar() {
 				</form>
 				<div className="tf-col-quicklink">
 					<span className="title">Quick link:</span>
-					<a href="/shop-collection-list">Fashion</a>,
-					<a href="/home-men">Men</a>,<a href="/shop-women">Women</a>,
-					<a href="/shop-collection-sub">Accessories</a>
+					<Link href="/shop-collection-list">Fashion</Link>,
+					<Link href="/home-men">Men</Link>,<Link href="/shop-women">Women</Link>,
+					<Link href="/shop-collection-sub">Accessories</Link>
 				</div>
 			</div>
 		</>

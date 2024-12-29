@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from "next/link";
 
 export default function CartOffcanvas() {
 	return (
@@ -55,13 +56,13 @@ export default function CartOffcanvas() {
 														Your shop cart is empty
 													</div>
 													<div className="col-12 mt-3">
-														<a
+														<Link
 															className="tf-btn btn-fill animate-hover-btn radius-3 w-100 justify-content-center"
 															style={{ width: "fit-content" }}
 															href="/shop-default"
 														>
 															Explore Products!
-														</a>
+														</Link>
 													</div>
 												</div>
 											</div>
@@ -94,33 +95,33 @@ export default function CartOffcanvas() {
 													>
 														<div className="tf-minicart-recommendations-item">
 															<div className="tf-minicart-recommendations-item-image">
-																<a href="/product-detail/1">
+																<Link href="/product-detail/1">
 																	<img
 																		alt="image"
 																		loading="lazy"
 																		width={720}
 																		height={1005}
-																		decoding="async"
-																		data-nimg={1}
+
+
 																		style={{ color: "transparent" }}
 																		src="/images/products/orange-1.jpg"
 																	/>
-																</a>
+																</Link>
 															</div>
 															<div className="tf-minicart-recommendations-item-infos flex-grow-1">
-																<a className="title" href="/product-detail/1">
+																<Link className="title" href="/product-detail/1">
 																	PLATE OF EGGS
-																</a>
+																</Link>
 																<div className="price">${/* */}16.95</div>
 															</div>
 															<div className="tf-minicart-recommendations-item-quickview">
-																<a
+																<Link
 																	href="#quick_view"
 																	data-bs-toggle="modal"
 																	className="btn-show-quickview quickview hover-tooltip"
 																>
 																	<span className="icon icon-view" />
-																</a>
+																</Link>
 															</div>
 														</div>
 													</div>
@@ -130,33 +131,33 @@ export default function CartOffcanvas() {
 													>
 														<div className="tf-minicart-recommendations-item">
 															<div className="tf-minicart-recommendations-item-image">
-																<a href="/product-detail/2">
+																<Link href="/product-detail/2">
 																	<img
 																		alt="image"
 																		loading="lazy"
 																		width={720}
 																		height={1005}
-																		decoding="async"
-																		data-nimg={1}
+
+
 																		style={{ color: "transparent" }}
 																		src="/images/products/brown.jpg"
 																	/>
-																</a>
+																</Link>
 															</div>
 															<div className="tf-minicart-recommendations-item-infos flex-grow-1">
-																<a className="title" href="/product-detail/1">
+																<Link className="title" href="/product-detail/1">
 																	Ribbed Modal T-shirt
-																</a>
+																</Link>
 																<div className="price">${/* */}18.95</div>
 															</div>
 															<div className="tf-minicart-recommendations-item-quickview">
-																<a
+																<Link
 																	href="#quick_view"
 																	data-bs-toggle="modal"
 																	className="btn-show-quickview quickview hover-tooltip"
 																>
 																	<span className="icon icon-view" />
-																</a>
+																</Link>
 															</div>
 														</div>
 													</div>
@@ -218,7 +219,7 @@ export default function CartOffcanvas() {
 											</div>
 										</div>
 										<div className="tf-cart-tax">
-											Taxes and <a href="#">shipping</a> calculated at
+											Taxes and <Link href="#">shipping</Link> calculated at
 											checkout
 										</div>
 										<div className="tf-mini-cart-line" />
@@ -236,24 +237,24 @@ export default function CartOffcanvas() {
 											</div>
 											<label htmlFor="CartDrawer-Form_agree">
 												I agree with the
-												<a href="#" title="Terms of Service">
+												<Link href="#" title="Terms of Service">
 													terms and conditions
-												</a>
+												</Link>
 											</label>
 										</div>
 										<div className="tf-mini-cart-view-checkout">
-											<a
+											<Link
 												className="tf-btn btn-outline radius-3 link w-100 justify-content-center"
 												href="/view-cart"
 											>
 												View cart
-											</a>
-											<a
+											</Link>
+											<Link
 												className="tf-btn btn-fill animate-hover-btn radius-3 w-100 justify-content-center"
 												href="/checkout"
 											>
 												<span>Check out</span>
-											</a>
+											</Link>
 										</div>
 									</div>
 								</div>
@@ -498,12 +499,12 @@ export default function CartOffcanvas() {
 											<input type="text" placeholder name="text" />
 										</div>
 										<div className="tf-cart-tool-btns">
-											<a
+											<Link
 												href="#"
 												className="tf-btn fw-6 justify-content-center btn-fill w-100 animate-hover-btn radius-3"
 											>
 												<span>Estimate</span>
-											</a>
+											</Link>
 											<div className="tf-mini-cart-tool-primary text-center fw-6 w-100 tf-mini-cart-tool-close">
 												Cancel
 											</div>

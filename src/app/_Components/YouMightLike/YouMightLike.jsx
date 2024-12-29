@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function YouMightLike() {
 	return (
@@ -16,7 +17,7 @@ export default function YouMightLike() {
 							>
 								<div className="collection-item-v4 style-4 hover-img">
 									<div className="collection-inner">
-										<a
+										<Link
 											className="collection-image img-style"
 											href="/shop-collection-sub"
 										>
@@ -26,13 +27,13 @@ export default function YouMightLike() {
 												loading="lazy"
 												width={800}
 												height={792}
-												decoding="async"
-												data-nimg={1}
-												className="lazyload"
+
+
+
 												src="/images/collections/cls-sock.jpg"
 												style={{ color: "transparent" }}
 											/>
-										</a>
+										</Link>
 										<div
 											className="collection-content wow fadeInUp"
 											data-wow-delay="0s"
@@ -40,12 +41,12 @@ export default function YouMightLike() {
 										>
 											<p className="subheading text_white">UP TO 30% OFF</p>
 											<h5 className="heading text_white">Beachwear on Sale</h5>
-											<a
+											<Link
 												className="tf-btn btn-color-2 style-3 text-uppercase rounded-0 fw-6 animate-hover-btn letter-2"
 												href="/shop-collection-sub"
 											>
 												<span>Shop now</span>
-											</a>
+											</Link>
 										</div>
 									</div>
 								</div>
@@ -56,7 +57,7 @@ export default function YouMightLike() {
 							>
 								<div className="collection-item-v4 style-4 hover-img">
 									<div className="collection-inner">
-										<a
+										<Link
 											className="collection-image img-style"
 											href="/shop-collection-sub"
 										>
@@ -66,13 +67,13 @@ export default function YouMightLike() {
 												loading="lazy"
 												width={800}
 												height={792}
-												decoding="async"
-												data-nimg={1}
-												className="lazyload"
+
+
+
 												src="/images/collections/cls-sock2.jpg"
 												style={{ color: "transparent" }}
 											/>
-										</a>
+										</Link>
 										<div
 											className="collection-content wow fadeInUp"
 											data-wow-delay="0s"
@@ -80,12 +81,12 @@ export default function YouMightLike() {
 										>
 											<p className="subheading text_white">UP TO 30% OFF</p>
 											<h5 className="heading text_white">Athleisure Wear</h5>
-											<a
+											<Link
 												className="tf-btn btn-color-3 text-uppercase style-3 rounded-0 fw-6 animate-hover-btn letter-2"
 												href="/shop-collection-sub"
 											>
 												<span>Shop now</span>
-											</a>
+											</Link>
 										</div>
 									</div>
 								</div>
@@ -96,7 +97,7 @@ export default function YouMightLike() {
 							>
 								<div className="collection-item-v4 style-4 hover-img">
 									<div className="collection-inner">
-										<a
+										<Link
 											className="collection-image img-style"
 											href="/shop-collection-sub"
 										>
@@ -106,13 +107,13 @@ export default function YouMightLike() {
 												loading="lazy"
 												width={800}
 												height={792}
-												decoding="async"
-												data-nimg={1}
-												className="lazyload"
+
+
+
 												src="/images/collections/cls-sock.jpg"
 												style={{ color: "transparent" }}
 											/>
-										</a>
+										</Link>
 										<div
 											className="collection-content wow fadeInUp"
 											data-wow-delay="0s"
@@ -120,12 +121,12 @@ export default function YouMightLike() {
 										>
 											<p className="subheading text_white">UP TO 30% OFF</p>
 											<h5 className="heading text_white">Beachwear on Sale</h5>
-											<a
+											<Link
 												className="tf-btn btn-color-2 style-3 text-uppercase rounded-0 fw-6 animate-hover-btn letter-2"
 												href="/shop-collection-sub"
 											>
 												<span>Shop now</span>
-											</a>
+											</Link>
 										</div>
 									</div>
 								</div>
@@ -136,7 +137,7 @@ export default function YouMightLike() {
 							>
 								<div className="collection-item-v4 style-4 hover-img">
 									<div className="collection-inner">
-										<a
+										<Link
 											className="collection-image img-style"
 											href="/shop-collection-sub"
 										>
@@ -146,13 +147,13 @@ export default function YouMightLike() {
 												loading="lazy"
 												width={800}
 												height={792}
-												decoding="async"
-												data-nimg={1}
-												className="lazyload"
+
+
+
 												src="/images/collections/cls-sock2.jpg"
 												style={{ color: "transparent" }}
 											/>
-										</a>
+										</Link>
 										<div
 											className="collection-content wow fadeInUp"
 											data-wow-delay="0s"
@@ -160,12 +161,12 @@ export default function YouMightLike() {
 										>
 											<p className="subheading text_white">UP TO 30% OFF</p>
 											<h5 className="heading text_white">Athleisure Wear</h5>
-											<a
+											<Link
 												className="tf-btn btn-color-3 text-uppercase style-3 rounded-0 fw-6 animate-hover-btn letter-2"
 												href="/shop-collection-sub"
 											>
 												<span>Shop now</span>
-											</a>
+											</Link>
 										</div>
 									</div>
 								</div>

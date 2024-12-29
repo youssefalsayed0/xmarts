@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Cart() {
 	return (
@@ -46,13 +47,13 @@ export default function Cart() {
 								<div className="row align-items-center mb-5">
 									<div className="col-6 fs-18">Your shop cart is empty</div>
 									<div className="col-6">
-										<a
+										<Link
 											className="tf-btn btn-fill animate-hover-btn radius-3 w-100 justify-content-center"
 											href="/shop-default"
 											style={{ width: "fit-content" }}
 										>
 											Explore Products!
-										</a>
+										</Link>
 									</div>
 								</div>
 								<div className="tf-page-cart-note">
@@ -277,7 +278,7 @@ export default function Cart() {
 										<span className="total-value">$0.00 USD</span>
 									</div>
 									<p className="tf-cart-tax">
-										Taxes and<a href="/shipping-delivery">shipping</a>
+										Taxes and<Link href="/shipping-delivery">shipping</Link>
 										calculated at checkout
 									</p>
 									<div className="cart-checkbox">
@@ -288,16 +289,16 @@ export default function Cart() {
 										/>
 										<label htmlFor="check-agree" className="fw-4">
 											I agree with the
-											<a href="/terms-conditions">terms and conditions</a>
+											<Link href="/terms-conditions">terms and conditions</Link>
 										</label>
 									</div>
 									<div className="cart-checkout-btn">
-										<a
+										<Link
 											className="tf-btn w-100 btn-fill animate-hover-btn radius-3 justify-content-center"
 											href="/checkout"
 										>
 											<span>Check out</span>
-										</a>
+										</Link>
 									</div>
 									<div className="tf-page-cart_imgtrust">
 										<p className="text-center fw-6">Guarantee Safe Checkout</p>

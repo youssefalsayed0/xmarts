@@ -2,10 +2,10 @@ import React from "react";
 import Banner from "../_Components/Banner/Banner";
 import Link from "next/link";
 
-export default function layout({ children  }) {
+export default function layout({ children }) {
 	return (
 		<>
-    <Banner  />
+			<Banner />
 			<section className="flat-spacing-11">
 				<div className="container">
 					<div className="row">
@@ -53,7 +53,7 @@ export default function layout({ children  }) {
 							</ul>
 						</div>
 						<div className="col-lg-9">
-						{children}
+							{children}
 						</div>
 					</div>
 				</div>

@@ -1,22 +1,71 @@
+"use client";
 import React from "react";
-
+import Link from "next/link";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Navigation } from "swiper/modules";
+import product1 from "@images/products/product4.jpg";
+import Image from "next/image";
 export default function DiscountSlider() {
 	return (
 		<>
-			<section className="bg-yellow-8 flat-spacing-18">
-				<div className="flat-title">
-					<span
-						className="title wow fadeInUp"
-						data-wow-delay="0s"
-						style={{ visibility: "visible", animationDelay: "0s" }}
-					>
-						See what our other sock lovers think
-					</span>
+			<section className="bg-yellow-8 flat-spacing-18 ">
+				<div className="flat-title d-flex justify-content-center flex-md-row align-items-center"> 
+					<span className="title wow fadeInUp  " data-wow-delay="0s">
+					See our 50% discounts</span>
+					<div className="tf-countdown-v2 ">
+						<div className="js-countdown  wow fadeInUp">
+							<div aria-hidden="true" className="countdown__timer">
+								<span className="countdown__item bg-white">
+									<span className="countdown__value countdown__value--0 js-countdown__value--0">
+										159
+									</span>
+									<span className="countdown__label">Days</span>
+								</span>
+								<span className="countdown__item bg-white">
+									<span className="countdown__value countdown__value--1 js-countdown__value--1">
+										21
+									</span>
+									<span className="countdown__label">Hours</span>
+								</span>
+								<span className="countdown__item bg-white">
+									<span className="countdown__value countdown__value--2 js-countdown__value--2">
+										15
+									</span>
+									<span className="countdown__label">Mins</span>
+								</span>
+								<span className="countdown__item bg-white">
+									<span className="countdown__value countdown__value--3 js-countdown__value--3">
+										25
+									</span>
+									<span className="countdown__label">Secs</span>
+								</span>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div className="container">
-					<div className="wrap-carousel">
-						<div
-							className="swiper swiper-initialized swiper-horizontal swiper-backface-hidden"
+					<div className="wrap-carousel ">
+						<Swiper
+							modules={[Navigation, Pagination]}
+							navigation={{
+								nextEl: ".nav-prev-slider",
+								prevEl: ".nav-next-slider",
+							}}
+							pagination={{
+								clickable: true,
+								el: ".discount-dots ",
+							}}
+							spaceBetween={30} // Space between slides
+							breakpoints={{
+								// Breakpoints for responsive design
+								320: {
+									slidesPerView: 1, // 1 slide for very small screens
+								},
+								768: {
+									slidesPerView: 2, // 4 slides for tablets
+								},
+							}}
+							className=" swiper-horizontal swiper-backface-hidden"
 							dir="ltr"
 						>
 							<div
@@ -27,207 +76,144 @@ export default function DiscountSlider() {
 									transitionDelay: "0ms",
 								}}
 							>
-								<div
-									className="swiper-slide swiper-slide-prev"
-									style={{ width: "575.5px", marginRight: 30 }}
-								>
+								<SwiperSlide>
 									<div className="testimonial-item style-row">
-										<div className="image">
-											<img
-												data-src="/images/item/test-sock.jpg"
-												alt
+										<div className="image radius-5 o-hidden">
+											<Image
+												data-src={product1}
+												alt="image"
 												loading="lazy"
-												width={488}
-												height={620}
-												decoding="async"
-												data-nimg={1}
-												className="lazyload"
-												src="/images/item/test-sock.jpg"
+												src={product1}
 												style={{ color: "transparent" }}
 											/>
 										</div>
 										<div className="content">
-											<div className="rating color-black">
-												<i className="icon-start" />
-												<i className="icon-start" />
-												<i className="icon-start" />
-												<i className="icon-start" />
-												<i className="icon-start" />
-											</div>
 											<div className="text">
-												“I always find something stylish and affordable on this
-												web fashion site”
+												Lorem Ipsum is simply dummy text of the printing and
+												typesetting industry.
 											</div>
 											<div className="author pb_8 line-black">
-												<div className="name">Robert Smith</div>
-												<div className="metas">Customer from USA</div>
+												<div className="name">Name of product</div>
+												<div className="metas">Prand of product</div>
 											</div>
 											<div className="product">
-												<div className="img-thumb radius-5 o-hidden">
-													<img
-														data-src="/images/item/dot-test-sock.jpg"
-														alt
+												<div className="img-thumb radius-5 o-hidden ">
+													<Image
+														data-src={product1}
+														alt="image"
 														loading="lazy"
-														width={70}
-														height={70}
-														decoding="async"
-														data-nimg={1}
-														className="lazyload"
-														src="/images/item/dot-test-sock.jpg"
+														src={product1}
 														style={{ color: "transparent" }}
 													/>
 												</div>
 												<div className="content-wrap">
 													<div className="product-title">
-														<a href="#">Crossover Leggings</a>
+														<Link href="#">Offer name</Link>
 													</div>
-													<div className="price">$38.00</div>
+													<div className="price">$54.00</div>
 												</div>
-												<a href="#">
+												<Link href="#">
 													<i className="icon-arrow1-top-left" />
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									className="swiper-slide swiper-slide-active"
-									style={{ width: "575.5px", marginRight: 30 }}
-								>
+								</SwiperSlide>
+								<SwiperSlide>
 									<div className="testimonial-item style-row">
-										<div className="image">
-											<img
-												data-src="/images/item/test-sock2.jpg"
-												alt
+										<div className="image radius-5 o-hidden">
+											<Image
+												data-src={product1}
+												alt="image"
 												loading="lazy"
-												width={488}
-												height={620}
-												decoding="async"
-												data-nimg={1}
-												className="lazyload"
-												src="/images/item/test-sock2.jpg"
+												src={product1}
 												style={{ color: "transparent" }}
 											/>
 										</div>
 										<div className="content">
-											<div className="rating color-black">
-												<i className="icon-start" />
-												<i className="icon-start" />
-												<i className="icon-start" />
-												<i className="icon-start" />
-												<i className="icon-start" />
-											</div>
 											<div className="text">
-												“I always find something stylish and affordable on this
-												web fashion site”
+												Lorem Ipsum is simply dummy text of the printing and
+												typesetting industry.
 											</div>
 											<div className="author pb_8 line-black">
-												<div className="name">Robert Smith</div>
-												<div className="metas">Customer from USA</div>
+												<div className="name">Name of product</div>
+												<div className="metas">Prand of product</div>
 											</div>
 											<div className="product">
-												<div className="img-thumb radius-5 o-hidden">
-													<img
-														data-src="/images/products/sock15.jpg"
-														alt
+												<div className="img-thumb radius-5 o-hidden ">
+													<Image
+														data-src={product1}
+														alt="image"
 														loading="lazy"
-														width={360}
-														height={360}
-														decoding="async"
-														data-nimg={1}
-														className="lazyload"
-														src="/images/products/sock15.jpg"
+														src={product1}
 														style={{ color: "transparent" }}
 													/>
 												</div>
 												<div className="content-wrap">
 													<div className="product-title">
-														<a href="#">Crossover Leggings</a>
+														<Link href="#">Offer name</Link>
 													</div>
-													<div className="price">$38.00</div>
+													<div className="price">$54.00</div>
 												</div>
-												<a href="#">
+												<Link href="#">
 													<i className="icon-arrow1-top-left" />
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
-								</div>
-								<div
-									className="swiper-slide swiper-slide-next"
-									style={{ width: "575.5px", marginRight: 30 }}
-								>
+								</SwiperSlide>
+								<SwiperSlide>
 									<div className="testimonial-item style-row">
-										<div className="image">
-											<img
-												data-src="/images/item/test-sock.jpg"
-												alt
+										<div className="image radius-5 o-hidden">
+											<Image
+												data-src={product1}
+												alt="image"
 												loading="lazy"
-												width={488}
-												height={620}
-												decoding="async"
-												data-nimg={1}
-												className="lazyload"
-												src="/images/item/test-sock.jpg"
+												src={product1}
 												style={{ color: "transparent" }}
 											/>
 										</div>
 										<div className="content">
-											<div className="rating color-black">
-												<i className="icon-start" />
-												<i className="icon-start" />
-												<i className="icon-start" />
-												<i className="icon-start" />
-												<i className="icon-start" />
-											</div>
 											<div className="text">
-												“I always find something stylish and affordable on this
-												web fashion site”
+												Lorem Ipsum is simply dummy text of the printing and
+												typesetting industry.
 											</div>
 											<div className="author pb_8 line-black">
-												<div className="name">Robert Smith</div>
-												<div className="metas">Customer from USA</div>
+												<div className="name">Name of product</div>
+												<div className="metas">Prand of product</div>
 											</div>
 											<div className="product">
-												<div className="img-thumb radius-5 o-hidden">
-													<img
-														data-src="/images/products/sock14.jpg"
-														alt
+												<div className="img-thumb radius-5 o-hidden ">
+													<Image
+														data-src={product1}
+														alt="image"
 														loading="lazy"
-														width={360}
-														height={360}
-														decoding="async"
-														data-nimg={1}
-														className="lazyload"
-														src="/images/products/sock14.jpg"
+														src={product1}
 														style={{ color: "transparent" }}
 													/>
 												</div>
 												<div className="content-wrap">
 													<div className="product-title">
-														<a href="#">Crossover Leggings</a>
+														<Link href="#">Offer name</Link>
 													</div>
-													<div className="price">$38.00</div>
+													<div className="price">$54.00</div>
 												</div>
-												<a href="#">
+												<Link href="#">
 													<i className="icon-arrow1-top-left" />
-												</a>
+												</Link>
 											</div>
 										</div>
 									</div>
-								</div>
+								</SwiperSlide>
 							</div>
-						</div>
-						<div className="nav-sw nav-next-slider nav-next-testimonial lg snbp277">
+						</Swiper>
+						<div className="nav-sw nav-next-slider nav-next-testimonial lg ">
 							<span className="icon icon-arrow-left" />
 						</div>
-						<div className="nav-sw nav-prev-slider nav-prev-testimonial lg snbn277 swiper-button-disabled">
+						<div className="nav-sw nav-prev-slider nav-prev-testimonial lg  ">
 							<span className="icon icon-arrow-right" />
 						</div>
-						<div className="sw-dots style-2 sw-pagination-testimonial justify-content-center spd277 swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
-							<span className="swiper-pagination-bullet" />
-							<span className="swiper-pagination-bullet swiper-pagination-bullet-active" />
-						</div>
+						<div className=" discount-dots sw-dots style-2 sw-pagination-testimonial justify-content-center spd277  swiper-pagination-bullets swiper-pagination-horizontal"></div>
 					</div>
 				</div>
 			</section>

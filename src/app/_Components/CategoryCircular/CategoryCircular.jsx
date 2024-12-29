@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function CategoryCircular() {
 	return (
@@ -10,7 +11,7 @@ export default function CategoryCircular() {
 							<div className="tf-categories-wrap">
 								<div className="tf-categories-container">
 									<div className="collection-item-circle hover-img position-relative">
-										<a
+										<Link
 											className="collection-image img-style"
 											href="/shop-collection-sub"
 										>
@@ -20,24 +21,24 @@ export default function CategoryCircular() {
 												loading="lazy"
 												width={160}
 												height={160}
-												decoding="async"
-												data-nimg={1}
-												className="lazyload"
+
+
+
 												src="/images/collections/collection-circle-8.jpg"
 												style={{ color: "transparent" }}
 											/>
-										</a>
+										</Link>
 										<div className="collection-content text-center">
-											<a
+											<Link
 												className="link title fw-6"
 												href="/shop-collection-sub"
 											>
 												New Arrivals
-											</a>
+											</Link>
 										</div>
 									</div>
 									<div className="collection-item-circle hover-img position-relative">
-										<a
+										<Link
 											className="collection-image img-style"
 											href="/shop-collection-sub"
 										>
@@ -47,24 +48,24 @@ export default function CategoryCircular() {
 												loading="lazy"
 												width={160}
 												height={160}
-												decoding="async"
-												data-nimg={1}
-												className="lazyload"
+
+
+
 												src="/images/collections/collection-circle-9.jpg"
 												style={{ color: "transparent" }}
 											/>
-										</a>
+										</Link>
 										<div className="collection-content text-center">
-											<a
+											<Link
 												className="link title fw-6"
 												href="/shop-collection-sub"
 											>
 												Best Sellers
-											</a>
+											</Link>
 										</div>
 									</div>
 									<div className="collection-item-circle hover-img position-relative">
-										<a
+										<Link
 											className="collection-image img-style"
 											href="/shop-collection-sub"
 										>
@@ -74,24 +75,24 @@ export default function CategoryCircular() {
 												loading="lazy"
 												width={160}
 												height={162}
-												decoding="async"
-												data-nimg={1}
-												className="lazyload"
+
+
+
 												src="/images/collections/collection-circle-10.jpg"
 												style={{ color: "transparent" }}
 											/>
-										</a>
+										</Link>
 										<div className="collection-content text-center">
-											<a
+											<Link
 												className="link title fw-6"
 												href="/shop-collection-sub"
 											>
 												Top Rated
-											</a>
+											</Link>
 										</div>
 									</div>
 									<div className="collection-item-circle hover-img position-relative">
-										<a
+										<Link
 											className="collection-image img-style"
 											href="/shop-collection-sub"
 										>
@@ -101,24 +102,24 @@ export default function CategoryCircular() {
 												loading="lazy"
 												width={160}
 												height={162}
-												decoding="async"
-												data-nimg={1}
-												className="lazyload"
+
+
+
 												src="/images/collections/collection-circle-11.jpg"
 												style={{ color: "transparent" }}
 											/>
-										</a>
+										</Link>
 										<div className="collection-content text-center">
-											<a
+											<Link
 												className="link title fw-6"
 												href="/shop-collection-sub"
 											>
 												Brands We Love
-											</a>
+											</Link>
 										</div>
 									</div>
 									<div className="collection-item-circle hover-img position-relative">
-										<a
+										<Link
 											className="collection-image img-style"
 											href="/shop-collection-sub"
 										>
@@ -128,24 +129,24 @@ export default function CategoryCircular() {
 												loading="lazy"
 												width={160}
 												height={160}
-												decoding="async"
-												data-nimg={1}
-												className="lazyload"
+
+
+
 												src="/images/collections/collection-circle-12.jpg"
 												style={{ color: "transparent" }}
 											/>
-										</a>
+										</Link>
 										<div className="collection-content text-center">
-											<a
+											<Link
 												className="link title fw-6"
 												href="/shop-collection-sub"
 											>
 												Trending
-											</a>
+											</Link>
 										</div>
 									</div>
 									<div className="collection-item-circle hover-img position-relative">
-										<a
+										<Link
 											className="collection-image img-style"
 											href="/shop-collection-sub"
 										>
@@ -155,13 +156,13 @@ export default function CategoryCircular() {
 												loading="lazy"
 												width={160}
 												height={160}
-												decoding="async"
-												data-nimg={1}
-												className="lazyload"
+
+
+
 												src="/images/collections/collection-circle-13.jpg"
 												style={{ color: "transparent" }}
 											/>
-										</a>
+										</Link>
 										<div
 											className="has-saleoff-wrap "
 											style={{ position: "absolute", top: 0 }}
@@ -169,30 +170,30 @@ export default function CategoryCircular() {
 											<div className="sale-off fw-5">30% off</div>
 										</div>
 										<div className="collection-content text-center">
-											<a
+											<Link
 												className="link title fw-6"
 												href="/shop-collection-sub"
 											>
 												The Re-Imagined
-											</a>
+											</Link>
 										</div>
 									</div>
 								</div>
 								<div className="tf-shopall-wrap">
 									<div className="collection-item-circle tf-shopall">
-										<a
+										<Link
 											className="collection-image img-style tf-shopall-icon"
 											href="/shop-collection-sub"
 										>
 											<i className="icon icon-arrow1-top-left" />
-										</a>
+										</Link>
 										<div className="collection-content text-center">
-											<a
+											<Link
 												className="link title fw-6"
 												href="/shop-collection-sub"
 											>
 												Shop all
-											</a>
+											</Link>
 										</div>
 									</div>
 								</div>

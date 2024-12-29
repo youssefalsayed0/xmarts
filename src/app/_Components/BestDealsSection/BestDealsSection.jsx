@@ -1,6 +1,8 @@
 import React from "react";
 import bg from "@images/best deal discount.png";
 import Image from "next/image";
+import Link from 'next/link';
+
 export default function BestDealsSection() {
 	return (
 		<section className="flat-spacing-8 ">
@@ -12,9 +14,9 @@ export default function BestDealsSection() {
 						loading="lazy"
 						width={1400}
 						height={532}
-					
-						data-nimg={1}
-						className="lazyload"
+
+
+
 						style={{ color: "transparent" }}
 						src={bg}
 					/>
@@ -28,12 +30,12 @@ export default function BestDealsSection() {
 							<div className="sub fw-7 text_white mt-4">
 								SALE UP TO 30% OFF TODAY
 							</div>
-							<a
+							<Link
 								className="rounded-full tf-btn btn-color-1 style-3 border-0 fw-6 btn-light-icon animate-hover-btn mt-5"
 								href="/shop-default"
 							>
 								<span>Shop Now</span>
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>

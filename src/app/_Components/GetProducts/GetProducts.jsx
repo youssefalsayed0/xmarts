@@ -6,6 +6,8 @@ import product2 from "@images/products/product2.jpg";
 import product3 from "@images/products/product3.jpg";
 import product4 from "@images/products/product4.jpg";
 import Image from "next/image";
+import Link from 'next/link';
+
 export default function GetProducts() {
 	return (
 		<>
@@ -14,7 +16,7 @@ export default function GetProducts() {
 					<SectionTitle text="Our All Products" />
 					<div className="tf-shop-control grid-2 align-items-center justify-content-between ">
 						<div className="tf-control-filter">
-							<a
+							<Link
 								href="#filterShop"
 								data-bs-toggle="offcanvas"
 								aria-controls="offcanvasLeft"
@@ -22,7 +24,7 @@ export default function GetProducts() {
 							>
 								<span className="icon icon-filter" />
 								<span className="text">Filter</span>
-							</a>
+							</Link>
 						</div>
 
 						<div className="tf-control-sorting d-flex justify-content-end">
@@ -64,7 +66,7 @@ export default function GetProducts() {
 						<div className="grid-layout wrapper-shop" data-grid="grid-4">
 							<div className="card-product fl-item">
 								<div className="card-product-wrapper">
-									<a className="product-img" href="/product-detail/1">
+									<Link className="product-img" href="/product-detail/1">
 										<Image
 											data-src="/images/products/orange-1.jpg"
 											alt="image-product"
@@ -87,22 +89,22 @@ export default function GetProducts() {
 											src={product1}
 											style={{ color: "transparent" }}
 										/>
-									</a>
+									</Link>
 									<div className="list-product-btn">
-										<a
+										<span
 											href="#quick_add"
 											data-bs-toggle="modal"
 											className="box-icon bg_white quick-add tf-btn-loading"
 										>
 											<span className="icon icon-bag" />
 											<span className="tooltip">Quick Add</span>
-										</a>
-										<a className="box-icon bg_white wishlist btn-icon-action">
+										</span>
+										<span className="box-icon bg_white wishlist btn-icon-action">
 											<span className="icon icon-heart " />
 											<span className="tooltip"> Add To Wishlisted</span>
 											<span className="icon icon-delete" />
-										</a>
-										<a
+										</span>
+										<span
 											href="#compare"
 											data-bs-toggle="offcanvas"
 											aria-controls="offcanvasLeft"
@@ -111,27 +113,27 @@ export default function GetProducts() {
 											<span className="icon icon-share  " />
 											<span className="tooltip"> Share </span>
 											<span className="icon icon-check" />
-										</a>
-										<a
+										</span>
+										<span
 											href="#quick_view"
 											data-bs-toggle="modal"
 											className="box-icon bg_white quickview tf-btn-loading"
 										>
 											<span className="icon icon-view" />
 											<span className="tooltip">Quick View</span>
-										</a>
+										</span>
 									</div>
 								</div>
 								<div className="card-product-info">
-									<a className="title link" href="/product-detail/1">
+									<Link className="title link" href="/product-detail/1">
 										PLATE OF EGGS
-									</a>
+									</Link>
 									<span className="price">$16.95</span>
 								</div>
 							</div>
 							<div className="card-product fl-item">
 								<div className="card-product-wrapper">
-									<a className="product-img" href="/product-detail/1">
+									<Link className="product-img" href="/product-detail/1">
 										<Image
 											data-src="/images/products/orange-1.jpg"
 											alt="image-product"
@@ -154,22 +156,22 @@ export default function GetProducts() {
 											src={product2}
 											style={{ color: "transparent" }}
 										/>
-									</a>
+									</Link>
 									<div className="list-product-btn">
-										<a
-											href="#quick_add"
+										<span
+
 											data-bs-toggle="modal"
 											className="box-icon bg_white quick-add tf-btn-loading"
 										>
 											<span className="icon icon-bag" />
 											<span className="tooltip">Quick Add</span>
-										</a>
-										<a className="box-icon bg_white wishlist btn-icon-action">
+										</span>
+										<span className="box-icon bg_white wishlist btn-icon-action">
 											<span className="icon icon-heart " />
 											<span className="tooltip"> Add To Wishlisted</span>
 											<span className="icon icon-delete" />
-										</a>
-										<a
+										</span>
+										<span
 											href="#compare"
 											data-bs-toggle="offcanvas"
 											aria-controls="offcanvasLeft"
@@ -178,27 +180,27 @@ export default function GetProducts() {
 											<span className="icon icon-share  " />
 											<span className="tooltip"> Share </span>
 											<span className="icon icon-check" />
-										</a>
-										<a
-											href="#quick_view"
+										</span>
+										<span
+
 											data-bs-toggle="modal"
 											className="box-icon bg_white quickview tf-btn-loading"
 										>
 											<span className="icon icon-view" />
 											<span className="tooltip">Quick View</span>
-										</a>
+										</span>
 									</div>
 								</div>
 								<div className="card-product-info">
-									<a className="title link" href="/product-detail/1">
+									<Link className="title link" href="/product-detail/1">
 										PLATE OF EGGS
-									</a>
+									</Link>
 									<span className="price">$16.95</span>
 								</div>
 							</div>
 							<div className="card-product fl-item">
 								<div className="card-product-wrapper">
-									<a className="product-img" href="/product-detail/1">
+									<Link className="product-img" href="/product-detail/1">
 										<Image
 											data-src="/images/products/orange-1.jpg"
 											alt="image-product"
@@ -221,23 +223,23 @@ export default function GetProducts() {
 											src={product3}
 											style={{ color: "transparent" }}
 										/>
-									</a>
+									</Link>
 									<div className="list-product-btn">
-										<a
-											href="#quick_add"
+										<span
+
 											data-bs-toggle="modal"
 											className="box-icon bg_white quick-add tf-btn-loading"
 										>
 											<span className="icon icon-bag" />
 											<span className="tooltip">Quick Add</span>
-										</a>
-										<a className="box-icon bg_white wishlist btn-icon-action">
+										</span>
+										<span className="box-icon bg_white wishlist btn-icon-action">
 											<span className="icon icon-heart " />
 											<span className="tooltip"> Add To Wishlisted</span>
 											<span className="icon icon-delete" />
-										</a>
-										<a
-											href="#compare"
+										</span>
+										<span
+
 											data-bs-toggle="offcanvas"
 											aria-controls="offcanvasLeft"
 											className="box-icon bg_white compare btn-icon-action"
@@ -245,27 +247,27 @@ export default function GetProducts() {
 											<span className="icon icon-share  " />
 											<span className="tooltip"> Share </span>
 											<span className="icon icon-check" />
-										</a>
-										<a
-											href="#quick_view"
+										</span>
+										<span
+
 											data-bs-toggle="modal"
 											className="box-icon bg_white quickview tf-btn-loading"
 										>
 											<span className="icon icon-view" />
 											<span className="tooltip">Quick View</span>
-										</a>
+										</span>
 									</div>
 								</div>
 								<div className="card-product-info">
-									<a className="title link" href="/product-detail/1">
+									<Link className="title link" href="/product-detail/1">
 										PLATE OF EGGS
-									</a>
+									</Link>
 									<span className="price">$16.95</span>
 								</div>
 							</div>
 							<div className="card-product fl-item">
 								<div className="card-product-wrapper">
-									<a className="product-img" href="/product-detail/1">
+									<Link className="product-img" href="/product-detail/1">
 										<Image
 											data-src="/images/products/orange-1.jpg"
 											alt="image-product"
@@ -288,23 +290,23 @@ export default function GetProducts() {
 											src={product4}
 											style={{ color: "transparent" }}
 										/>
-									</a>
+									</Link>
 									<div className="list-product-btn">
-										<a
-											href="#quick_add"
+										<span
+
 											data-bs-toggle="modal"
 											className="box-icon bg_white quick-add tf-btn-loading"
 										>
 											<span className="icon icon-bag" />
 											<span className="tooltip">Quick Add</span>
-										</a>
-										<a className="box-icon bg_white wishlist btn-icon-action">
+										</span>
+										<span className="box-icon bg_white wishlist btn-icon-action">
 											<span className="icon icon-heart " />
 											<span className="tooltip"> Add To Wishlisted</span>
 											<span className="icon icon-delete" />
-										</a>
-										<a
-											href="#compare"
+										</span>
+										<span
+
 											data-bs-toggle="offcanvas"
 											aria-controls="offcanvasLeft"
 											className="box-icon bg_white compare btn-icon-action"
@@ -312,21 +314,21 @@ export default function GetProducts() {
 											<span className="icon icon-share  " />
 											<span className="tooltip"> Share </span>
 											<span className="icon icon-check" />
-										</a>
-										<a
-											href="#quick_view"
+										</span>
+										<span
+
 											data-bs-toggle="modal"
 											className="box-icon bg_white quickview tf-btn-loading"
 										>
 											<span className="icon icon-view" />
 											<span className="tooltip">Quick View</span>
-										</a>
+										</span>
 									</div>
 								</div>
 								<div className="card-product-info">
-									<a className="title link" href="/product-detail/1">
+									<Link className="title link" href="/product-detail/1">
 										PLATE OF EGGS
-									</a>
+									</Link>
 									<span className="price">$16.95</span>
 								</div>
 							</div>
@@ -334,21 +336,21 @@ export default function GetProducts() {
 
 						<ul className="tf-pagination-wrap tf-pagination-list tf-pagination-btn">
 							<li className="active">
-								<a className="pagination-link">1</a>
+								<Link href="/" className="pagination-link">1</Link>
 							</li>
 							<li className>
-								<a className="pagination-link animate-hover-btn">2</a>
+								<Link href="/" className="pagination-link animate-hover-btn">2</Link>
 							</li>
 							<li className>
-								<a className="pagination-link animate-hover-btn">3</a>
+								<Link href="/" className="pagination-link animate-hover-btn">3</Link>
 							</li>
 							<li className>
-								<a className="pagination-link animate-hover-btn">4</a>
+								<Link href="/" className="pagination-link animate-hover-btn">4</Link>
 							</li>
 							<li>
-								<a className="pagination-link animate-hover-btn">
+								<Link href="/" className="pagination-link animate-hover-btn">
 									<span className="icon icon-arrow-right" />
-								</a>
+								</Link>
 							</li>
 						</ul>
 					</div>

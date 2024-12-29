@@ -1,4 +1,7 @@
 import React from "react";
+import Link from 'next/link';
+import logo from "@images/Xmarts.png";
+import Image from "next/image";
 
 export default function Navbar() {
 	return (
@@ -11,7 +14,7 @@ export default function Navbar() {
 				<div className="px_15 lg-px_40">
 					<div className="row wrapper-header align-items-center">
 						<div className="col-md-4 col-3 tf-lg-hidden">
-							<a
+							<Link
 								href="#mobileMenu"
 								data-bs-toggle="offcanvas"
 								aria-controls="offcanvasLeft"
@@ -28,20 +31,20 @@ export default function Navbar() {
 										fill="currentColor"
 									/>
 								</svg>
-							</a>
+							</Link>
 						</div>
 						<div className="col-xl-5 tf-md-hidden">
 							<nav className="box-navigation text-center">
 								<ul className="box-nav-ul d-flex align-items-center gap-40">
 									<li className="menu-item">
-										<a href="#" className="item-link   activeMenu ">
+										<Link href="#" className="item-link   activeMenu ">
 											Home
-										</a>
+										</Link>
 									</li>
 									<li className="menu-item">
-										<a href="#" className="item-link    ">
+										<Link href="#" className="item-link    ">
 											Shop
-										</a>
+										</Link>
 										<div className="sub-menu mega-menu">
 											<div className="container">
 												<div className="row">
@@ -50,52 +53,52 @@ export default function Navbar() {
 															<div className="menu-heading">Shop layouts</div>
 															<ul className="menu-list">
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link "
 																		href="/shop-default"
 																	>
 																		Default
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link "
 																		href="/shop-left-sidebar"
 																	>
 																		Left sidebar
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link "
 																		href="/shop-right-sidebar"
 																	>
 																		Right sidebar
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link "
 																		href="/shop-fullwidth"
 																	>
 																		Fullwidth
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link "
 																		href="/shop-collection-sub"
 																	>
 																		Sub collection
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link "
 																		href="/shop-collection-list"
 																	>
 																		Collections list
-																	</a>
+																	</Link>
 																</li>
 															</ul>
 														</div>
@@ -105,44 +108,44 @@ export default function Navbar() {
 															<div className="menu-heading">Features</div>
 															<ul className="menu-list">
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link "
 																		href="/shop-link"
 																	>
 																		Pagination links
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link "
 																		href="/shop-loadmore"
 																	>
 																		Pagination loadmore
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link "
 																		href="/shop-infinite-scrolling"
 																	>
 																		Pagination infinite scrolling
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link "
 																		href="/shop-filter-sidebar"
 																	>
 																		Filter sidebar
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link "
 																		href="/shop-filter-hidden"
 																	>
 																		Filter hidden
-																	</a>
+																	</Link>
 																</li>
 															</ul>
 														</div>
@@ -152,68 +155,68 @@ export default function Navbar() {
 															<div className="menu-heading">Product styles</div>
 															<ul className="menu-list">
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link "
 																		href="/product-style-list"
 																	>
 																		Product style list
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link "
 																		href="/product-style-01"
 																	>
 																		Product style 01
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link "
 																		href="/product-style-02"
 																	>
 																		Product style 02
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link "
 																		href="/product-style-03"
 																	>
 																		Product style 03
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link "
 																		href="/product-style-04"
 																	>
 																		Product style 04
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link "
 																		href="/product-style-05"
 																	>
 																		Product style 05
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link "
 																		href="/product-style-06"
 																	>
 																		Product style 06
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link "
 																		href="/product-style-07"
 																	>
 																		Product style 07
-																	</a>
+																	</Link>
 																</li>
 															</ul>
 														</div>
@@ -221,7 +224,7 @@ export default function Navbar() {
 													<div className="col-lg-3">
 														<div className="collection-item hover-img">
 															<div className="collection-inner">
-																<a
+																<Link
 																	className="collection-image img-style"
 																	href="/home-men"
 																>
@@ -231,21 +234,21 @@ export default function Navbar() {
 																		loading="lazy"
 																		width={1000}
 																		height={1215}
-																		decoding="async"
-																		data-nimg={1}
-																		className="lazyload"
+
+
+
 																		style={{ color: "transparent" }}
 																		src="/images/collections/collection-1.jpg"
 																	/>
-																</a>
+																</Link>
 																<div className="collection-content">
-																	<a
+																	<Link
 																		className="tf-btn hover-icon btn-xl collection-title fs-16"
 																		href="/home-men"
 																	>
 																		<span>Men</span>
 																		<i className="icon icon-arrow1-top-left" />
-																	</a>
+																	</Link>
 																</div>
 															</div>
 														</div>
@@ -253,7 +256,7 @@ export default function Navbar() {
 													<div className="col-lg-3">
 														<div className="collection-item hover-img">
 															<div className="collection-inner">
-																<a
+																<Link
 																	className="collection-image img-style"
 																	href="/shop-women"
 																>
@@ -263,21 +266,21 @@ export default function Navbar() {
 																		loading="lazy"
 																		width={500}
 																		height={607}
-																		decoding="async"
-																		data-nimg={1}
-																		className="lazyload"
+
+
+
 																		style={{ color: "transparent" }}
 																		src="/images/collections/collection-2.jpg"
 																	/>
-																</a>
+																</Link>
 																<div className="collection-content">
-																	<a
+																	<Link
 																		className="tf-btn btn-xl collection-title fs-16 hover-icon"
 																		href="/shop-women"
 																	>
 																		<span>Women</span>
 																		<i className="icon icon-arrow1-top-left" />
-																	</a>
+																	</Link>
 																</div>
 															</div>
 														</div>
@@ -287,9 +290,9 @@ export default function Navbar() {
 										</div>
 									</li>
 									<li className="menu-item">
-										<a href="#" className="item-link    ">
+										<Link href="#" className="item-link    ">
 											Products
-										</a>
+										</Link>
 										<div className="sub-menu mega-menu">
 											<div className="container">
 												<div className="row">
@@ -300,84 +303,84 @@ export default function Navbar() {
 															</div>
 															<ul className="menu-list">
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-detail/1"
 																	>
 																		Product default
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-grid-1/2"
 																	>
 																		Product grid 1
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-grid-2/3"
 																	>
 																		Product grid 2
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-stacked/4"
 																	>
 																		Product stacked
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-right-thumbnails/5"
 																	>
 																		Product right thumbnails
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-bottom-thumbnails/6"
 																	>
 																		Product bottom thumbnails
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-drawer-sidebar/7"
 																	>
 																		Product drawer sidebar
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-description-accordion/8"
 																	>
 																		Product description accordion
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-description-list/10"
 																	>
 																		Product description list
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-description-vertical/11"
 																	>
 																		Product description vertical
-																	</a>
+																	</Link>
 																</li>
 															</ul>
 														</div>
@@ -389,85 +392,85 @@ export default function Navbar() {
 															</div>
 															<ul className="menu-list">
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-inner-zoom/12"
 																	>
 																		Product inner zoom
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-zoom-magnifier/13"
 																	>
 																		Product zoom magnifier
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-no-zoom/14"
 																	>
 																		Product no zoom
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-photoswipe-popup/15"
 																	>
 																		Product photoswipe popup
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-zoom-popup/16"
 																	>
 																		Product external zoom and photoswipe popup
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-video/17"
 																	>
 																		Product video
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-3d/18"
 																	>
 																		Product 3D, AR models
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-options-customizer/19"
 																	>
 																		Product options &amp; customizer
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-advanced-types/20"
 																	>
 																		Advanced product types
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-giftcard/21"
 																	>
 																		Recipient information form for gift card
 																		products
-																	</a>
+																	</Link>
 																</li>
 															</ul>
 														</div>
@@ -479,60 +482,60 @@ export default function Navbar() {
 															</div>
 															<ul className="menu-list">
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-color-swatch/22"
 																	>
 																		Product color swatch
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-rectangle/23"
 																	>
 																		Product rectangle
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-rectangle-color/24"
 																	>
 																		Product rectangle color
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-swatch-image/25"
 																	>
 																		Product swatch image
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-swatch-image-rounded/26"
 																	>
 																		Product swatch image rounded
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-swatch-dropdown/27"
 																	>
 																		Product swatch dropdown
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-swatch-dropdown-color/29"
 																	>
 																		Product swatch dropdown color
-																	</a>
+																	</Link>
 																</li>
 															</ul>
 														</div>
@@ -544,71 +547,71 @@ export default function Navbar() {
 															</div>
 															<ul className="menu-list">
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-frequently-bought-together/30"
 																	>
 																		Frequently bought together
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-frequently-bought-together-2/31"
 																	>
 																		Frequently bought together 2
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-upsell-features/32"
 																	>
 																		Product upsell features
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-pre-orders/33"
 																	>
 																		Product pre-orders
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-notification/34"
 																	>
 																		Back in stock notification
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-pickup/35"
 																	>
 																		Product pickup
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-images-grouped/36"
 																	>
 																		Variant images grouped
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-complimentary/37"
 																	>
 																		Complimentary products
-																	</a>
+																	</Link>
 																</li>
 																<li>
-																	<a
+																	<Link
 																		className="menu-link-text link position-relative  "
 																		href="/product-quick-order-list/38"
 																	>
@@ -616,7 +619,7 @@ export default function Navbar() {
 																		<div className="demo-label">
 																			<span className="demo-new">New</span>
 																		</div>
-																	</a>
+																	</Link>
 																</li>
 															</ul>
 														</div>
@@ -638,7 +641,7 @@ export default function Navbar() {
 																	>
 																		<div className="card-product fl-item">
 																			<div className="card-product-wrapper">
-																				<a
+																				<Link
 																					className="product-img"
 																					href="/product-detail/1"
 																				>
@@ -648,8 +651,8 @@ export default function Navbar() {
 																						loading="lazy"
 																						width={720}
 																						height={1005}
-																						decoding="async"
-																						data-nimg={1}
+
+
 																						className="lazyload img-product"
 																						style={{ color: "transparent" }}
 																						src="/images/products/orange-1.jpg"
@@ -660,15 +663,15 @@ export default function Navbar() {
 																						loading="lazy"
 																						width={720}
 																						height={1005}
-																						decoding="async"
-																						data-nimg={1}
+
+
 																						className="lazyload img-hover"
 																						style={{ color: "transparent" }}
 																						src="/images/products/white-1.jpg"
 																					/>
-																				</a>
+																				</Link>
 																				<div className="list-product-btn">
-																					<a
+																					<Link
 																						href="#quick_add"
 																						data-bs-toggle="modal"
 																						className="box-icon bg_white quick-add tf-btn-loading"
@@ -677,15 +680,15 @@ export default function Navbar() {
 																						<span className="tooltip">
 																							Quick Add
 																						</span>
-																					</a>
-																					<a className="box-icon bg_white wishlist btn-icon-action">
+																					</Link>
+																					<Link href="#" className="box-icon bg_white wishlist btn-icon-action">
 																						<span className="icon icon-heart added" />
 																						<span className="tooltip">
 																							Already Wishlisted
 																						</span>
 																						<span className="icon icon-delete" />
-																					</a>
-																					<a
+																					</Link>
+																					<Link
 																						href="#compare"
 																						data-bs-toggle="offcanvas"
 																						aria-controls="offcanvasLeft"
@@ -697,8 +700,8 @@ export default function Navbar() {
 																							{/* */}Already Compared
 																						</span>
 																						<span className="icon icon-check" />
-																					</a>
-																					<a
+																					</Link>
+																					<Link
 																						href="#quick_view"
 																						data-bs-toggle="modal"
 																						className="box-icon bg_white quickview tf-btn-loading"
@@ -707,7 +710,7 @@ export default function Navbar() {
 																						<span className="tooltip">
 																							Quick View
 																						</span>
-																					</a>
+																					</Link>
 																				</div>
 																				<div className="size-list">
 																					<span>S</span>
@@ -717,12 +720,12 @@ export default function Navbar() {
 																				</div>
 																			</div>
 																			<div className="card-product-info">
-																				<a
+																				<Link
 																					className="title link"
 																					href="/product-detail/1"
 																				>
 																					PLATE OF EGGS
-																				</a>
+																				</Link>
 																				<span className="price">
 																					${/* */}16.95
 																				</span>
@@ -738,9 +741,9 @@ export default function Navbar() {
 																							loading="lazy"
 																							width={720}
 																							height={1005}
-																							decoding="async"
-																							data-nimg={1}
-																							className="lazyload"
+
+
+
 																							style={{ color: "transparent" }}
 																							src="/images/products/orange-1.jpg"
 																						/>
@@ -756,9 +759,9 @@ export default function Navbar() {
 																							loading="lazy"
 																							width={720}
 																							height={1005}
-																							decoding="async"
-																							data-nimg={1}
-																							className="lazyload"
+
+
+
 																							style={{ color: "transparent" }}
 																							src="/images/products/black-1.jpg"
 																						/>
@@ -774,9 +777,9 @@ export default function Navbar() {
 																							loading="lazy"
 																							width={720}
 																							height={1005}
-																							decoding="async"
-																							data-nimg={1}
-																							className="lazyload"
+
+
+
 																							style={{ color: "transparent" }}
 																							src="/images/products/white-1.jpg"
 																						/>
@@ -794,7 +797,7 @@ export default function Navbar() {
 																	>
 																		<div className="card-product fl-item">
 																			<div className="card-product-wrapper">
-																				<a
+																				<Link
 																					className="product-img"
 																					href="/product-detail/2"
 																				>
@@ -804,8 +807,8 @@ export default function Navbar() {
 																						loading="lazy"
 																						width={720}
 																						height={1005}
-																						decoding="async"
-																						data-nimg={1}
+
+
 																						className="lazyload img-product"
 																						style={{ color: "transparent" }}
 																						src="/images/products/brown.jpg"
@@ -816,15 +819,15 @@ export default function Navbar() {
 																						loading="lazy"
 																						width={720}
 																						height={1005}
-																						decoding="async"
-																						data-nimg={1}
+
+
 																						className="lazyload img-hover"
 																						style={{ color: "transparent" }}
 																						src="/images/products/purple.jpg"
 																					/>
-																				</a>
+																				</Link>
 																				<div className="list-product-btn">
-																					<a
+																					<Link
 																						href="#quick_add"
 																						data-bs-toggle="modal"
 																						className="box-icon bg_white quick-add tf-btn-loading"
@@ -833,15 +836,15 @@ export default function Navbar() {
 																						<span className="tooltip">
 																							Quick Add
 																						</span>
-																					</a>
-																					<a className="box-icon bg_white wishlist btn-icon-action">
+																					</Link>
+																					<Link href="#" className="box-icon bg_white wishlist btn-icon-action">
 																						<span className="icon icon-heart added" />
 																						<span className="tooltip">
 																							Already Wishlisted
 																						</span>
 																						<span className="icon icon-delete" />
-																					</a>
-																					<a
+																					</Link>
+																					<Link
 																						href="#compare"
 																						data-bs-toggle="offcanvas"
 																						aria-controls="offcanvasLeft"
@@ -853,8 +856,8 @@ export default function Navbar() {
 																							{/* */}Already Compared
 																						</span>
 																						<span className="icon icon-check" />
-																					</a>
-																					<a
+																					</Link>
+																					<Link
 																						href="#quick_view"
 																						data-bs-toggle="modal"
 																						className="box-icon bg_white quickview tf-btn-loading"
@@ -863,7 +866,7 @@ export default function Navbar() {
 																						<span className="tooltip">
 																							Quick View
 																						</span>
-																					</a>
+																					</Link>
 																				</div>
 																				<div className="countdown-box">
 																					<div className="js-countdown">
@@ -913,12 +916,12 @@ export default function Navbar() {
 																				</div>
 																			</div>
 																			<div className="card-product-info">
-																				<a
+																				<Link
 																					className="title link"
 																					href="/product-detail/2"
 																				>
 																					Ribbed Modal T-shirt
-																				</a>
+																				</Link>
 																				<span className="price">
 																					${/* */}18.95
 																				</span>
@@ -934,9 +937,9 @@ export default function Navbar() {
 																							loading="lazy"
 																							width={720}
 																							height={1005}
-																							decoding="async"
-																							data-nimg={1}
-																							className="lazyload"
+
+
+
 																							style={{ color: "transparent" }}
 																							src="/images/products/brown.jpg"
 																						/>
@@ -952,9 +955,9 @@ export default function Navbar() {
 																							loading="lazy"
 																							width={720}
 																							height={1005}
-																							decoding="async"
-																							data-nimg={1}
-																							className="lazyload"
+
+
+
 																							style={{ color: "transparent" }}
 																							src="/images/products/purple.jpg"
 																						/>
@@ -970,9 +973,9 @@ export default function Navbar() {
 																							loading="lazy"
 																							width={720}
 																							height={1005}
-																							decoding="async"
-																							data-nimg={1}
-																							className="lazyload"
+
+
+
 																							style={{ color: "transparent" }}
 																							src="/images/products/green.jpg"
 																						/>
@@ -990,7 +993,7 @@ export default function Navbar() {
 																	>
 																		<div className="card-product fl-item">
 																			<div className="card-product-wrapper">
-																				<a
+																				<Link
 																					className="product-img"
 																					href="/product-detail/3"
 																				>
@@ -1000,8 +1003,8 @@ export default function Navbar() {
 																						loading="lazy"
 																						width={720}
 																						height={1005}
-																						decoding="async"
-																						data-nimg={1}
+
+
 																						className="lazyload img-product"
 																						style={{ color: "transparent" }}
 																						src="/images/products/white-3.jpg"
@@ -1012,15 +1015,15 @@ export default function Navbar() {
 																						loading="lazy"
 																						width={720}
 																						height={1005}
-																						decoding="async"
-																						data-nimg={1}
+
+
 																						className="lazyload img-hover"
 																						style={{ color: "transparent" }}
 																						src="/images/products/white-4.jpg"
 																					/>
-																				</a>
+																				</Link>
 																				<div className="list-product-btn">
-																					<a
+																					<Link
 																						href="#quick_add"
 																						data-bs-toggle="modal"
 																						className="box-icon bg_white quick-add tf-btn-loading"
@@ -1029,15 +1032,15 @@ export default function Navbar() {
 																						<span className="tooltip">
 																							Quick Add
 																						</span>
-																					</a>
-																					<a className="box-icon bg_white wishlist btn-icon-action">
+																					</Link>
+																					<Link href="#" className="box-icon bg_white wishlist btn-icon-action">
 																						<span className="icon icon-heart added" />
 																						<span className="tooltip">
 																							Already Wishlisted
 																						</span>
 																						<span className="icon icon-delete" />
-																					</a>
-																					<a
+																					</Link>
+																					<Link
 																						href="#compare"
 																						data-bs-toggle="offcanvas"
 																						aria-controls="offcanvasLeft"
@@ -1049,8 +1052,8 @@ export default function Navbar() {
 																							{/* */}Already Compared
 																						</span>
 																						<span className="icon icon-check" />
-																					</a>
-																					<a
+																					</Link>
+																					<Link
 																						href="#quick_view"
 																						data-bs-toggle="modal"
 																						className="box-icon bg_white quickview tf-btn-loading"
@@ -1059,7 +1062,7 @@ export default function Navbar() {
 																						<span className="tooltip">
 																							Quick View
 																						</span>
-																					</a>
+																					</Link>
 																				</div>
 																				<div className="size-list">
 																					<span>S</span>
@@ -1069,12 +1072,12 @@ export default function Navbar() {
 																				</div>
 																			</div>
 																			<div className="card-product-info">
-																				<a
+																				<Link
 																					className="title link"
 																					href="/product-detail/3"
 																				>
 																					Oversized Printed T-shirt
-																				</a>
+																				</Link>
 																				<span className="price">
 																					${/* */}10.00
 																				</span>
@@ -1090,7 +1093,7 @@ export default function Navbar() {
 																	>
 																		<div className="card-product fl-item">
 																			<div className="card-product-wrapper">
-																				<a
+																				<Link
 																					className="product-img"
 																					href="/product-detail/4"
 																				>
@@ -1100,8 +1103,8 @@ export default function Navbar() {
 																						loading="lazy"
 																						width={720}
 																						height={1005}
-																						decoding="async"
-																						data-nimg={1}
+
+
 																						className="lazyload img-product"
 																						style={{ color: "transparent" }}
 																						src="/images/products/white-2.jpg"
@@ -1112,15 +1115,15 @@ export default function Navbar() {
 																						loading="lazy"
 																						width={720}
 																						height={1005}
-																						decoding="async"
-																						data-nimg={1}
+
+
 																						className="lazyload img-hover"
 																						style={{ color: "transparent" }}
 																						src="/images/products/pink-1.jpg"
 																					/>
-																				</a>
+																				</Link>
 																				<div className="list-product-btn">
-																					<a
+																					<Link
 																						href="#quick_add"
 																						data-bs-toggle="modal"
 																						className="box-icon bg_white quick-add tf-btn-loading"
@@ -1129,15 +1132,15 @@ export default function Navbar() {
 																						<span className="tooltip">
 																							Quick Add
 																						</span>
-																					</a>
-																					<a className="box-icon bg_white wishlist btn-icon-action">
+																					</Link>
+																					<Link href="#" className="box-icon bg_white wishlist btn-icon-action">
 																						<span className="icon icon-heart " />
 																						<span className="tooltip">
 																							Add to Wishlist
 																						</span>
 																						<span className="icon icon-delete" />
-																					</a>
-																					<a
+																					</Link>
+																					<Link
 																						href="#compare"
 																						data-bs-toggle="offcanvas"
 																						aria-controls="offcanvasLeft"
@@ -1149,8 +1152,8 @@ export default function Navbar() {
 																							{/* */}Add to Compare
 																						</span>
 																						<span className="icon icon-check" />
-																					</a>
-																					<a
+																					</Link>
+																					<Link
 																						href="#quick_view"
 																						data-bs-toggle="modal"
 																						className="box-icon bg_white quickview tf-btn-loading"
@@ -1159,7 +1162,7 @@ export default function Navbar() {
 																						<span className="tooltip">
 																							Quick View
 																						</span>
-																					</a>
+																					</Link>
 																				</div>
 																				<div className="size-list">
 																					<span>S</span>
@@ -1169,12 +1172,12 @@ export default function Navbar() {
 																				</div>
 																			</div>
 																			<div className="card-product-info">
-																				<a
+																				<Link
 																					className="title link"
 																					href="/product-detail/4"
 																				>
 																					Oversized Printed T-shirt
-																				</a>
+																				</Link>
 																				<span className="price">
 																					${/* */}16.95
 																				</span>
@@ -1190,9 +1193,9 @@ export default function Navbar() {
 																							loading="lazy"
 																							width={720}
 																							height={1005}
-																							decoding="async"
-																							data-nimg={1}
-																							className="lazyload"
+
+
+
 																							style={{ color: "transparent" }}
 																							src="/images/products/white-2.jpg"
 																						/>
@@ -1208,9 +1211,9 @@ export default function Navbar() {
 																							loading="lazy"
 																							width={720}
 																							height={1005}
-																							decoding="async"
-																							data-nimg={1}
-																							className="lazyload"
+
+
+
 																							style={{ color: "transparent" }}
 																							src="/images/products/pink-1.jpg"
 																						/>
@@ -1226,9 +1229,9 @@ export default function Navbar() {
 																							loading="lazy"
 																							width={720}
 																							height={1005}
-																							decoding="async"
-																							data-nimg={1}
-																							className="lazyload"
+
+
+
 																							style={{ color: "transparent" }}
 																							src="/images/products/black-2.jpg"
 																						/>
@@ -1252,32 +1255,32 @@ export default function Navbar() {
 										</div>
 									</li>
 									<li className="menu-item position-relative">
-										<a href="#" className="item-link    ">
+										<Link href="#" className="item-link    ">
 											Pages
 											<i className="icon icon-arrow-down" />
-										</a>
+										</Link>
 										<div className="sub-menu submenu-default">
 											<ul className="menu-list">
 												<li className>
-													<a
+													<Link
 														className="menu-link-text link text_black-2  "
 														style={{ position: "relative" }}
 														href="/about-us"
 													>
 														About us{/* */}
-													</a>
+													</Link>
 												</li>
 												<li className="menu-item-2 ">
-													<a
+													<Link
 														href="#"
 														className="menu-link-text link text_black-2 "
 													>
 														Brands
-													</a>
+													</Link>
 													<div className="sub-menu submenu-default">
 														<ul className="menu-list">
 															<li>
-																<a
+																<Link
 																	className="menu-link-text link text_black-2 position-relative "
 																	href="/brands"
 																>
@@ -1285,105 +1288,105 @@ export default function Navbar() {
 																	<div className="demo-label">
 																		<span className="demo-new">New</span>
 																	</div>
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a
+																<Link
 																	className="menu-link-text link text_black-2 "
 																	href="/brands-v2"
 																>
 																	Brand V2
-																</a>
+																</Link>
 															</li>
 														</ul>
 													</div>
 												</li>
 												<li className="menu-item-2 ">
-													<a
+													<Link
 														href="#"
 														className="menu-link-text link text_black-2 "
 													>
 														Contact
-													</a>
+													</Link>
 													<div className="sub-menu submenu-default">
 														<ul className="menu-list">
 															<li>
-																<a
+																<Link
 																	className="menu-link-text link text_black-2 "
 																	href="/contact-1"
 																>
 																	Contact 1
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a
+																<Link
 																	className="menu-link-text link text_black-2 "
 																	href="/contact-2"
 																>
 																	Contact 2
-																</a>
+																</Link>
 															</li>
 														</ul>
 													</div>
 												</li>
 												<li className="menu-item-2 ">
-													<a
+													<Link
 														href="#"
 														className="menu-link-text link text_black-2 "
 													>
 														FAQ
-													</a>
+													</Link>
 													<div className="sub-menu submenu-default">
 														<ul className="menu-list">
 															<li>
-																<a
+																<Link
 																	className="menu-link-text link text_black-2 "
 																	href="/faq-1"
 																>
 																	FAQ 01
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a
+																<Link
 																	className="menu-link-text link text_black-2 "
 																	href="/faq-2"
 																>
 																	FAQ 02
-																</a>
+																</Link>
 															</li>
 														</ul>
 													</div>
 												</li>
 												<li className="menu-item-2 ">
-													<a
+													<Link
 														href="#"
 														className="menu-link-text link text_black-2 "
 													>
 														Store
-													</a>
+													</Link>
 													<div className="sub-menu submenu-default">
 														<ul className="menu-list">
 															<li>
-																<a
+																<Link
 																	className="menu-link-text link text_black-2 "
 																	href="/our-store"
 																>
 																	Our store
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a
+																<Link
 																	className="menu-link-text link text_black-2 "
 																	href="/store-locations"
 																>
 																	Store locator
-																</a>
+																</Link>
 															</li>
 														</ul>
 													</div>
 												</li>
 												<li className>
-													<a
+													<Link
 														className="menu-link-text link text_black-2 position-relative  "
 														style={{ position: "relative" }}
 														href="/timeline"
@@ -1392,243 +1395,241 @@ export default function Navbar() {
 														<div className="demo-label">
 															<span className="demo-new">New</span>
 														</div>
-													</a>
+													</Link>
 												</li>
 												<li className>
-													<a
+													<Link
 														className="menu-link-text link text_black-2 position-relative  "
 														style={{ position: "relative" }}
 														href="/view-cart"
 													>
 														View cart{/* */}
-													</a>
+													</Link>
 												</li>
 												<li className>
-													<a
+													<Link
 														className="menu-link-text link text_black-2 position-relative  "
 														style={{ position: "relative" }}
 														href="/checkout"
 													>
 														Check out{/* */}
-													</a>
+													</Link>
 												</li>
 												<li className="menu-item-2 ">
-													<a
+													<Link
 														href="#"
 														className="menu-link-text link text_black-2 "
 													>
 														Payment
-													</a>
+													</Link>
 													<div className="sub-menu submenu-default">
 														<ul className="menu-list">
 															<li>
-																<a
+																<Link
 																	className="menu-link-text link text_black-2 "
 																	href="/payment-confirmation"
 																>
 																	Payment Confirmation
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a
+																<Link
 																	className="menu-link-text link text_black-2 "
 																	href="/payment-failure"
 																>
 																	Payment Failure
-																</a>
+																</Link>
 															</li>
 														</ul>
 													</div>
 												</li>
 												<li className="menu-item-2 ">
-													<a
+													<Link
 														href="#"
 														className="menu-link-text link text_black-2 "
 													>
 														My account
-													</a>
+													</Link>
 													<div className="sub-menu submenu-default">
 														<ul className="menu-list">
 															<li>
-																<a
+																<Link
 																	className="menu-link-text link text_black-2 "
 																	href="/my-account"
 																>
 																	My account
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a
+																<Link
 																	className="menu-link-text link text_black-2 "
 																	href="/my-account-orders"
 																>
 																	My order
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a
+																<Link
 																	className="menu-link-text link text_black-2 "
 																	href="/my-account-orders-details"
 																>
 																	My order details
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a
+																<Link
 																	className="menu-link-text link text_black-2 "
 																	href="/my-account-address"
 																>
 																	My address
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a
+																<Link
 																	className="menu-link-text link text_black-2 "
 																	href="/my-account-edit"
 																>
 																	My account details
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a
+																<Link
 																	className="menu-link-text link text_black-2 "
 																	href="/my-account-wishlist"
 																>
 																	My wishlist
-																</a>
+																</Link>
 															</li>
 														</ul>
 													</div>
 												</li>
 												<li className>
-													<a
+													<Link
 														className="menu-link-text link text_black-2 position-relative  "
 														style={{ position: "relative" }}
 														href="/invoice"
 													>
 														Invoice{/* */}
-													</a>
+													</Link>
 												</li>
 												<li className>
-													<a
+													<Link
 														className="menu-link-text link text_black-2 position-relative  "
 														style={{ position: "relative" }}
 														href="/page-not-found"
 													>
 														404{/* */}
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
 									</li>
 									<li className="menu-item position-relative">
-										<a href="#" className="item-link    ">
+										<Link href="#" className="item-link    ">
 											Blog
-										</a>
+										</Link>
 										<div className="sub-menu links-default">
 											<ul className="menu-list">
 												<li>
-													<a
+													<Link
 														className="menu-link-text link text_black-2  "
 														href="/blog-grid"
 													>
 														Grid layout
-													</a>
+													</Link>
 												</li>
 												<li>
-													<a
+													<Link
 														className="menu-link-text link text_black-2  "
 														href="/blog-sidebar-left"
 													>
 														Left sidebar
-													</a>
+													</Link>
 												</li>
 												<li>
-													<a
+													<Link
 														className="menu-link-text link text_black-2  "
 														href="/blog-sidebar-right"
 													>
 														Right sidebar
-													</a>
+													</Link>
 												</li>
 												<li>
-													<a
+													<Link
 														className="menu-link-text link text_black-2  "
 														href="/blog-list"
 													>
 														Blog list
-													</a>
+													</Link>
 												</li>
 												<li>
-													<a
+													<Link
 														className="menu-link-text link text_black-2  "
 														href="/blog-detail/1"
 													>
 														Single Post
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
 									</li>
 									<li className="menu-item">
-										<a href="#" className="item-link letter-spacing-3">
+										<Link href="#" className="item-link letter-spacing-3">
 											Buy now
-										</a>
+										</Link>
 									</li>
 								</ul>
 							</nav>
 						</div>
 						<div className="col-xl-2 col-md-4 col-6 text-center">
-							<a className="logo-header" href="/">
-								<img
+							<Link className="logo-header" href="/">
+								<Image
 									alt="logo"
 									loading="lazy"
 									width={136}
 									height={21}
-									decoding="async"
-									data-nimg={1}
 									className="logo"
 									style={{ color: "transparent" }}
-									src="/images/logo/logo.svg"
+									src={logo}
 								/>
-							</a>
+							</Link>
 						</div>
 						<div className="col-xl-5 col-md-4 col-3">
 							<ul className="nav-icon d-flex justify-content-end align-items-center gap-20">
 								<li className="nav-search">
-									<a
+									<Link
 										href="#canvasSearch"
 										data-bs-toggle="offcanvas"
 										aria-controls="offcanvasLeft"
 										className="nav-icon-item"
 									>
 										<i className="icon icon-search" />
-									</a>
+									</Link>
 								</li>
 								<li className="nav-account">
-									<a
+									<Link
 										href="#login"
 										data-bs-toggle="modal"
 										className="nav-icon-item"
 									>
 										<i className="icon icon-account" />
-									</a>
+									</Link>
 								</li>
 								<li className="nav-wishlist">
-									<a className="nav-icon-item" href="/wishlist">
+									<Link className="nav-icon-item" href="/wishlist">
 										<i className="icon icon-heart" />
 										<span className="count-box bg-yellow-9 text_black">3</span>
-									</a>
+									</Link>
 								</li>
 								<li className="nav-cart">
-									<a
+									<Link
 										href="#shoppingCart"
 										data-bs-toggle="modal"
 										className="nav-icon-item"
 									>
 										<i className="icon icon-bag" />
 										<span className="count-box bg-yellow-9 text_black">0</span>
-									</a>
+									</Link>
 								</li>
 							</ul>
 						</div>
@@ -1650,7 +1651,8 @@ export default function Navbar() {
 						<div className="mb-body">
 							<ul className="nav-ul-mb" id="wrapper-menu-navigation">
 								<li className="nav-mb-item">
-									<a
+									<Link
+
 										href="#dropdown-menu-one"
 										className="collapsed mb-menu-link current activeMenu"
 										data-bs-toggle="collapse"
@@ -1659,190 +1661,190 @@ export default function Navbar() {
 									>
 										<span>Home</span>
 										<span className="btn-open-sub" />
-									</a>
+									</Link>
 									<div id="dropdown-menu-one" className="collapse">
 										<ul className="sub-nav-menu">
 											<li>
-												<a className="sub-nav-link " href="/">
+												<Link className="sub-nav-link " href="/">
 													Home Fashion 01
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-02">
+												<Link className="sub-nav-link " href="/home-02">
 													Home Fashion 02
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-03">
+												<Link className="sub-nav-link " href="/home-03">
 													Home Fashion 03
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-04">
+												<Link className="sub-nav-link " href="/home-04">
 													Home Fashion 04
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-05">
+												<Link className="sub-nav-link " href="/home-05">
 													Home Fashion 05
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-06">
+												<Link className="sub-nav-link " href="/home-06">
 													Home Fashion 06
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-07">
+												<Link className="sub-nav-link " href="/home-07">
 													Home Fashion 07
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-08">
+												<Link className="sub-nav-link " href="/home-08">
 													Home Fashion 08
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-giftcard">
+												<Link className="sub-nav-link " href="/home-giftcard">
 													Home Gift Card
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-headphone">
+												<Link className="sub-nav-link " href="/home-headphone">
 													Home Headphone
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-multi-brand">
+												<Link className="sub-nav-link " href="/home-multi-brand">
 													Home Multi Brand
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-skincare">
+												<Link className="sub-nav-link " href="/home-skincare">
 													Home Skincare
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-furniture">
+												<Link className="sub-nav-link " href="/home-furniture">
 													Home Furniture
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-furniture-02">
+												<Link className="sub-nav-link " href="/home-furniture-02">
 													Home Furniture 2
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-skateboard">
+												<Link className="sub-nav-link " href="/home-skateboard">
 													Home Skateboard
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-stroller">
+												<Link className="sub-nav-link " href="/home-stroller">
 													Home Stroller
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-decor">
+												<Link className="sub-nav-link " href="/home-decor">
 													Home Decor
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-electronic">
+												<Link className="sub-nav-link " href="/home-electronic">
 													Home Electronic
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-setup-gear">
+												<Link className="sub-nav-link " href="/home-setup-gear">
 													Home Setup Gear
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a
+												<Link
 													className="sub-nav-link "
 													href="/home-dog-accessories"
 												>
 													Home Dog Accessories
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-kitchen-wear">
+												<Link className="sub-nav-link " href="/home-kitchen-wear">
 													Home Kitchen Wear
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-phonecase">
+												<Link className="sub-nav-link " href="/home-phonecase">
 													Home Phonecase
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-paddle-boards">
+												<Link className="sub-nav-link " href="/home-paddle-boards">
 													Home Paddle Boards
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-glasses">
+												<Link className="sub-nav-link " href="/home-glasses">
 													Home Glasses
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-pod-store">
+												<Link className="sub-nav-link " href="/home-pod-store">
 													Home POD Store
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-activewear">
+												<Link className="sub-nav-link " href="/home-activewear">
 													Home Activewear
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-handbag">
+												<Link className="sub-nav-link " href="/home-handbag">
 													Home Handbag
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-tee">
+												<Link className="sub-nav-link " href="/home-tee">
 													Home Tee
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-sock">
+												<Link className="sub-nav-link " href="/home-sock">
 													Home Sock
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-jewerly">
+												<Link className="sub-nav-link " href="/home-jewerly">
 													Home Jewelry
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a
+												<Link
 													className="sub-nav-link activeMenu"
 													href="/home-sneaker"
 												>
 													Home Sneaker
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-accessories">
+												<Link className="sub-nav-link " href="/home-accessories">
 													Home Accessories
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-grocery">
+												<Link className="sub-nav-link " href="/home-grocery">
 													Home Grocery
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/home-baby">
+												<Link className="sub-nav-link " href="/home-baby">
 													Home Baby
-												</a>
+												</Link>
 											</li>
 										</ul>
 									</div>
 								</li>
 								<li className="nav-mb-item">
-									<a
+									<Link
 										href="#dropdown-menu-two"
 										className="collapsed mb-menu-link current "
 										data-bs-toggle="collapse"
@@ -1851,11 +1853,11 @@ export default function Navbar() {
 									>
 										<span>Shop</span>
 										<span className="btn-open-sub" />
-									</a>
+									</Link>
 									<div id="dropdown-menu-two" className="collapse">
 										<ul className="sub-nav-menu">
 											<li>
-												<a
+												<Link
 													href="#sub-shop-one"
 													className="sub-nav-link collapsed  "
 													data-bs-toggle="collapse"
@@ -1864,62 +1866,62 @@ export default function Navbar() {
 												>
 													<span>Shop layouts</span>
 													<span className="btn-open-sub" />
-												</a>
+												</Link>
 												<div id="sub-shop-one" className="collapse">
 													<ul className="sub-nav-menu sub-menu-level-2">
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/shop-default"
 															>
 																Default
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/shop-left-sidebar"
 															>
 																Left sidebar
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/shop-right-sidebar"
 															>
 																Right sidebar
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/shop-fullwidth"
 															>
 																Fullwidth
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/shop-collection-sub"
 															>
 																Sub collection
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/shop-collection-list"
 															>
 																Collections list
-															</a>
+															</Link>
 														</li>
 													</ul>
 												</div>
 											</li>
 											<li>
-												<a
+												<Link
 													href="#sub-shop-two"
 													className="sub-nav-link collapsed  "
 													data-bs-toggle="collapse"
@@ -1928,51 +1930,51 @@ export default function Navbar() {
 												>
 													<span>Features</span>
 													<span className="btn-open-sub" />
-												</a>
+												</Link>
 												<div id="sub-shop-two" className="collapse">
 													<ul className="sub-nav-menu sub-menu-level-2">
 														<li>
-															<a className="sub-nav-link  " href="/shop-link">
+															<Link className="sub-nav-link  " href="/shop-link">
 																Pagination links
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/shop-loadmore"
 															>
 																Pagination loadmore
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/shop-infinite-scrolling"
 															>
 																Pagination infinite scrolling
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/shop-filter-sidebar"
 															>
 																Filter sidebar
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/shop-filter-hidden"
 															>
 																Filter hidden
-															</a>
+															</Link>
 														</li>
 													</ul>
 												</div>
 											</li>
 											<li>
-												<a
+												<Link
 													href="#sub-shop-three"
 													className="sub-nav-link collapsed  "
 													data-bs-toggle="collapse"
@@ -1981,72 +1983,72 @@ export default function Navbar() {
 												>
 													<span>Product styles</span>
 													<span className="btn-open-sub" />
-												</a>
+												</Link>
 												<div id="sub-shop-three" className="collapse">
 													<ul className="sub-nav-menu sub-menu-level-2">
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-style-list"
 															>
 																Product style list
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-style-01"
 															>
 																Product style 01
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-style-02"
 															>
 																Product style 02
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-style-03"
 															>
 																Product style 03
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-style-04"
 															>
 																Product style 04
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-style-05"
 															>
 																Product style 05
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-style-06"
 															>
 																Product style 06
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-style-07"
 															>
 																Product style 07
-															</a>
+															</Link>
 														</li>
 													</ul>
 												</div>
@@ -2055,7 +2057,7 @@ export default function Navbar() {
 									</div>
 								</li>
 								<li className="nav-mb-item">
-									<a
+									<Link
 										href="#dropdown-menu-three"
 										className="collapsed mb-menu-link current "
 										data-bs-toggle="collapse"
@@ -2064,11 +2066,11 @@ export default function Navbar() {
 									>
 										<span>Products</span>
 										<span className="btn-open-sub" />
-									</a>
+									</Link>
 									<div id="dropdown-menu-three" className="collapse">
 										<ul className="sub-nav-menu">
 											<li>
-												<a
+												<Link
 													href="#sub-product-one"
 													className="sub-nav-link collapsed  "
 													data-bs-toggle="collapse"
@@ -2077,94 +2079,94 @@ export default function Navbar() {
 												>
 													<span>Product layouts</span>
 													<span className="btn-open-sub" />
-												</a>
+												</Link>
 												<div id="sub-product-one" className="collapse">
 													<ul className="sub-nav-menu sub-menu-level-2">
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-detail/1"
 															>
 																Product default
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-grid-1/2"
 															>
 																Product grid 1
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-grid-2/3"
 															>
 																Product grid 2
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-stacked/4"
 															>
 																Product stacked
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-right-thumbnails/5"
 															>
 																Product right thumbnails
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-bottom-thumbnails/6"
 															>
 																Product bottom thumbnails
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-drawer-sidebar/7"
 															>
 																Product drawer sidebar
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-description-accordion/8"
 															>
 																Product description accordion
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-description-list/9"
 															>
 																Product description list
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-description-vertical/10"
 															>
 																Product description vertical
-															</a>
+															</Link>
 														</li>
 													</ul>
 												</div>
 											</li>
 											<li>
-												<a
+												<Link
 													href="#sub-product-two"
 													className="sub-nav-link collapsed  "
 													data-bs-toggle="collapse"
@@ -2173,92 +2175,92 @@ export default function Navbar() {
 												>
 													<span>Product details</span>
 													<span className="btn-open-sub" />
-												</a>
+												</Link>
 												<div id="sub-product-two" className="collapse">
 													<ul className="sub-nav-menu sub-menu-level-2">
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-inner-zoom/11"
 															>
 																Product inner zoom
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-zoom-magnifier/12"
 															>
 																Product zoom magnifier
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-no-zoom"
 															>
 																Product no zoom
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-photoswipe-popup/13"
 															>
 																Product photoswipe popup
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-zoom-popup/15"
 															>
 																Product external zoom and photoswipe popup
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-video/16"
 															>
 																Product video
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a className="sub-nav-link  " href="/product-3d">
+															<Link className="sub-nav-link  " href="/product-3d">
 																Product 3D, AR models
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-options-customizer/17"
 															>
 																Product options &amp; customizer
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-advanced-types/18"
 															>
 																Advanced product types
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-giftcard/19"
 															>
 																Recipient information form for gift card
 																products
-															</a>
+															</Link>
 														</li>
 													</ul>
 												</div>
 											</li>
 											<li>
-												<a
+												<Link
 													href="#sub-product-three"
 													className="sub-nav-link collapsed  "
 													data-bs-toggle="collapse"
@@ -2267,70 +2269,70 @@ export default function Navbar() {
 												>
 													<span>Product swatchs</span>
 													<span className="btn-open-sub" />
-												</a>
+												</Link>
 												<div id="sub-product-three" className="collapse">
 													<ul className="sub-nav-menu sub-menu-level-2">
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-color-swatch/20"
 															>
 																Product color swatch
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-rectangle"
 															>
 																Product rectangle
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-rectangle-color/21"
 															>
 																Product rectangle color
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-swatch-image/22"
 															>
 																Product swatch image
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-swatch-image-rounded"
 															>
 																Product swatch image rounded
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-swatch-dropdown/23"
 															>
 																Product swatch dropdown
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-swatch-dropdown-color/24"
 															>
 																Product swatch dropdown color
-															</a>
+															</Link>
 														</li>
 													</ul>
 												</div>
 											</li>
 											<li>
-												<a
+												<Link
 													href="#sub-product-four"
 													className="sub-nav-link collapsed  "
 													data-bs-toggle="collapse"
@@ -2339,75 +2341,75 @@ export default function Navbar() {
 												>
 													<span>Product features</span>
 													<span className="btn-open-sub" />
-												</a>
+												</Link>
 												<div id="sub-product-four" className="collapse">
 													<ul className="sub-nav-menu sub-menu-level-2">
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-frequently-bought-together/25"
 															>
 																Frequently bought together
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-frequently-bought-together-2/26"
 															>
 																Frequently bought together 2
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-upsell-features/27"
 															>
 																Product upsell features
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-pre-orders/28"
 															>
 																Product pre-orders
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-notification/28"
 															>
 																Back in stock notification
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-pickup/29"
 															>
 																Product pickup
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-images-grouped/30"
 															>
 																Variant images grouped
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-complimentary/31"
 															>
 																Complimentary products
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a
+															<Link
 																className="sub-nav-link  "
 																href="/product-quick-order-list/32"
 															>
@@ -2415,7 +2417,7 @@ export default function Navbar() {
 																<div className="demo-label">
 																	<span className="demo-new">New</span>
 																</div>
-															</a>
+															</Link>
 														</li>
 													</ul>
 												</div>
@@ -2424,7 +2426,7 @@ export default function Navbar() {
 									</div>
 								</li>
 								<li className="nav-mb-item">
-									<a
+									<Link
 										href="#dropdown-menu-four"
 										className="collapsed mb-menu-link current "
 										data-bs-toggle="collapse"
@@ -2433,95 +2435,95 @@ export default function Navbar() {
 									>
 										<span>Pages</span>
 										<span className="btn-open-sub" />
-									</a>
+									</Link>
 									<div id="dropdown-menu-four" className="collapse">
 										<ul className="sub-nav-menu">
 											<li>
-												<a className="sub-nav-link " href="/about-us">
+												<Link className="sub-nav-link " href="/about-us">
 													About us
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/brands">
+												<Link className="sub-nav-link " href="/brands">
 													Brands
 													<div className="demo-label">
 														<span className="demo-new">New</span>
 													</div>
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/brands-v2">
+												<Link className="sub-nav-link " href="/brands-v2">
 													Brands V2
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/contact-1">
+												<Link className="sub-nav-link " href="/contact-1">
 													Contact 1
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/contact-2">
+												<Link className="sub-nav-link " href="/contact-2">
 													Contact 2
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/faq-1">
+												<Link className="sub-nav-link " href="/faq-1">
 													FAQ 01
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/faq-2">
+												<Link className="sub-nav-link " href="/faq-2">
 													FAQ 02
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/our-store">
+												<Link className="sub-nav-link " href="/our-store">
 													Our store
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/store-locations">
+												<Link className="sub-nav-link " href="/store-locations">
 													Store locator
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/timeline">
+												<Link className="sub-nav-link " href="/timeline">
 													Timeline
 													<div className="demo-label">
 														<span className="demo-new">New</span>
 													</div>
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/view-cart">
+												<Link className="sub-nav-link " href="/view-cart">
 													View cart
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/my-account">
+												<Link className="sub-nav-link " href="/my-account">
 													My account
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/wishlist">
+												<Link className="sub-nav-link " href="/wishlist">
 													Wishlist
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/terms">
+												<Link className="sub-nav-link " href="/terms">
 													Terms and conditions
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/page-not-found">
+												<Link className="sub-nav-link " href="/page-not-found">
 													404 page
-												</a>
+												</Link>
 											</li>
 										</ul>
 									</div>
 								</li>
 								<li className="nav-mb-item">
-									<a
+									<Link
 										href="#dropdown-menu-five"
 										className="collapsed mb-menu-link current "
 										data-bs-toggle="collapse"
@@ -2530,61 +2532,61 @@ export default function Navbar() {
 									>
 										<span>Blogs</span>
 										<span className="btn-open-sub" />
-									</a>
+									</Link>
 									<div id="dropdown-menu-five" className="collapse">
 										<ul className="sub-nav-menu">
 											<li>
-												<a className="sub-nav-link " href="/blog-grid">
+												<Link className="sub-nav-link " href="/blog-grid">
 													Grid layout
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/blog-sidebar-left">
+												<Link className="sub-nav-link " href="/blog-sidebar-left">
 													Left sidebar
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/blog-sidebar-right">
+												<Link className="sub-nav-link " href="/blog-sidebar-right">
 													Right sidebar
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/blog-list">
+												<Link className="sub-nav-link " href="/blog-list">
 													Blog list
-												</a>
+												</Link>
 											</li>
 											<li>
-												<a className="sub-nav-link " href="/blog-detail/1">
+												<Link className="sub-nav-link " href="/blog-detail/1">
 													Single Post
-												</a>
+												</Link>
 											</li>
 										</ul>
 									</div>
 								</li>
 								<li className="nav-mb-item">
-									<a
-										href="https://themeforest.net/item/ecomus-ultimate-html5-template/53417990?s_rank=3"
+									<Link
+										href="#"
 										className="mb-menu-link"
 									>
 										Buy now
-									</a>
+									</Link>
 								</li>
 							</ul>
 							<div className="mb-other-content">
 								<div className="d-flex group-icon">
-									<a className="site-nav-icon" href="/wishlist">
+									<Link className="site-nav-icon" href="/wishlist">
 										<i className="icon icon-heart" />
 										Wishlist
-									</a>
-									<a className="site-nav-icon" href="/home-search">
+									</Link>
+									<Link className="site-nav-icon" href="/home-search">
 										<i className="icon icon-search" />
 										Search
-									</a>
+									</Link>
 								</div>
 								<div className="mb-notice">
-									<a className="text-need" href="/contact-1">
+									<Link className="text-need" href="/contact-1">
 										Need help ?
-									</a>
+									</Link>
 								</div>
 								<ul className="mb-info">
 									<li>
@@ -2601,10 +2603,10 @@ export default function Navbar() {
 							</div>
 						</div>
 						<div className="mb-bottom">
-							<a className="site-nav-icon" href="/login">
+							<Link className="site-nav-icon" href="/login">
 								<i className="icon icon-account" />
 								Login
-							</a>
+							</Link>
 							<div className="bottom-bar-language">
 								<div className="tf-currencies">
 									<div className="dropdown bootstrap-select image-select center style-default type-currencies  dropup">
@@ -2622,8 +2624,8 @@ export default function Navbar() {
 															loading="lazy"
 															width={640}
 															height={480}
-															decoding="async"
-															data-nimg={1}
+
+
 															style={{ color: "transparent" }}
 															src="/images/country/us.svg"
 														/>
@@ -2659,72 +2661,73 @@ export default function Navbar() {
 													style={{ marginTop: 0, marginBottom: 0 }}
 												>
 													<li>
-														<a className="dropdown-item ">
+														<span className="dropdown-item "  >
+
 															<span className="text">
 																<img
 																	alt="image"
 																	loading="lazy"
 																	width={640}
 																	height={480}
-																	decoding="async"
-																	data-nimg={1}
+
+
 																	style={{ color: "transparent" }}
 																	src="/images/country/fr.svg"
 																/>
 																EUR € | France
 															</span>
-														</a>
+														</span>
 													</li>
 													<li>
-														<a className="dropdown-item ">
+														<span className="dropdown-item ">
 															<span className="text">
 																<img
 																	alt="image"
 																	loading="lazy"
 																	width={640}
 																	height={480}
-																	decoding="async"
-																	data-nimg={1}
+
+
 																	style={{ color: "transparent" }}
 																	src="/images/country/de.svg"
 																/>
 																EUR € | Germany
 															</span>
-														</a>
+														</span>
 													</li>
 													<li>
-														<a className="dropdown-item active selected">
+														<span className="dropdown-item active selected">
 															<span className="text">
 																<img
 																	alt="image"
 																	loading="lazy"
 																	width={640}
 																	height={480}
-																	decoding="async"
-																	data-nimg={1}
+
+
 																	style={{ color: "transparent" }}
 																	src="/images/country/us.svg"
 																/>
 																USD $ | United States
 															</span>
-														</a>
+														</span>
 													</li>
 													<li>
-														<a className="dropdown-item ">
+														<span className="dropdown-item ">
 															<span className="text">
 																<img
 																	alt="image"
 																	loading="lazy"
 																	width={640}
 																	height={480}
-																	decoding="async"
-																	data-nimg={1}
+
+
 																	style={{ color: "transparent" }}
 																	src="/images/country/vn.svg"
 																/>
 																VND ₫ | Vietnam
 															</span>
-														</a>
+														</span>
 													</li>
 												</ul>
 											</div>
@@ -2782,24 +2785,24 @@ export default function Navbar() {
 													style={{ marginTop: 0, marginBottom: 0 }}
 												>
 													<li className="selected active">
-														<a className="dropdown-item active selected">
+														<span className="dropdown-item active selected">
 															<span className="text">English</span>
-														</a>
+														</span>
 													</li>
 													<li className="selected ">
-														<a className="dropdown-item ">
+														<span className="dropdown-item ">
 															<span className="text">العربية</span>
-														</a>
+														</span>
 													</li>
 													<li className="selected ">
-														<a className="dropdown-item ">
+														<span className="dropdown-item ">
 															<span className="text">简体中文</span>
-														</a>
+														</span>
 													</li>
 													<li className="selected ">
-														<a className="dropdown-item ">
+														<span className="dropdown-item ">
 															<span className="text">اردو</span>
-														</a>
+														</span>
 													</li>
 												</ul>
 											</div>

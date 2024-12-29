@@ -1,6 +1,7 @@
 import React from "react";
-import notfound from "../assets/images/404.svg"; 
+import notfound from "../assets/images/404.svg";
 import Image from "next/image";
+import Link from "next/link";
 export default function notFound() {
 	return (
 		<>
@@ -16,12 +17,12 @@ export default function notFound() {
 								Sorry for the inconvenience. Go to our homepage to check out our
 								latest collections.
 							</p>
-							<a
+							<Link 
 								className="tf-btn btn-sm radius-3 btn-fill btn-icon animate-hover-btn"
-								href="/"
+								href="gfdg"
 							>
 								Go to Home
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>

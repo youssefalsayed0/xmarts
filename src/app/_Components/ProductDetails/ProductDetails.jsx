@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function ProductDetails() {
 	return (
@@ -26,7 +27,7 @@ export default function ProductDetails() {
 													className="swiper-slide swiper-slide-active"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<a
+													<Link href="#"
 														className="item"
 														data-pswp-width={770}
 														data-pswp-height={1075}
@@ -38,19 +39,19 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={770}
 															height={1075}
-															decoding="async"
-															data-nimg={1}
+
+
 															className="tf-image-zoom lazyload"
 															src="/images/products/light-green-1.jpg"
 															style={{ color: "transparent" }}
 														/>
-													</a>
+													</Link>
 												</div>
 												<div
 													className="swiper-slide swiper-slide-next"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<a
+													<Link href="#"
 														className="item"
 														data-pswp-width={713}
 														data-pswp-height={1070}
@@ -62,19 +63,19 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-															decoding="async"
-															data-nimg={1}
+
+
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod.jpg"
 															style={{ color: "transparent" }}
 														/>
-													</a>
+													</Link>
 												</div>
 												<div
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<a
+													<Link href="#"
 														className="item"
 														data-pswp-width={713}
 														data-pswp-height={1070}
@@ -86,19 +87,19 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-															decoding="async"
-															data-nimg={1}
+
+
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod2.jpg"
 															style={{ color: "transparent" }}
 														/>
-													</a>
+													</Link>
 												</div>
 												<div
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<a
+													<Link href="#"
 														className="item"
 														data-pswp-width={713}
 														data-pswp-height={1070}
@@ -110,19 +111,19 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-															decoding="async"
-															data-nimg={1}
+
+
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod3.jpg"
 															style={{ color: "transparent" }}
 														/>
-													</a>
+													</Link>
 												</div>
 												<div
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<a
+													<Link href="#"
 														className="item"
 														data-pswp-width={768}
 														data-pswp-height={1152}
@@ -134,19 +135,19 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-															decoding="async"
-															data-nimg={1}
+
+
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod4.jpg"
 															style={{ color: "transparent" }}
 														/>
-													</a>
+													</Link>
 												</div>
 												<div
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<a
+													<Link href="#"
 														className="item"
 														data-pswp-width={713}
 														data-pswp-height={1070}
@@ -158,19 +159,19 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-															decoding="async"
-															data-nimg={1}
+
+
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod5.jpg"
 															style={{ color: "transparent" }}
 														/>
-													</a>
+													</Link>
 												</div>
 												<div
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<a
+													<Link href="#"
 														className="item"
 														data-pswp-width={768}
 														data-pswp-height={1152}
@@ -182,19 +183,19 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-															decoding="async"
-															data-nimg={1}
+
+
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod6.jpg"
 															style={{ color: "transparent" }}
 														/>
-													</a>
+													</Link>
 												</div>
 												<div
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<a
+													<Link href="#"
 														className="item"
 														data-pswp-width={713}
 														data-pswp-height={1070}
@@ -206,19 +207,19 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-															decoding="async"
-															data-nimg={1}
+
+
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod7.jpg"
 															style={{ color: "transparent" }}
 														/>
-													</a>
+													</Link>
 												</div>
 												<div
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<a
+													<Link href="#"
 														className="item"
 														data-pswp-width={713}
 														data-pswp-height={1070}
@@ -230,19 +231,19 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-															decoding="async"
-															data-nimg={1}
+
+
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod8.jpg"
 															style={{ color: "transparent" }}
 														/>
-													</a>
+													</Link>
 												</div>
 												<div
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<a
+													<Link href="#"
 														className="item"
 														data-pswp-width={768}
 														data-pswp-height={1152}
@@ -254,19 +255,19 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-															decoding="async"
-															data-nimg={1}
+
+
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod9.jpg"
 															style={{ color: "transparent" }}
 														/>
-													</a>
+													</Link>
 												</div>
 												<div
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<a
+													<Link href="#"
 														className="item"
 														data-pswp-width={713}
 														data-pswp-height={1070}
@@ -278,19 +279,19 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-															decoding="async"
-															data-nimg={1}
+
+
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod10.jpg"
 															style={{ color: "transparent" }}
 														/>
-													</a>
+													</Link>
 												</div>
 												<div
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<a
+													<Link href="#"
 														className="item"
 														data-pswp-width={713}
 														data-pswp-height={1070}
@@ -302,19 +303,19 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-															decoding="async"
-															data-nimg={1}
+
+
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod11.jpg"
 															style={{ color: "transparent" }}
 														/>
-													</a>
+													</Link>
 												</div>
 												<div
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<a
+													<Link href="#"
 														className="item"
 														data-pswp-width={768}
 														data-pswp-height={1152}
@@ -326,19 +327,19 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-															decoding="async"
-															data-nimg={1}
+
+
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod12.jpg"
 															style={{ color: "transparent" }}
 														/>
-													</a>
+													</Link>
 												</div>
 												<div
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<a
+													<Link href="#"
 														className="item"
 														data-pswp-width={768}
 														data-pswp-height={1152}
@@ -350,19 +351,19 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-															decoding="async"
-															data-nimg={1}
+
+
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod13.jpg"
 															style={{ color: "transparent" }}
 														/>
-													</a>
+													</Link>
 												</div>
 												<div
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<a
+													<Link href="#"
 														className="item"
 														data-pswp-width={768}
 														data-pswp-height={1152}
@@ -374,19 +375,19 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-															decoding="async"
-															data-nimg={1}
+
+
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod14.jpg"
 															style={{ color: "transparent" }}
 														/>
-													</a>
+													</Link>
 												</div>
 												<div
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<a
+													<Link href="#"
 														className="item"
 														data-pswp-width={768}
 														data-pswp-height={1152}
@@ -398,19 +399,19 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-															decoding="async"
-															data-nimg={1}
+
+
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod15.jpg"
 															style={{ color: "transparent" }}
 														/>
-													</a>
+													</Link>
 												</div>
 												<div
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<a
+													<Link href="#"
 														className="item"
 														data-pswp-width={768}
 														data-pswp-height={1152}
@@ -422,19 +423,19 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-															decoding="async"
-															data-nimg={1}
+
+
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod16.jpg"
 															style={{ color: "transparent" }}
 														/>
-													</a>
+													</Link>
 												</div>
 												<div
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<a
+													<Link href="#"
 														className="item"
 														data-pswp-width={768}
 														data-pswp-height={1152}
@@ -446,13 +447,13 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-															decoding="async"
-															data-nimg={1}
+
+
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod17.jpg"
 															style={{ color: "transparent" }}
 														/>
-													</a>
+													</Link>
 												</div>
 											</div>
 											<div className="swiper-button-next button-style-arrow thumbs-next" />
@@ -473,13 +474,13 @@ export default function ProductDetails() {
 													<div className="item">
 														<img
 															data-src="/images/products/light-green-1.jpg"
-															alt
+															alt="image"
 															loading="lazy"
 															width={770}
 															height={1075}
-															decoding="async"
-															data-nimg={1}
-															className="lazyload"
+
+
+
 															src="/images/products/light-green-1.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -492,13 +493,13 @@ export default function ProductDetails() {
 													<div className="item">
 														<img
 															data-src="/images/shop/products/hmgoepprod.jpg"
-															alt
+															alt="image"
 															loading="lazy"
 															width={713}
 															height={1070}
-															decoding="async"
-															data-nimg={1}
-															className="lazyload"
+
+
+
 															src="/images/shop/products/hmgoepprod.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -511,13 +512,13 @@ export default function ProductDetails() {
 													<div className="item">
 														<img
 															data-src="/images/shop/products/hmgoepprod2.jpg"
-															alt
+															alt="image"
 															loading="lazy"
 															width={713}
 															height={1070}
-															decoding="async"
-															data-nimg={1}
-															className="lazyload"
+
+
+
 															src="/images/shop/products/hmgoepprod2.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -530,13 +531,13 @@ export default function ProductDetails() {
 													<div className="item">
 														<img
 															data-src="/images/shop/products/hmgoepprod3.jpg"
-															alt
+															alt="image"
 															loading="lazy"
 															width={713}
 															height={1070}
-															decoding="async"
-															data-nimg={1}
-															className="lazyload"
+
+
+
 															src="/images/shop/products/hmgoepprod3.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -549,13 +550,13 @@ export default function ProductDetails() {
 													<div className="item">
 														<img
 															data-src="/images/shop/products/hmgoepprod4.jpg"
-															alt
+															alt="image"
 															loading="lazy"
 															width={768}
 															height={1152}
-															decoding="async"
-															data-nimg={1}
-															className="lazyload"
+
+
+
 															src="/images/shop/products/hmgoepprod4.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -568,13 +569,13 @@ export default function ProductDetails() {
 													<div className="item">
 														<img
 															data-src="/images/shop/products/hmgoepprod5.jpg"
-															alt
+															alt="image"
 															loading="lazy"
 															width={713}
 															height={1070}
-															decoding="async"
-															data-nimg={1}
-															className="lazyload"
+
+
+
 															src="/images/shop/products/hmgoepprod5.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -587,13 +588,13 @@ export default function ProductDetails() {
 													<div className="item">
 														<img
 															data-src="/images/shop/products/hmgoepprod6.jpg"
-															alt
+															alt="image"
 															loading="lazy"
 															width={768}
 															height={1152}
-															decoding="async"
-															data-nimg={1}
-															className="lazyload"
+
+
+
 															src="/images/shop/products/hmgoepprod6.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -606,13 +607,13 @@ export default function ProductDetails() {
 													<div className="item">
 														<img
 															data-src="/images/shop/products/hmgoepprod7.jpg"
-															alt
+															alt="image"
 															loading="lazy"
 															width={713}
 															height={1070}
-															decoding="async"
-															data-nimg={1}
-															className="lazyload"
+
+
+
 															src="/images/shop/products/hmgoepprod7.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -625,13 +626,13 @@ export default function ProductDetails() {
 													<div className="item">
 														<img
 															data-src="/images/shop/products/hmgoepprod8.jpg"
-															alt
+															alt="image"
 															loading="lazy"
 															width={713}
 															height={1070}
-															decoding="async"
-															data-nimg={1}
-															className="lazyload"
+
+
+
 															src="/images/shop/products/hmgoepprod8.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -644,13 +645,13 @@ export default function ProductDetails() {
 													<div className="item">
 														<img
 															data-src="/images/shop/products/hmgoepprod9.jpg"
-															alt
+															alt="image"
 															loading="lazy"
 															width={768}
 															height={1152}
-															decoding="async"
-															data-nimg={1}
-															className="lazyload"
+
+
+
 															src="/images/shop/products/hmgoepprod9.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -663,13 +664,13 @@ export default function ProductDetails() {
 													<div className="item">
 														<img
 															data-src="/images/shop/products/hmgoepprod10.jpg"
-															alt
+															alt="image"
 															loading="lazy"
 															width={713}
 															height={1070}
-															decoding="async"
-															data-nimg={1}
-															className="lazyload"
+
+
+
 															src="/images/shop/products/hmgoepprod10.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -682,13 +683,13 @@ export default function ProductDetails() {
 													<div className="item">
 														<img
 															data-src="/images/shop/products/hmgoepprod11.jpg"
-															alt
+															alt="image"
 															loading="lazy"
 															width={713}
 															height={1070}
-															decoding="async"
-															data-nimg={1}
-															className="lazyload"
+
+
+
 															src="/images/shop/products/hmgoepprod11.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -701,13 +702,13 @@ export default function ProductDetails() {
 													<div className="item">
 														<img
 															data-src="/images/shop/products/hmgoepprod12.jpg"
-															alt
+															alt="image"
 															loading="lazy"
 															width={768}
 															height={1152}
-															decoding="async"
-															data-nimg={1}
-															className="lazyload"
+
+
+
 															src="/images/shop/products/hmgoepprod12.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -720,13 +721,13 @@ export default function ProductDetails() {
 													<div className="item">
 														<img
 															data-src="/images/shop/products/hmgoepprod13.jpg"
-															alt
+															alt="image"
 															loading="lazy"
 															width={768}
 															height={1152}
-															decoding="async"
-															data-nimg={1}
-															className="lazyload"
+
+
+
 															src="/images/shop/products/hmgoepprod13.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -739,13 +740,13 @@ export default function ProductDetails() {
 													<div className="item">
 														<img
 															data-src="/images/shop/products/hmgoepprod14.jpg"
-															alt
+															alt="image"
 															loading="lazy"
 															width={768}
 															height={1152}
-															decoding="async"
-															data-nimg={1}
-															className="lazyload"
+
+
+
 															src="/images/shop/products/hmgoepprod14.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -758,13 +759,13 @@ export default function ProductDetails() {
 													<div className="item">
 														<img
 															data-src="/images/shop/products/hmgoepprod15.jpg"
-															alt
+															alt="image"
 															loading="lazy"
 															width={768}
 															height={1152}
-															decoding="async"
-															data-nimg={1}
-															className="lazyload"
+
+
+
 															src="/images/shop/products/hmgoepprod15.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -777,13 +778,13 @@ export default function ProductDetails() {
 													<div className="item">
 														<img
 															data-src="/images/shop/products/hmgoepprod16.jpg"
-															alt
+															alt="image"
 															loading="lazy"
 															width={768}
 															height={1152}
-															decoding="async"
-															data-nimg={1}
-															className="lazyload"
+
+
+
 															src="/images/shop/products/hmgoepprod16.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -796,13 +797,13 @@ export default function ProductDetails() {
 													<div className="item">
 														<img
 															data-src="/images/shop/products/hmgoepprod17.jpg"
-															alt
+															alt="image"
 															loading="lazy"
 															width={768}
 															height={1152}
-															decoding="async"
-															data-nimg={1}
-															className="lazyload"
+
+
+
 															src="/images/shop/products/hmgoepprod17.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -883,7 +884,7 @@ export default function ProductDetails() {
 												</div>
 											</div>
 										</div>
-										
+
 										<div className="tf-product-info-quantity">
 											<div className="quantity-title fw-6">Quantity</div>
 											<div className="wg-quantity">
@@ -899,17 +900,16 @@ export default function ProductDetails() {
 										</div>
 										<div className="tf-product-info-buy-button">
 											<form className>
-												<a className="tf-btn btn-fill justify-content-center fw-6 fs-16 flex-grow-1 animate-hover-btn ">
+												<Link href="#" className="tf-btn btn-fill justify-content-center fw-6 fs-16 flex-grow-1 animate-hover-btn ">
 													<span> Add to cart - </span>
 													<span className="tf-qty-price">$10.00</span>
-												</a>
-												<a className="tf-product-btn-wishlist hover-tooltip box-icon bg_white wishlist btn-icon-action">
+												</Link>
+												<Link href="#" className="tf-product-btn-wishlist hover-tooltip box-icon bg_white wishlist btn-icon-action">
 													<span className="icon icon-heart " />
 													<span className="tooltip"> Add to Wishlist</span>
 													<span className="icon icon-delete" />
-												</a>
-												<a
-													href="#compare"
+												</Link>
+												<Link href="#compare"
 													data-bs-toggle="offcanvas"
 													aria-controls="offcanvasLeft"
 													className="tf-product-btn-wishlist hover-tooltip box-icon bg_white compare btn-icon-action"
@@ -917,29 +917,29 @@ export default function ProductDetails() {
 													<span className="icon icon-compare " />
 													<span className="tooltip"> Add to Compare</span>
 													<span className="icon icon-check" />
-												</a>
+												</Link>
 												<div className="w-100">
-													<a href="#" className="btns-full">
+													<Link href="#" className="btns-full">
 														Buy with{" "}
 														<img
 															alt="image"
 															loading="lazy"
 															width={64}
 															height={18}
-															decoding="async"
-															data-nimg={1}
+
+
 															src="/images/payments/paypal.png"
 															style={{ color: "transparent" }}
 														/>
-													</a>
-													<a href="#" className="payment-more-option">
+													</Link>
+													<Link href="#" className="payment-more-option">
 														More payment options
-													</a>
+													</Link>
 												</div>
 											</form>
 										</div>
 										<div className="tf-product-info-extra-link">
-											<a
+											<Link
 												href="#compare_color"
 												data-bs-toggle="modal"
 												className="tf-product-extra-icon"
@@ -950,15 +950,15 @@ export default function ProductDetails() {
 														loading="lazy"
 														width={20}
 														height={20}
-														decoding="async"
-														data-nimg={1}
+
+
 														src="/images/item/compare.svg"
 														style={{ color: "transparent" }}
 													/>
 												</div>
 												<div className="text fw-6">Compare color</div>
-											</a>
-											<a
+											</Link>
+											<Link
 												href="#ask_question"
 												data-bs-toggle="modal"
 												className="tf-product-extra-icon"
@@ -967,8 +967,8 @@ export default function ProductDetails() {
 													<i className="icon-question" />
 												</div>
 												<div className="text fw-6">Ask a question</div>
-											</a>
-											<a
+											</Link>
+											<Link
 												href="#delivery_return"
 												data-bs-toggle="modal"
 												className="tf-product-extra-icon"
@@ -986,8 +986,8 @@ export default function ProductDetails() {
 													</svg>
 												</div>
 												<div className="text fw-6">Delivery &amp; Return</div>
-											</a>
-											<a
+											</Link>
+											<Link
 												href="#share_social"
 												data-bs-toggle="modal"
 												className="tf-product-extra-icon"
@@ -996,7 +996,7 @@ export default function ProductDetails() {
 													<i className="icon-share" />
 												</div>
 												<div className="text fw-6">Share</div>
-											</a>
+											</Link>
 										</div>
 										<div className="tf-product-info-delivery-return">
 											<div className="row">
@@ -1037,52 +1037,52 @@ export default function ProductDetails() {
 											</div>
 											<div className="tf-payment">
 												<img
-													alt
+													alt="image"
 													loading="lazy"
 													width={48}
 													height={30}
-													decoding="async"
-													data-nimg={1}
+
+
 													src="/images/payments/visa.png"
 													style={{ color: "transparent" }}
 												/>
 												<img
-													alt
+													alt="image"
 													loading="lazy"
 													width={49}
 													height={30}
-													decoding="async"
-													data-nimg={1}
+
+
 													src="/images/payments/img-1.png"
 													style={{ color: "transparent" }}
 												/>
 												<img
-													alt
+													alt="image"
 													loading="lazy"
 													width={48}
 													height={30}
-													decoding="async"
-													data-nimg={1}
+
+
 													src="/images/payments/img-2.png"
 													style={{ color: "transparent" }}
 												/>
 												<img
-													alt
+													alt="image"
 													loading="lazy"
 													width={57}
 													height={30}
-													decoding="async"
-													data-nimg={1}
+
+
 													src="/images/payments/img-3.png"
 													style={{ color: "transparent" }}
 												/>
 												<img
-													alt
+													alt="image"
 													loading="lazy"
 													width={49}
 													height={30}
-													decoding="async"
-													data-nimg={1}
+
+
 													src="/images/payments/img-4.png"
 													style={{ color: "transparent" }}
 												/>
@@ -1105,8 +1105,8 @@ export default function ProductDetails() {
 										loading="lazy"
 										width={770}
 										height={1075}
-										decoding="async"
-										data-nimg={1}
+
+
 										className="lazyloaded"
 										src="/images/shop/products/p-d1.png"
 										style={{ color: "transparent" }}
@@ -1151,9 +1151,9 @@ export default function ProductDetails() {
 												<span className="btn-quantity plus-btn">+</span>
 											</div>
 										</div>
-										<a className="tf-btn btn-fill radius-3 justify-content-center fw-6 fs-14 flex-grow-1 animate-hover-btn">
+										<Link href="#" className="tf-btn btn-fill radius-3 justify-content-center fw-6 fs-14 flex-grow-1 animate-hover-btn">
 											<span>Add to cart</span>
-										</a>
+										</Link>
 									</div>
 								</form>
 							</div>

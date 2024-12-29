@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function FilterOffcanvas() {
@@ -36,29 +37,29 @@ export default function FilterOffcanvas() {
 							<div id="categories" className="collapse show">
 								<ul className="list-categoris current-scrollbar mb_36">
 									<li className="cate-item">
-										<a href="/shop-default">
+										<Link href="/shop-default">
 											<span>Fashion</span>
-										</a>
+										</Link>
 									</li>
 									<li className="cate-item">
-										<a href="/shop-men">
+										<Link href="/shop-men">
 											<span>Men</span>
-										</a>
+										</Link>
 									</li>
 									<li className="cate-item">
-										<a href="/shop-women">
+										<Link href="/shop-women">
 											<span>Women</span>
-										</a>
+										</Link>
 									</li>
 									<li className="cate-item">
-										<a href="/shop-default">
+										<Link href="/shop-default">
 											<span>Denim</span>
-										</a>
+										</Link>
 									</li>
 									<li className="cate-item">
-										<a href="/shop-default">
+										<Link href="/shop-default">
 											<span>Dress</span>
-										</a>
+										</Link>
 									</li>
 								</ul>
 							</div>
@@ -418,9 +419,9 @@ export default function FilterOffcanvas() {
 							</div>
 						</form>
 						<div className="mt-5" />
-						<a className="tf-btn style-2 btn-fill rounded animate-hover-btn">
+						<span  className="tf-btn style-2 btn-fill rounded animate-hover-btn">
 							Clear Filter
-						</a>
+						</span>
 					</div>
 				</div>
 			</div>
