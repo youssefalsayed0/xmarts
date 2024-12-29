@@ -10,7 +10,7 @@ export default function notFound() {
 					<div className="row">
 						<div className="col-12">
 							<div className="image">
-								<Image src={notfound} alt="image" />
+								<Image src={notfound} alt="image" width={50} height={50}/>
 							</div>
 							<div className="title">Oops...That link is broken.</div>
 							<p>
