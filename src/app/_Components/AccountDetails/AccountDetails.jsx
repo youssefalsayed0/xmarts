@@ -5,8 +5,8 @@ export default function AccountDetails() {
 	return (
 		<>
 			<div className="my-account-content account-edit">
-				<div className>
-					<form className id="form-password-change" action="#">
+				<div >
+					<form  id="form-password-change" action="#">
 						<div className="tf-field style-1 mb_15">
 							<input
 								className="tf-field-input tf-input"

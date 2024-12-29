@@ -192,11 +192,11 @@ export default function Footer() {
                       Ecomus Store. All Rights Reserved
                     </div>
                     <div className="tf-payment">
-                      <img alt loading="lazy" width={48} height={30} style={{ color: 'transparent' }} src="/images/payments/visa.png" />
-                      <img alt loading="lazy" width={49} height={30} style={{ color: 'transparent' }} src="/images/payments/img-1.png" />
-                      <img alt loading="lazy" width={48} height={30} style={{ color: 'transparent' }} src="/images/payments/img-2.png" />
-                      <img alt loading="lazy" width={57} height={30} style={{ color: 'transparent' }} src="/images/payments/img-3.png" />
-                      <img alt loading="lazy" width={49} height={30} style={{ color: 'transparent' }} src="/images/payments/img-4.png" />
+                      <img  loading="lazy" width={48} height={30} style={{ color: 'transparent' }} src="/images/payments/visa.png" />
+                      <img  loading="lazy" width={49} height={30} style={{ color: 'transparent' }} src="/images/payments/img-1.png" />
+                      <img  loading="lazy" width={48} height={30} style={{ color: 'transparent' }} src="/images/payments/img-2.png" />
+                      <img  loading="lazy" width={57} height={30} style={{ color: 'transparent' }} src="/images/payments/img-3.png" />
+                      <img  loading="lazy" width={49} height={30} style={{ color: 'transparent' }} src="/images/payments/img-4.png" />
                     </div>
                   </div>
                 </div>

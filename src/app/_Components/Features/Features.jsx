@@ -71,7 +71,7 @@ export default function Features() {
 									</div>
 								</SwiperSlide>
 								<SwiperSlide
-									className=""
+							
 									style={{ width: "469.333px", marginRight: 15 }}
 								>
 									<div className="tf-icon-box text-center">

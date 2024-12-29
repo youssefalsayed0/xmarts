@@ -18,7 +18,7 @@ export default function SearchBar() {
 							name="text"
 						/>
 					</fieldset>
-					<button className type="submit">
+					<button  type="submit">
 						<i className="icon-search" />
 					</button>
 				</form>

@@ -899,7 +899,7 @@ export default function ProductDetails() {
 											</div>
 										</div>
 										<div className="tf-product-info-buy-button">
-											<form className>
+											<form >
 												<Link href="#" className="tf-btn btn-fill justify-content-center fw-6 fs-16 flex-grow-1 animate-hover-btn ">
 													<span> Add to cart - </span>
 													<span className="tf-qty-price">$10.00</span>
@@ -1117,7 +1117,7 @@ export default function ProductDetails() {
 								</div>
 							</div>
 							<div className="tf-sticky-atc-infos">
-								<form className>
+								<form >
 									<div className="tf-sticky-atc-variant-price text-center">
 										<select className="tf-select">
 											<option value="Beige / S">Beige / S</option>

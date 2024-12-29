@@ -11,13 +11,13 @@ export default function ProductPagination() {
                         <li className="active">
                             <Link href="#" className="pagination-link">1</Link>
                         </li>
-                        <li className>
+                        <li >
                             <Link  href="#" className="pagination-link animate-hover-btn">2</Link>
                         </li>
-                        <li className>
+                        <li >
                             <Link href="#" className="pagination-link animate-hover-btn">3</Link>
                         </li>
-                        <li className>
+                        <li >
                             <Link href="#" className="pagination-link animate-hover-btn">4</Link>
                         </li>
                         <li>

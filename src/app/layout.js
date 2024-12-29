@@ -1,6 +1,7 @@
-'use client';
+"use client";
 
 import { useEffect } from 'react';
+
 import '../assets/css/font-icons.css'; // Import Animate.css styles
 import "swiper/css"; // Base Swiper styles
 import "swiper/css/navigation"; // For navigation arrows
@@ -11,24 +12,23 @@ import "./globals.css";
 import "./page.module.css";
 import Footer from "./_Components/Footer/Footer";
 import Navbar from "./_Components/Navbar/Navbar";
+import AddBootstrap from './AddBootstrap';
 
 
 export default function RootLayout({ children }) {
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      // Dynamically import Bootstrap JS
-      import('bootstrap/dist/js/bootstrap.bundle.min.js');
-
-      // Append WOW.js script
       const script = document.createElement('script');
       script.src = 'https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js';
       script.onload = () => new WOW().init();
       document.body.appendChild(script);
     }
   }, []);
+
   return (
     <html lang="en">
-      <body className={``}>
+      <body >
+        <AddBootstrap/>
         <Navbar />
         <main>
           {children}

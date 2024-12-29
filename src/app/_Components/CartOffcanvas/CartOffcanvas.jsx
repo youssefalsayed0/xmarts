@@ -112,7 +112,7 @@ export default function CartOffcanvas() {
 																<Link className="title" href="/product-detail/1">
 																	PLATE OF EGGS
 																</Link>
-																<div className="price">${/* */}16.95</div>
+																<div className="price">$16.95</div>
 															</div>
 															<div className="tf-minicart-recommendations-item-quickview">
 																<Link
@@ -148,7 +148,7 @@ export default function CartOffcanvas() {
 																<Link className="title" href="/product-detail/1">
 																	Ribbed Modal T-shirt
 																</Link>
-																<div className="price">${/* */}18.95</div>
+																<div className="price">$18.95</div>
 															</div>
 															<div className="tf-minicart-recommendations-item-quickview">
 																<Link
@@ -226,7 +226,7 @@ export default function CartOffcanvas() {
 										<div className="tf-cart-checkbox">
 											<div className="tf-checkbox-wrapp">
 												<input
-													className
+													
 													type="checkbox"
 													id="CartDrawer-Form_agree"
 													name="agree_checkbox"

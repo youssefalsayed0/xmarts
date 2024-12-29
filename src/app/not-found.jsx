@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import notfound from "../assets/images/404.svg";
 import Image from "next/image";

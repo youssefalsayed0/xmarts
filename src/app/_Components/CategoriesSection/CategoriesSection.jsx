@@ -23,6 +23,7 @@ export default function CategoriesSection() {
 								prevE: ".nav-next-slider",
 								nextEl: ".nav-prev-slider",
 							}}
+							spaceBetween={30} // Space between slides
 							pagination={{
 								clickable: true,
 								el: ".catg-dots ",

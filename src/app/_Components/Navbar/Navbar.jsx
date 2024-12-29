@@ -234,9 +234,6 @@ export default function Navbar() {
 																		loading="lazy"
 																		width={1000}
 																		height={1215}
-
-
-
 																		style={{ color: "transparent" }}
 																		src="/images/collections/collection-1.jpg"
 																	/>
@@ -1261,7 +1258,7 @@ export default function Navbar() {
 										</Link>
 										<div className="sub-menu submenu-default">
 											<ul className="menu-list">
-												<li className>
+												<li >
 													<Link
 														className="menu-link-text link text_black-2  "
 														style={{ position: "relative" }}
@@ -1385,7 +1382,7 @@ export default function Navbar() {
 														</ul>
 													</div>
 												</li>
-												<li className>
+												<li >
 													<Link
 														className="menu-link-text link text_black-2 position-relative  "
 														style={{ position: "relative" }}
@@ -1397,7 +1394,7 @@ export default function Navbar() {
 														</div>
 													</Link>
 												</li>
-												<li className>
+												<li >
 													<Link
 														className="menu-link-text link text_black-2 position-relative  "
 														style={{ position: "relative" }}
@@ -1406,7 +1403,7 @@ export default function Navbar() {
 														View cart{/* */}
 													</Link>
 												</li>
-												<li className>
+												<li >
 													<Link
 														className="menu-link-text link text_black-2 position-relative  "
 														style={{ position: "relative" }}
@@ -1503,7 +1500,7 @@ export default function Navbar() {
 														</ul>
 													</div>
 												</li>
-												<li className>
+												<li >
 													<Link
 														className="menu-link-text link text_black-2 position-relative  "
 														style={{ position: "relative" }}
@@ -1512,7 +1509,7 @@ export default function Navbar() {
 														Invoice{/* */}
 													</Link>
 												</li>
-												<li className>
+												<li >
 													<Link
 														className="menu-link-text link text_black-2 position-relative  "
 														style={{ position: "relative" }}
