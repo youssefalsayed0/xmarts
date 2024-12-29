@@ -48,8 +48,8 @@ export default function DiscountSlider() {
 						<Swiper
 							modules={[Navigation, Pagination]}
 							navigation={{
-								nextEl: ".nav-prev-slider",
-								prevEl: ".nav-next-slider",
+								nextEl: ".disc-prev-slider",
+								prevEl: ".disc-next-slider",
 							}}
 							pagination={{
 								clickable: true,
@@ -207,10 +207,10 @@ export default function DiscountSlider() {
 								</SwiperSlide>
 							</div>
 						</Swiper>
-						<div className="nav-sw nav-next-slider nav-next-testimonial lg ">
+						<div className="nav-sw  disc-next-slider nav-next-slider  nav-next-testimonial lg ">
 							<span className="icon icon-arrow-left" />
 						</div>
-						<div className="nav-sw nav-prev-slider nav-prev-testimonial lg  ">
+						<div className="nav-sw disc-prev-slider nav-prev-slider nav-prev-testimonial lg  ">
 							<span className="icon icon-arrow-right" />
 						</div>
 						<div className=" discount-dots sw-dots style-2 sw-pagination-testimonial justify-content-center spd277  swiper-pagination-bullets swiper-pagination-horizontal"></div>

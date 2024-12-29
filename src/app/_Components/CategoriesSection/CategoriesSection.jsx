@@ -20,8 +20,9 @@ export default function CategoriesSection() {
 						<Swiper
 							modules={[Navigation, Pagination]}
 							navigation={{
-								prevE: ".nav-next-slider",
-								nextEl: ".nav-prev-slider",
+								
+								prevEl: ".nav-prev",
+								nextEl: ".nav-next",
 							}}
 							spaceBetween={30} // Space between slides
 							pagination={{
@@ -40,7 +41,7 @@ export default function CategoriesSection() {
 									slidesPerView: 6, // 6 slides for desktops
 								},
 							}}
-							className="  swiper-horizontal tf-sw-testimonial swiper-backface-hidden"
+							className=" swiper-horizontal tf-sw-testimonial swiper-backface-hidden"
 							dir="ltr"
 						>
 							<div className="swiper-wrapper">
@@ -221,10 +222,10 @@ export default function CategoriesSection() {
 							</div>
 						</Swiper>
 
-						<div className="nav-sw nav-next-slider nav-next-testimonial lg snbp186 swiper-button-disabled">
+						<div className="nav-sw nav-next nav-next-slider nav-next-testimonial lg snbp186 ">
 							<span className="icon icon-arrow-left" />
 						</div>
-						<div className="nav-sw nav-prev-slider nav-prev-testimonial lg snbn186">
+						<div className="nav-sw nav-prev nav-prev-slider nav-prev-testimonial lg snbn186">
 							<span className="icon icon-arrow-right" />
 						</div>
 
