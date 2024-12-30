@@ -1,17 +1,26 @@
+'use client';
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay } from 'swiper/modules';
 import Link from "next/link";
 import Image from "next/image";
-import img1 from "@images/footer/img-1.png"
-import img2 from "@images/footer/img-2.png"
-import img3 from "@images/footer/img-3.png"
-import img4 from "@images/footer/img-4.png"
-import visa from "@images/footer/visa.png"
-import paypal from "@images/footer/paypal.png"
+import img1 from "@images/footer/img-1.png";
+import img2 from "@images/footer/img-2.png";
+import img3 from "@images/footer/img-3.png";
+import img4 from "@images/footer/img-4.png";
+import visa from "@images/footer/visa.png";
+import paypal from "@images/footer/paypal.png";
+import det1 from "@images/det1.jpeg";
+import det2 from "@images/det2.jpeg";
+import det3 from "@images/det3.jpeg";
+import det4 from "@images/det4.jpeg";
+
+
 export default function ProductDetails() {
 	return (
 		<>
 			<section
-				className="flat-spacing-4 "
+				className="flat-spacing-4 product-details "
 				style={{ maxWidth: "100vw", overflow: "clip" }}
 			>
 				<div className="tf-main-product section-image-zoom">
@@ -20,16 +29,69 @@ export default function ProductDetails() {
 							<div className="col-md-6">
 								<div className="tf-product-media-wrap thumbs-bottom sticky-top">
 									<div className="thumbs-slider">
-										<div
-											className="swiper swiper-initialized swiper-horizontal tf-product-media-main"
+										<Swiper
+											modules={[Navigation, Autoplay]}
+											navigation={{
+												prevEl: ".product-prev",
+												nextEl: ".product-next",
+											}}
+											loop={true}
+
+
+											className=" swiper-initialized swiper-horizontal tf-product-media-main"
 											dir="ltr"
 											id="gallery-swiper-started"
 										>
 											<div
 												className="swiper-wrapper"
-												style={{ transform: "translate3d(0px, 0px, 0px)" }}
+
 											>
-												<div
+												<SwiperSlide
+													className="swiper-slide swiper-slide-active"
+
+												>
+													<Link
+														href="#"
+														className="item"
+
+													>
+														<Image
+															data-zoom={det1}
+															data-src={det1}
+															alt="image"
+															loading="lazy"
+															width={770}
+															height={1075}
+															className="tf-image-zoom lazyload"
+															src={det1}
+															style={{ color: "transparent" }}
+														/>
+													</Link>
+												</SwiperSlide>
+
+												<SwiperSlide
+													className="swiper-slide swiper-slide-active"
+
+												>
+													<Link
+														href="#"
+														className="item"
+														data-pswp-width={770}
+														data-pswp-height={1075}
+													>
+														<Image
+															data-zoom={det2}
+															data-src={det2}
+															alt="image"
+															loading="lazy"
+															className="tf-image-zoom lazyload"
+															src={det2}
+															style={{ color: "transparent" }}
+														/>
+													</Link>
+												</SwiperSlide>
+
+												<SwiperSlide
 													className="swiper-slide swiper-slide-active"
 													style={{ width: 532, marginRight: 10 }}
 												>
@@ -39,712 +101,187 @@ export default function ProductDetails() {
 														data-pswp-width={770}
 														data-pswp-height={1075}
 													>
-														<img
-															data-zoom="/images/products/light-green-1.jpg"
-															data-src="/images/products/light-green-1.jpg"
+														<Image
+															data-zoom={det3}
+															data-src={det3}
 															alt="image"
 															loading="lazy"
-															width={770}
-															height={1075}
+
 															className="tf-image-zoom lazyload"
-															src="/images/products/light-green-1.jpg"
+															src={det3}
 															style={{ color: "transparent" }}
 														/>
 													</Link>
-												</div>
-												<div
-													className="swiper-slide swiper-slide-next"
+												</SwiperSlide>
+
+												<SwiperSlide
+													className="swiper-slide swiper-slide-active"
 													style={{ width: 532, marginRight: 10 }}
 												>
 													<Link
 														href="#"
 														className="item"
-														data-pswp-width={713}
-														data-pswp-height={1070}
+														data-pswp-width={770}
+														data-pswp-height={1075}
 													>
-														<img
-															data-zoom="/images/shop/products/hmgoepprod.jpg"
-															data-src="/images/shop/products/hmgoepprod.jpg"
+														<Image
+															data-zoom={det4}
+															data-src={det4}
 															alt="image"
 															loading="lazy"
-															width={713}
-															height={1070}
+
 															className="tf-image-zoom lazyload"
-															src="/images/shop/products/hmgoepprod.jpg"
+															src={det4}
 															style={{ color: "transparent" }}
 														/>
 													</Link>
-												</div>
-												<div
-													className="swiper-slide"
-													style={{ width: 532, marginRight: 10 }}
-												>
-													<Link
-														href="#"
-														className="item"
-														data-pswp-width={713}
-														data-pswp-height={1070}
-													>
-														<img
-															data-zoom="/images/shop/products/hmgoepprod2.jpg"
-															data-src="/images/shop/products/hmgoepprod2.jpg"
-															alt="image"
-															loading="lazy"
-															width={713}
-															height={1070}
-															className="tf-image-zoom lazyload"
-															src="/images/shop/products/hmgoepprod2.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</Link>
-												</div>
-												<div
-													className="swiper-slide"
-													style={{ width: 532, marginRight: 10 }}
-												>
-													<Link
-														href="#"
-														className="item"
-														data-pswp-width={713}
-														data-pswp-height={1070}
-													>
-														<img
-															data-zoom="/images/shop/products/hmgoepprod3.jpg"
-															data-src="/images/shop/products/hmgoepprod3.jpg"
-															alt="image"
-															loading="lazy"
-															width={713}
-															height={1070}
-															className="tf-image-zoom lazyload"
-															src="/images/shop/products/hmgoepprod3.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</Link>
-												</div>
-												<div
-													className="swiper-slide"
-													style={{ width: 532, marginRight: 10 }}
-												>
-													<Link
-														href="#"
-														className="item"
-														data-pswp-width={768}
-														data-pswp-height={1152}
-													>
-														<img
-															data-zoom="/images/shop/products/hmgoepprod4.jpg"
-															data-src="/images/shop/products/hmgoepprod4.jpg"
-															alt="image"
-															loading="lazy"
-															width={768}
-															height={1152}
-															className="tf-image-zoom lazyload"
-															src="/images/shop/products/hmgoepprod4.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</Link>
-												</div>
-												<div
-													className="swiper-slide"
-													style={{ width: 532, marginRight: 10 }}
-												>
-													<Link
-														href="#"
-														className="item"
-														data-pswp-width={713}
-														data-pswp-height={1070}
-													>
-														<img
-															data-zoom="/images/shop/products/hmgoepprod5.jpg"
-															data-src="/images/shop/products/hmgoepprod5.jpg"
-															alt="image"
-															loading="lazy"
-															width={713}
-															height={1070}
-															className="tf-image-zoom lazyload"
-															src="/images/shop/products/hmgoepprod5.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</Link>
-												</div>
-												<div
-													className="swiper-slide"
-													style={{ width: 532, marginRight: 10 }}
-												>
-													<Link
-														href="#"
-														className="item"
-														data-pswp-width={768}
-														data-pswp-height={1152}
-													>
-														<img
-															data-zoom="/images/shop/products/hmgoepprod6.jpg"
-															data-src="/images/shop/products/hmgoepprod6.jpg"
-															alt="image"
-															loading="lazy"
-															width={768}
-															height={1152}
-															className="tf-image-zoom lazyload"
-															src="/images/shop/products/hmgoepprod6.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</Link>
-												</div>
-												<div
-													className="swiper-slide"
-													style={{ width: 532, marginRight: 10 }}
-												>
-													<Link
-														href="#"
-														className="item"
-														data-pswp-width={713}
-														data-pswp-height={1070}
-													>
-														<img
-															data-zoom="/images/shop/products/hmgoepprod7.jpg"
-															data-src="/images/shop/products/hmgoepprod7.jpg"
-															alt="image"
-															loading="lazy"
-															width={713}
-															height={1070}
-															className="tf-image-zoom lazyload"
-															src="/images/shop/products/hmgoepprod7.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</Link>
-												</div>
-												<div
-													className="swiper-slide"
-													style={{ width: 532, marginRight: 10 }}
-												>
-													<Link
-														href="#"
-														className="item"
-														data-pswp-width={713}
-														data-pswp-height={1070}
-													>
-														<img
-															data-zoom="/images/shop/products/hmgoepprod8.jpg"
-															data-src="/images/shop/products/hmgoepprod8.jpg"
-															alt="image"
-															loading="lazy"
-															width={713}
-															height={1070}
-															className="tf-image-zoom lazyload"
-															src="/images/shop/products/hmgoepprod8.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</Link>
-												</div>
-												<div
-													className="swiper-slide"
-													style={{ width: 532, marginRight: 10 }}
-												>
-													<Link
-														href="#"
-														className="item"
-														data-pswp-width={768}
-														data-pswp-height={1152}
-													>
-														<img
-															data-zoom="/images/shop/products/hmgoepprod9.jpg"
-															data-src="/images/shop/products/hmgoepprod9.jpg"
-															alt="image"
-															loading="lazy"
-															width={768}
-															height={1152}
-															className="tf-image-zoom lazyload"
-															src="/images/shop/products/hmgoepprod9.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</Link>
-												</div>
-												<div
-													className="swiper-slide"
-													style={{ width: 532, marginRight: 10 }}
-												>
-													<Link
-														href="#"
-														className="item"
-														data-pswp-width={713}
-														data-pswp-height={1070}
-													>
-														<img
-															data-zoom="/images/shop/products/hmgoepprod10.jpg"
-															data-src="/images/shop/products/hmgoepprod10.jpg"
-															alt="image"
-															loading="lazy"
-															width={713}
-															height={1070}
-															className="tf-image-zoom lazyload"
-															src="/images/shop/products/hmgoepprod10.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</Link>
-												</div>
-												<div
-													className="swiper-slide"
-													style={{ width: 532, marginRight: 10 }}
-												>
-													<Link
-														href="#"
-														className="item"
-														data-pswp-width={713}
-														data-pswp-height={1070}
-													>
-														<img
-															data-zoom="/images/shop/products/hmgoepprod11.jpg"
-															data-src="/images/shop/products/hmgoepprod11.jpg"
-															alt="image"
-															loading="lazy"
-															width={713}
-															height={1070}
-															className="tf-image-zoom lazyload"
-															src="/images/shop/products/hmgoepprod11.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</Link>
-												</div>
-												<div
-													className="swiper-slide"
-													style={{ width: 532, marginRight: 10 }}
-												>
-													<Link
-														href="#"
-														className="item"
-														data-pswp-width={768}
-														data-pswp-height={1152}
-													>
-														<img
-															data-zoom="/images/shop/products/hmgoepprod12.jpg"
-															data-src="/images/shop/products/hmgoepprod12.jpg"
-															alt="image"
-															loading="lazy"
-															width={768}
-															height={1152}
-															className="tf-image-zoom lazyload"
-															src="/images/shop/products/hmgoepprod12.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</Link>
-												</div>
-												<div
-													className="swiper-slide"
-													style={{ width: 532, marginRight: 10 }}
-												>
-													<Link
-														href="#"
-														className="item"
-														data-pswp-width={768}
-														data-pswp-height={1152}
-													>
-														<img
-															data-zoom="/images/shop/products/hmgoepprod13.jpg"
-															data-src="/images/shop/products/hmgoepprod13.jpg"
-															alt="image"
-															loading="lazy"
-															width={768}
-															height={1152}
-															className="tf-image-zoom lazyload"
-															src="/images/shop/products/hmgoepprod13.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</Link>
-												</div>
-												<div
-													className="swiper-slide"
-													style={{ width: 532, marginRight: 10 }}
-												>
-													<Link
-														href="#"
-														className="item"
-														data-pswp-width={768}
-														data-pswp-height={1152}
-													>
-														<img
-															data-zoom="/images/shop/products/hmgoepprod14.jpg"
-															data-src="/images/shop/products/hmgoepprod14.jpg"
-															alt="image"
-															loading="lazy"
-															width={768}
-															height={1152}
-															className="tf-image-zoom lazyload"
-															src="/images/shop/products/hmgoepprod14.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</Link>
-												</div>
-												<div
-													className="swiper-slide"
-													style={{ width: 532, marginRight: 10 }}
-												>
-													<Link
-														href="#"
-														className="item"
-														data-pswp-width={768}
-														data-pswp-height={1152}
-													>
-														<img
-															data-zoom="/images/shop/products/hmgoepprod15.jpg"
-															data-src="/images/shop/products/hmgoepprod15.jpg"
-															alt="image"
-															loading="lazy"
-															width={768}
-															height={1152}
-															className="tf-image-zoom lazyload"
-															src="/images/shop/products/hmgoepprod15.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</Link>
-												</div>
-												<div
-													className="swiper-slide"
-													style={{ width: 532, marginRight: 10 }}
-												>
-													<Link
-														href="#"
-														className="item"
-														data-pswp-width={768}
-														data-pswp-height={1152}
-													>
-														<img
-															data-zoom="/images/shop/products/hmgoepprod16.jpg"
-															data-src="/images/shop/products/hmgoepprod16.jpg"
-															alt="image"
-															loading="lazy"
-															width={768}
-															height={1152}
-															className="tf-image-zoom lazyload"
-															src="/images/shop/products/hmgoepprod16.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</Link>
-												</div>
-												<div
-													className="swiper-slide"
-													style={{ width: 532, marginRight: 10 }}
-												>
-													<Link
-														href="#"
-														className="item"
-														data-pswp-width={768}
-														data-pswp-height={1152}
-													>
-														<img
-															data-zoom="/images/shop/products/hmgoepprod17.jpg"
-															data-src="/images/shop/products/hmgoepprod17.jpg"
-															alt="image"
-															loading="lazy"
-															width={768}
-															height={1152}
-															className="tf-image-zoom lazyload"
-															src="/images/shop/products/hmgoepprod17.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</Link>
-												</div>
+												</SwiperSlide>
+
+
 											</div>
-											<div className="swiper-button-next button-style-arrow thumbs-next" />
-											<div className="swiper-button-prev button-style-arrow thumbs-prev swiper-button-disabled" />
-										</div>
-										<div
+											<div className="product-next swiper-button-next button-style-arrow thumbs-next" />
+											<div className="product-prev swiper-button-prev button-style-arrow thumbs-prev " />
+										</Swiper>
+										<Swiper
+											spaceBetween={15} 
+											slidesPerView={5}
 											className="swiper swiper-initialized swiper-horizontal tf-product-media-thumbs other-image-zoom swiper-thumbs"
 											dir="ltr"
 										>
-											<div
+											<SwiperSlide
 												className="swiper-wrapper"
-												style={{ transform: "translate3d(0px, 0px, 0px)" }}
+
 											>
 												<div
-													className="swiper-slide swiper-slide-active swiper-slide-visible swiper-slide-fully-visible stagger-item swiper-slide-thumb-active"
-													style={{ width: "98.4px", marginRight: 10 }}
+													className=" swiper-slide-active swiper-slide-visible swiper-slide-fully-visible stagger-item swiper-slide-thumb-active"
+
 												>
 													<div className="item">
-														<img
-															data-src="/images/products/light-green-1.jpg"
+														<Image
+															data-src={det1}
+															alt="image"
+															loading="lazy"
+
+															src={det1}
+															style={{ color: "transparent" }}
+														/>
+													</div>
+												</div>
+
+											</SwiperSlide>
+											<SwiperSlide
+												className="swiper-wrapper"
+
+											>
+												<div
+													className=" swiper-slide-active swiper-slide-visible swiper-slide-fully-visible stagger-item swiper-slide-thumb-active"
+
+												>
+													<div className="item">
+														<Image
+															data-src={det2}
 															alt="image"
 															loading="lazy"
 															width={770}
 															height={1075}
-															src="/images/products/light-green-1.jpg"
+															src={det2}
 															style={{ color: "transparent" }}
 														/>
 													</div>
 												</div>
+
+											</SwiperSlide>
+											<SwiperSlide
+												className="swiper-wrapper"
+
+											>
 												<div
-													className="swiper-slide swiper-slide-next swiper-slide-visible swiper-slide-fully-visible stagger-item"
-													style={{ width: "98.4px", marginRight: 10 }}
+													className=" swiper-slide-active swiper-slide-visible swiper-slide-fully-visible stagger-item swiper-slide-thumb-active"
+
 												>
 													<div className="item">
-														<img
-															data-src="/images/shop/products/hmgoepprod.jpg"
+														<Image
+															data-src={det3}
 															alt="image"
 															loading="lazy"
-															width={713}
-															height={1070}
-															src="/images/shop/products/hmgoepprod.jpg"
+															width={770}
+															height={1075}
+															src={det3}
 															style={{ color: "transparent" }}
 														/>
 													</div>
 												</div>
+
+											</SwiperSlide>
+											<SwiperSlide
+												className="swiper-wrapper"
+
+											>
 												<div
-													className="swiper-slide swiper-slide-visible swiper-slide-fully-visible stagger-item"
-													style={{ width: "98.4px", marginRight: 10 }}
+													className=" swiper-slide-active swiper-slide-visible swiper-slide-fully-visible stagger-item swiper-slide-thumb-active"
+
 												>
 													<div className="item">
-														<img
-															data-src="/images/shop/products/hmgoepprod2.jpg"
+														<Image
+															data-src={det4}
 															alt="image"
 															loading="lazy"
-															width={713}
-															height={1070}
-															src="/images/shop/products/hmgoepprod2.jpg"
+															width={770}
+															height={1075}
+															src={det4}
 															style={{ color: "transparent" }}
 														/>
 													</div>
 												</div>
+
+											</SwiperSlide>
+											<SwiperSlide
+												className="swiper-wrapper"
+
+											>
 												<div
-													className="swiper-slide swiper-slide-visible swiper-slide-fully-visible stagger-item"
-													style={{ width: "98.4px", marginRight: 10 }}
+													className=" swiper-slide-active swiper-slide-visible swiper-slide-fully-visible stagger-item swiper-slide-thumb-active"
+
 												>
 													<div className="item">
-														<img
-															data-src="/images/shop/products/hmgoepprod3.jpg"
+														<Image
+															data-src={det1}
 															alt="image"
 															loading="lazy"
-															width={713}
-															height={1070}
-															src="/images/shop/products/hmgoepprod3.jpg"
+															width={770}
+															height={1075}
+															src={det1}
 															style={{ color: "transparent" }}
 														/>
 													</div>
 												</div>
+
+											</SwiperSlide>
+											<SwiperSlide
+												className="swiper-wrapper"
+
+											>
 												<div
-													className="swiper-slide swiper-slide-visible stagger-item"
-													style={{ width: "98.4px", marginRight: 10 }}
+													className=" swiper-slide-active swiper-slide-visible swiper-slide-fully-visible stagger-item swiper-slide-thumb-active"
+
 												>
 													<div className="item">
-														<img
-															data-src="/images/shop/products/hmgoepprod4.jpg"
+														<Image
+															data-src={det2}
 															alt="image"
 															loading="lazy"
-															width={768}
-															height={1152}
-															src="/images/shop/products/hmgoepprod4.jpg"
+															width={770}
+															height={1075}
+															src={det2}
 															style={{ color: "transparent" }}
 														/>
 													</div>
 												</div>
-												<div
-													className="swiper-slide stagger-item"
-													style={{ width: "98.4px", marginRight: 10 }}
-												>
-													<div className="item">
-														<img
-															data-src="/images/shop/products/hmgoepprod5.jpg"
-															alt="image"
-															loading="lazy"
-															width={713}
-															height={1070}
-															src="/images/shop/products/hmgoepprod5.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</div>
-												</div>
-												<div
-													className="swiper-slide stagger-item"
-													style={{ width: "98.4px", marginRight: 10 }}
-												>
-													<div className="item">
-														<img
-															data-src="/images/shop/products/hmgoepprod6.jpg"
-															alt="image"
-															loading="lazy"
-															width={768}
-															height={1152}
-															src="/images/shop/products/hmgoepprod6.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</div>
-												</div>
-												<div
-													className="swiper-slide stagger-item"
-													style={{ width: "98.4px", marginRight: 10 }}
-												>
-													<div className="item">
-														<img
-															data-src="/images/shop/products/hmgoepprod7.jpg"
-															alt="image"
-															loading="lazy"
-															width={713}
-															height={1070}
-															src="/images/shop/products/hmgoepprod7.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</div>
-												</div>
-												<div
-													className="swiper-slide stagger-item"
-													style={{ width: "98.4px", marginRight: 10 }}
-												>
-													<div className="item">
-														<img
-															data-src="/images/shop/products/hmgoepprod8.jpg"
-															alt="image"
-															loading="lazy"
-															width={713}
-															height={1070}
-															src="/images/shop/products/hmgoepprod8.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</div>
-												</div>
-												<div
-													className="swiper-slide stagger-item"
-													style={{ width: "98.4px", marginRight: 10 }}
-												>
-													<div className="item">
-														<img
-															data-src="/images/shop/products/hmgoepprod9.jpg"
-															alt="image"
-															loading="lazy"
-															width={768}
-															height={1152}
-															src="/images/shop/products/hmgoepprod9.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</div>
-												</div>
-												<div
-													className="swiper-slide stagger-item"
-													style={{ width: "98.4px", marginRight: 10 }}
-												>
-													<div className="item">
-														<img
-															data-src="/images/shop/products/hmgoepprod10.jpg"
-															alt="image"
-															loading="lazy"
-															width={713}
-															height={1070}
-															src="/images/shop/products/hmgoepprod10.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</div>
-												</div>
-												<div
-													className="swiper-slide stagger-item"
-													style={{ width: "98.4px", marginRight: 10 }}
-												>
-													<div className="item">
-														<img
-															data-src="/images/shop/products/hmgoepprod11.jpg"
-															alt="image"
-															loading="lazy"
-															width={713}
-															height={1070}
-															src="/images/shop/products/hmgoepprod11.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</div>
-												</div>
-												<div
-													className="swiper-slide stagger-item"
-													style={{ width: "98.4px", marginRight: 10 }}
-												>
-													<div className="item">
-														<img
-															data-src="/images/shop/products/hmgoepprod12.jpg"
-															alt="image"
-															loading="lazy"
-															width={768}
-															height={1152}
-															src="/images/shop/products/hmgoepprod12.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</div>
-												</div>
-												<div
-													className="swiper-slide stagger-item"
-													style={{ width: "98.4px", marginRight: 10 }}
-												>
-													<div className="item">
-														<img
-															data-src="/images/shop/products/hmgoepprod13.jpg"
-															alt="image"
-															loading="lazy"
-															width={768}
-															height={1152}
-															src="/images/shop/products/hmgoepprod13.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</div>
-												</div>
-												<div
-													className="swiper-slide stagger-item"
-													style={{ width: "98.4px", marginRight: 10 }}
-												>
-													<div className="item">
-														<img
-															data-src="/images/shop/products/hmgoepprod14.jpg"
-															alt="image"
-															loading="lazy"
-															width={768}
-															height={1152}
-															src="/images/shop/products/hmgoepprod14.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</div>
-												</div>
-												<div
-													className="swiper-slide stagger-item"
-													style={{ width: "98.4px", marginRight: 10 }}
-												>
-													<div className="item">
-														<img
-															data-src="/images/shop/products/hmgoepprod15.jpg"
-															alt="image"
-															loading="lazy"
-															width={768}
-															height={1152}
-															src="/images/shop/products/hmgoepprod15.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</div>
-												</div>
-												<div
-													className="swiper-slide stagger-item"
-													style={{ width: "98.4px", marginRight: 10 }}
-												>
-													<div className="item">
-														<img
-															data-src="/images/shop/products/hmgoepprod16.jpg"
-															alt="image"
-															loading="lazy"
-															width={768}
-															height={1152}
-															src="/images/shop/products/hmgoepprod16.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</div>
-												</div>
-												<div
-													className="swiper-slide stagger-item"
-													style={{ width: "98.4px", marginRight: 10 }}
-												>
-													<div className="item">
-														<img
-															data-src="/images/shop/products/hmgoepprod17.jpg"
-															alt="image"
-															loading="lazy"
-															width={768}
-															height={1152}
-															src="/images/shop/products/hmgoepprod17.jpg"
-															style={{ color: "transparent" }}
-														/>
-													</div>
-												</div>
-											</div>
-										</div>
+
+											</SwiperSlide>
+
+
+										</Swiper>
 									</div>
 								</div>
 							</div>
@@ -753,7 +290,7 @@ export default function ProductDetails() {
 									<div className="tf-zoom-main" />
 									<div className="tf-product-info-list other-image-zoom">
 										<div className="tf-product-info-title">
-											<h5>Loose Fit Sweatshirt</h5>
+											<h5>Canned beans</h5>
 										</div>
 										<div className="tf-product-info-badges">
 											<div className="badges">Best seller</div>
@@ -877,7 +414,7 @@ export default function ProductDetails() {
 															width={64}
 															height={18}
 															src={paypal}
-															
+
 														/>
 													</Link>
 													<Link href="#" className="payment-more-option">
@@ -893,7 +430,7 @@ export default function ProductDetails() {
 												className="tf-product-extra-icon"
 											>
 												<div className="icon">
-												<i className="icon-compare" />
+													<i className="icon-compare" />
 												</div>
 												<div className="text fw-6">Compare product</div>
 											</Link>
@@ -994,18 +531,17 @@ export default function ProductDetails() {
 							<div className="tf-sticky-atc-product d-flex align-items-center">
 								<div className="tf-sticky-atc-img">
 									<Image
-										data-src="/images/shop/products/p-d1.png"
+										data-src={det1}
 										alt="image"
 										loading="lazy"
 										width={770}
 										height={1075}
-										className="lazyloaded"
-										src="/images/shop/products/p-d1.png"
+										src={det1}
 										style={{ color: "transparent" }}
 									/>
 								</div>
 								<div className="tf-sticky-atc-title fw-5 d-xl-block d-none">
-									Cotton jersey top
+								Canned beans
 								</div>
 							</div>
 							<div className="tf-sticky-atc-infos">

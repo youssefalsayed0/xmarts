@@ -95,7 +95,7 @@ export default function CartOffcanvas() {
 													>
 														<div className="tf-minicart-recommendations-item">
 															<div className="tf-minicart-recommendations-item-image">
-																<Link href="/product-detail/1">
+																<Link href="/product-details">
 																	<img
 																		alt="image"
 																		loading="lazy"
@@ -109,7 +109,7 @@ export default function CartOffcanvas() {
 																</Link>
 															</div>
 															<div className="tf-minicart-recommendations-item-infos flex-grow-1">
-																<Link className="title" href="/product-detail/1">
+																<Link className="title" href="/product-details">
 																	PLATE OF EGGS
 																</Link>
 																<div className="price">$16.95</div>
@@ -145,7 +145,7 @@ export default function CartOffcanvas() {
 																</Link>
 															</div>
 															<div className="tf-minicart-recommendations-item-infos flex-grow-1">
-																<Link className="title" href="/product-detail/1">
+																<Link className="title" href="/product-details">
 																	Ribbed Modal T-shirt
 																</Link>
 																<div className="price">$18.95</div>
@@ -226,7 +226,7 @@ export default function CartOffcanvas() {
 										<div className="tf-cart-checkbox">
 											<div className="tf-checkbox-wrapp">
 												<input
-													
+
 													type="checkbox"
 													id="CartDrawer-Form_agree"
 													name="agree_checkbox"

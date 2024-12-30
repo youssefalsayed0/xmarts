@@ -27,7 +27,7 @@ export default function ProductCard({ text }) {
                         <div className="grid-layout wrapper-shop" data-grid="grid-4">
                             <div className="card-product fl-item">
                                 <div className="card-product-wrapper">
-                                    <Link className="product-img" href="/product-detail/1">
+                                    <Link className="product-img" href="/product-details">
                                         <Image
                                             data-src="/images/products/orange-1.jpg"
                                             alt="image-product"
@@ -86,7 +86,7 @@ export default function ProductCard({ text }) {
                                     </div>
                                 </div>
                                 <div className="card-product-info">
-                                    <Link className="title link" href="/product-detail/1">
+                                    <Link className="title link" href="/product-details">
                                         PLATE OF EGGS
                                     </Link>
                                     <span className="price">$16.95</span>
@@ -94,7 +94,7 @@ export default function ProductCard({ text }) {
                             </div>
                             <div className="card-product fl-item">
                                 <div className="card-product-wrapper">
-                                    <Link className="product-img" href="/product-detail/1">
+                                    <Link className="product-img" href="/product-details">
                                         <Image
                                             data-src="/images/products/orange-1.jpg"
                                             alt="image-product"
@@ -153,7 +153,7 @@ export default function ProductCard({ text }) {
                                     </div>
                                 </div>
                                 <div className="card-product-info">
-                                    <Link className="title link" href="/product-detail/1">
+                                    <Link className="title link" href="/product-details">
                                         PLATE OF EGGS
                                     </Link>
                                     <span className="price">$16.95</span>
@@ -161,7 +161,7 @@ export default function ProductCard({ text }) {
                             </div>
                             <div className="card-product fl-item">
                                 <div className="card-product-wrapper">
-                                    <Link className="product-img" href="/product-detail/1">
+                                    <Link className="product-img" href="/product-details">
                                         <Image
                                             data-src="/images/products/orange-1.jpg"
                                             alt="image-product"
@@ -220,7 +220,7 @@ export default function ProductCard({ text }) {
                                     </div>
                                 </div>
                                 <div className="card-product-info">
-                                    <Link className="title link" href="/product-detail/1">
+                                    <Link className="title link" href="/product-details">
                                         PLATE OF EGGS
                                     </Link>
                                     <span className="price">$16.95</span>
@@ -228,7 +228,7 @@ export default function ProductCard({ text }) {
                             </div>
                             <div className="card-product fl-item">
                                 <div className="card-product-wrapper">
-                                    <Link className="product-img" href="/product-detail/1">
+                                    <Link className="product-img" href="/product-details">
                                         <Image
                                             data-src="/images/products/orange-1.jpg"
                                             alt="image-product"
@@ -287,7 +287,7 @@ export default function ProductCard({ text }) {
                                     </div>
                                 </div>
                                 <div className="card-product-info">
-                                    <Link className="title link" href="/product-detail/1">
+                                    <Link className="title link" href="/product-details">
                                         PLATE OF EGGS
                                     </Link>
                                     <span className="price">$16.95</span>

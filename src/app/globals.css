@@ -20937,7 +20937,20 @@ html[dir=rtl] .swiper-wrapper {
   width: 130px;
   height: 130px;
 }
-
+.product-details .tf-product-media-main .item img{
+    height: 700px ;
+    }
+    .product-details .tf-product-media-thumbs .swiper-slide .item img{
+    height: 180px !important ;
+    }
+    @media only screen and (max-width: 991px) {
+        .product-details .tf-product-media-main .item img{
+            height: 500px ;
+            }
+            .product-details .tf-product-media-thumbs .swiper-slide .item img{
+                height: 110px !important ;
+                }
+    }
 /*  */
 
 

@@ -63,11 +63,11 @@ export default function GetProducts() {
 						>
 							12 product(s) found
 						</div> */}
-						
+
 						<div className="grid-layout wrapper-shop" data-grid="grid-4">
 							<div className="card-product fl-item">
 								<div className="card-product-wrapper">
-									<Link className="product-img" href="/product-detail/1">
+									<Link className="product-img" href="/product-details">
 										<Image
 											data-src="/images/products/orange-1.jpg"
 											alt="image-product"
@@ -126,7 +126,7 @@ export default function GetProducts() {
 									</div>
 								</div>
 								<div className="card-product-info">
-									<Link className="title link" href="/product-detail/1">
+									<Link className="title link" href="/product-details">
 										PLATE OF EGGS
 									</Link>
 									<span className="price">$16.95</span>
@@ -134,7 +134,7 @@ export default function GetProducts() {
 							</div>
 							<div className="card-product fl-item">
 								<div className="card-product-wrapper">
-									<Link className="product-img" href="/product-detail/1">
+									<Link className="product-img" href="/product-details">
 										<Image
 											data-src="/images/products/orange-1.jpg"
 											alt="image-product"
@@ -193,7 +193,7 @@ export default function GetProducts() {
 									</div>
 								</div>
 								<div className="card-product-info">
-									<Link className="title link" href="/product-detail/1">
+									<Link className="title link" href="/product-details">
 										PLATE OF EGGS
 									</Link>
 									<span className="price">$16.95</span>
@@ -201,7 +201,7 @@ export default function GetProducts() {
 							</div>
 							<div className="card-product fl-item">
 								<div className="card-product-wrapper">
-									<Link className="product-img" href="/product-detail/1">
+									<Link className="product-img" href="/product-details">
 										<Image
 											data-src="/images/products/orange-1.jpg"
 											alt="image-product"
@@ -260,7 +260,7 @@ export default function GetProducts() {
 									</div>
 								</div>
 								<div className="card-product-info">
-									<Link className="title link" href="/product-detail/1">
+									<Link className="title link" href="/product-details">
 										PLATE OF EGGS
 									</Link>
 									<span className="price">$16.95</span>
@@ -268,7 +268,7 @@ export default function GetProducts() {
 							</div>
 							<div className="card-product fl-item">
 								<div className="card-product-wrapper">
-									<Link className="product-img" href="/product-detail/1">
+									<Link className="product-img" href="/product-details">
 										<Image
 											data-src="/images/products/orange-1.jpg"
 											alt="image-product"
@@ -327,7 +327,7 @@ export default function GetProducts() {
 									</div>
 								</div>
 								<div className="card-product-info">
-									<Link className="title link" href="/product-detail/1">
+									<Link className="title link" href="/product-details">
 										PLATE OF EGGS
 									</Link>
 									<span className="price">$16.95</span>

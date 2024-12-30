@@ -1,6 +1,9 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import Link from "next/link";
+import eg from "@images/flag-eg-svgrepo-com.svg"
+import Image from "next/image";
 export default function TopBar() {
 	return (
 		<>
@@ -9,44 +12,44 @@ export default function TopBar() {
 					<div className="tf-top-bar_wrap grid-3 gap-30 align-items-center">
 						<ul className="tf-top-bar_item tf-social-icon d-flex gap-10">
 							<li>
-								<a
+								<Link
 									href="#"
 									className="box-icon w_28 round social-facebook bg_line"
 								>
 									<i className="icon fs-12 icon-fb" />
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href="#"
 									className="box-icon w_28 round social-twiter bg_line"
 								>
 									<i className="icon fs-10 icon-Icon-x" />
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href="#"
 									className="box-icon w_28 round social-instagram bg_line"
 								>
 									<i className="icon fs-12 icon-instagram" />
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href="#"
 									className="box-icon w_28 round social-tiktok bg_line"
 								>
 									<i className="icon fs-12 icon-tiktok" />
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href="#"
 									className="box-icon w_28 round social-pinterest bg_line"
 								>
 									<i className="icon fs-12 icon-pinterest-1" />
-								</a>
+								</Link>
 							</li>
 						</ul>
 						<div className="text-center overflow-hidden">
@@ -78,14 +81,14 @@ export default function TopBar() {
 								>
 									<p className="top-bar-text fw-5">
 										Spring Fashion Sale{" "}
-										<a
+										<Link
 											title="all collection"
 											className="tf-btn btn-line"
 											href="/shop-default"
 										>
 											Shop now
 											<i className="icon icon-arrow1-top-left" />
-										</a>
+										</Link>
 									</p>
 								</SwiperSlide>
 									<SwiperSlide
@@ -116,22 +119,22 @@ export default function TopBar() {
 										type="button"
 										tabIndex={-1}
 										className="btn dropdown-toggle btn-light   "
-										title="USD $ | United States"
+										title="EGP £ | Egypt"
 									>
 										<div className="filter-option">
 											<div className="filter-option-inner">
 												<div className="filter-option-inner-inner">
-													<img
+													<Image
 														alt="image"
 														loading="lazy"
 														width={640}
 														height={480}
 														decoding="async"
 														data-nimg={1}
-														src="/images/country/us.svg"
+														src={eg}
 														style={{ color: "transparent" }}
 													/>
-													USD $ | United States
+													EGP £ | Egypt
 												</div>
 											</div>{" "}
 										</div>
@@ -163,7 +166,7 @@ export default function TopBar() {
 												style={{ marginTop: 0, marginBottom: 0 }}
 											>
 												<li>
-													<a className="dropdown-item ">
+													<Link className="dropdown-item " href="#">
 														<span className="text">
 															<img
 																alt="image"
@@ -177,10 +180,10 @@ export default function TopBar() {
 															/>
 															EUR € | France
 														</span>
-													</a>
+													</Link>
 												</li>
 												<li>
-													<a className="dropdown-item ">
+													<Link className="dropdown-item " href="">
 														<span className="text">
 															<img
 																alt="image"
@@ -194,10 +197,10 @@ export default function TopBar() {
 															/>
 															EUR € | Germany
 														</span>
-													</a>
+													</Link>
 												</li>
 												<li>
-													<a className="dropdown-item active selected">
+													<Link className="dropdown-item active selected" href="">
 														<span className="text">
 															<img
 																alt="image"
@@ -211,10 +214,10 @@ export default function TopBar() {
 															/>
 															USD $ | United States
 														</span>
-													</a>
+													</Link>
 												</li>
 												<li>
-													<a className="dropdown-item ">
+													<Link className="dropdown-item " href="">
 														<span className="text">
 															<img
 																alt="image"
@@ -228,7 +231,7 @@ export default function TopBar() {
 															/>
 															VND ₫ | Vietnam
 														</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>
@@ -284,24 +287,24 @@ export default function TopBar() {
 												style={{ marginTop: 0, marginBottom: 0 }}
 											>
 												<li className="selected active">
-													<a className="dropdown-item active selected">
+													<Link className="dropdown-item active selected" href="">
 														<span className="text">English</span>
-													</a>
+													</Link>
 												</li>
 												<li className="selected ">
-													<a className="dropdown-item ">
+													<Link className="dropdown-item " href="">
 														<span className="text">العربية</span>
-													</a>
+													</Link>
 												</li>
 												<li className="selected ">
-													<a className="dropdown-item ">
+													<Link className="dropdown-item " href="">
 														<span className="text">简体中文</span>
-													</a>
+													</Link>
 												</li>
 												<li className="selected ">
-													<a className="dropdown-item ">
+													<Link className="dropdown-item " href="">
 														<span className="text">اردو</span>
-													</a>
+													</Link>
 												</li>
 											</ul>
 										</div>

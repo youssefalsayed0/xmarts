@@ -4,7 +4,7 @@ import React from "react";
 export default function FilterOffcanvas() {
 	return (
 		<>
-			<div
+			{/* <div
 				className="offcanvas offcanvas-start canvas-filter "
 				id="filterShop"
 				aria-modal="true"
@@ -424,7 +424,7 @@ export default function FilterOffcanvas() {
 						</span>
 					</div>
 				</div>
-			</div>
+			</div> */}
 		</>
 	);
 }

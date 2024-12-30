@@ -6,7 +6,7 @@ import img2 from "@images/footer/img-2.png"
 import img3 from "@images/footer/img-3.png"
 import img4 from "@images/footer/img-4.png"
 import visa from "@images/footer/visa.png"
-
+import eg from "@images/flag-eg-svgrepo-com.svg"
 import logo1 from "@images/Xmarts.png"
 export default function Footer() {
   return (
@@ -92,19 +92,19 @@ export default function Footer() {
                         </div>
                         <div className="subscribe-msg" />
                       </form>
-                      {/* <div className="tf-cur">
+                      <div className="tf-cur">
                         <div className="tf-currencies">
                           <div className="dropdown bootstrap-select image-select center style-default type-currencies dropup">
-                            <button type="button" tabIndex={-1} className="btn dropdown-toggle btn-light" title="USD $ | United States">
+                            <button type="button" tabIndex={-1} className="btn dropdown-toggle btn-light" title="EGP £ | Egypt">
                               <div className="filter-option">
                                 <div className="filter-option-inner">
                                   <div className="filter-option-inner-inner">
-                                   <Image alt="image" loading="lazy" width={640} height={480} style={{ color: 'transparent' }} src="/images/country/us.svg" />USD $ | United States
+                                   <Image alt="image" loading="lazy" width={640} height={480} style={{ color: 'transparent' }} src={eg}/>EGP £ | Egypt
                                   </div>
                                 </div>
                               </div>
                             </button>
-                            <div className="dropdown-menu" style={{ maxHeight: '899.688px', overflow: 'hidden', minHeight: 142, position: 'absolute', inset: 'auto auto 0px 0px', margin: 0, transform: 'translate(0px, -20px)' }} data-popper-placement="top-start">
+                            {/* <div className="dropdown-menu" style={{ maxHeight: '899.688px', overflow: 'hidden', minHeight: 142, position: 'absolute', inset: 'auto auto 0px 0px', margin: 0, transform: 'translate(0px, -20px)' }} data-popper-placement="top-start">
                               <div className="inner show" style={{ maxHeight: '869.688px', overflowY: 'auto', minHeight: 112 }}>
                                 <ul className="dropdown-menu inner show" role="presentation" style={{ marginTop: 0, marginBottom: 0 }}>
                                   <li>
@@ -141,7 +141,7 @@ export default function Footer() {
                                   </li>
                                 </ul>
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                         </div>
                         <div className="tf-languages">
@@ -177,7 +177,7 @@ export default function Footer() {
                             </div>
                           </div>
                         </div>
-                      </div> */}
+                      </div>
                     </div>
                   </div>
                 </div>
