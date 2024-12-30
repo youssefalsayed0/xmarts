@@ -9,7 +9,7 @@ export default function page() {
 	return (
 		<>
 			<Banner text={"Wish List"} bg={bg.src} />
-			<ProductCard text="Last Likes" />
+			 
 			<ProductCard />
 			<YouMightLike />
 			<ProductCard text="Last Likes" />

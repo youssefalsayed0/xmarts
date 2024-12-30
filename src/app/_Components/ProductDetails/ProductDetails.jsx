@@ -1,11 +1,17 @@
 import React from "react";
 import Link from "next/link";
-
+import Image from "next/image";
+import img1 from "@images/footer/img-1.png"
+import img2 from "@images/footer/img-2.png"
+import img3 from "@images/footer/img-3.png"
+import img4 from "@images/footer/img-4.png"
+import visa from "@images/footer/visa.png"
+import paypal from "@images/footer/paypal.png"
 export default function ProductDetails() {
 	return (
 		<>
 			<section
-				className="flat-spacing-4 pt_0"
+				className="flat-spacing-4 "
 				style={{ maxWidth: "100vw", overflow: "clip" }}
 			>
 				<div className="tf-main-product section-image-zoom">
@@ -27,7 +33,8 @@ export default function ProductDetails() {
 													className="swiper-slide swiper-slide-active"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<Link href="#"
+													<Link
+														href="#"
 														className="item"
 														data-pswp-width={770}
 														data-pswp-height={1075}
@@ -39,8 +46,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={770}
 															height={1075}
-
-
 															className="tf-image-zoom lazyload"
 															src="/images/products/light-green-1.jpg"
 															style={{ color: "transparent" }}
@@ -51,7 +56,8 @@ export default function ProductDetails() {
 													className="swiper-slide swiper-slide-next"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<Link href="#"
+													<Link
+														href="#"
 														className="item"
 														data-pswp-width={713}
 														data-pswp-height={1070}
@@ -63,8 +69,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-
-
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod.jpg"
 															style={{ color: "transparent" }}
@@ -75,7 +79,8 @@ export default function ProductDetails() {
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<Link href="#"
+													<Link
+														href="#"
 														className="item"
 														data-pswp-width={713}
 														data-pswp-height={1070}
@@ -87,8 +92,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-
-
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod2.jpg"
 															style={{ color: "transparent" }}
@@ -99,7 +102,8 @@ export default function ProductDetails() {
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<Link href="#"
+													<Link
+														href="#"
 														className="item"
 														data-pswp-width={713}
 														data-pswp-height={1070}
@@ -111,8 +115,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-
-
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod3.jpg"
 															style={{ color: "transparent" }}
@@ -123,7 +125,8 @@ export default function ProductDetails() {
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<Link href="#"
+													<Link
+														href="#"
 														className="item"
 														data-pswp-width={768}
 														data-pswp-height={1152}
@@ -135,8 +138,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-
-
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod4.jpg"
 															style={{ color: "transparent" }}
@@ -147,7 +148,8 @@ export default function ProductDetails() {
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<Link href="#"
+													<Link
+														href="#"
 														className="item"
 														data-pswp-width={713}
 														data-pswp-height={1070}
@@ -159,8 +161,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-
-
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod5.jpg"
 															style={{ color: "transparent" }}
@@ -171,7 +171,8 @@ export default function ProductDetails() {
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<Link href="#"
+													<Link
+														href="#"
 														className="item"
 														data-pswp-width={768}
 														data-pswp-height={1152}
@@ -183,8 +184,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-
-
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod6.jpg"
 															style={{ color: "transparent" }}
@@ -195,7 +194,8 @@ export default function ProductDetails() {
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<Link href="#"
+													<Link
+														href="#"
 														className="item"
 														data-pswp-width={713}
 														data-pswp-height={1070}
@@ -207,8 +207,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-
-
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod7.jpg"
 															style={{ color: "transparent" }}
@@ -219,7 +217,8 @@ export default function ProductDetails() {
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<Link href="#"
+													<Link
+														href="#"
 														className="item"
 														data-pswp-width={713}
 														data-pswp-height={1070}
@@ -231,8 +230,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-
-
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod8.jpg"
 															style={{ color: "transparent" }}
@@ -243,7 +240,8 @@ export default function ProductDetails() {
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<Link href="#"
+													<Link
+														href="#"
 														className="item"
 														data-pswp-width={768}
 														data-pswp-height={1152}
@@ -255,8 +253,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-
-
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod9.jpg"
 															style={{ color: "transparent" }}
@@ -267,7 +263,8 @@ export default function ProductDetails() {
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<Link href="#"
+													<Link
+														href="#"
 														className="item"
 														data-pswp-width={713}
 														data-pswp-height={1070}
@@ -279,8 +276,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-
-
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod10.jpg"
 															style={{ color: "transparent" }}
@@ -291,7 +286,8 @@ export default function ProductDetails() {
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<Link href="#"
+													<Link
+														href="#"
 														className="item"
 														data-pswp-width={713}
 														data-pswp-height={1070}
@@ -303,8 +299,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-
-
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod11.jpg"
 															style={{ color: "transparent" }}
@@ -315,7 +309,8 @@ export default function ProductDetails() {
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<Link href="#"
+													<Link
+														href="#"
 														className="item"
 														data-pswp-width={768}
 														data-pswp-height={1152}
@@ -327,8 +322,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-
-
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod12.jpg"
 															style={{ color: "transparent" }}
@@ -339,7 +332,8 @@ export default function ProductDetails() {
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<Link href="#"
+													<Link
+														href="#"
 														className="item"
 														data-pswp-width={768}
 														data-pswp-height={1152}
@@ -351,8 +345,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-
-
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod13.jpg"
 															style={{ color: "transparent" }}
@@ -363,7 +355,8 @@ export default function ProductDetails() {
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<Link href="#"
+													<Link
+														href="#"
 														className="item"
 														data-pswp-width={768}
 														data-pswp-height={1152}
@@ -375,8 +368,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-
-
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod14.jpg"
 															style={{ color: "transparent" }}
@@ -387,7 +378,8 @@ export default function ProductDetails() {
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<Link href="#"
+													<Link
+														href="#"
 														className="item"
 														data-pswp-width={768}
 														data-pswp-height={1152}
@@ -399,8 +391,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-
-
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod15.jpg"
 															style={{ color: "transparent" }}
@@ -411,7 +401,8 @@ export default function ProductDetails() {
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<Link href="#"
+													<Link
+														href="#"
 														className="item"
 														data-pswp-width={768}
 														data-pswp-height={1152}
@@ -423,8 +414,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-
-
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod16.jpg"
 															style={{ color: "transparent" }}
@@ -435,7 +424,8 @@ export default function ProductDetails() {
 													className="swiper-slide"
 													style={{ width: 532, marginRight: 10 }}
 												>
-													<Link href="#"
+													<Link
+														href="#"
 														className="item"
 														data-pswp-width={768}
 														data-pswp-height={1152}
@@ -447,8 +437,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-
-
 															className="tf-image-zoom lazyload"
 															src="/images/shop/products/hmgoepprod17.jpg"
 															style={{ color: "transparent" }}
@@ -458,7 +446,7 @@ export default function ProductDetails() {
 											</div>
 											<div className="swiper-button-next button-style-arrow thumbs-next" />
 											<div className="swiper-button-prev button-style-arrow thumbs-prev swiper-button-disabled" />
-										</div>{" "}
+										</div>
 										<div
 											className="swiper swiper-initialized swiper-horizontal tf-product-media-thumbs other-image-zoom swiper-thumbs"
 											dir="ltr"
@@ -478,9 +466,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={770}
 															height={1075}
-
-
-
 															src="/images/products/light-green-1.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -497,9 +482,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-
-
-
 															src="/images/shop/products/hmgoepprod.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -516,9 +498,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-
-
-
 															src="/images/shop/products/hmgoepprod2.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -535,9 +514,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-
-
-
 															src="/images/shop/products/hmgoepprod3.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -554,9 +530,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-
-
-
 															src="/images/shop/products/hmgoepprod4.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -573,9 +546,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-
-
-
 															src="/images/shop/products/hmgoepprod5.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -592,9 +562,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-
-
-
 															src="/images/shop/products/hmgoepprod6.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -611,9 +578,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-
-
-
 															src="/images/shop/products/hmgoepprod7.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -630,9 +594,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-
-
-
 															src="/images/shop/products/hmgoepprod8.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -649,9 +610,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-
-
-
 															src="/images/shop/products/hmgoepprod9.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -668,9 +626,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-
-
-
 															src="/images/shop/products/hmgoepprod10.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -687,9 +642,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={713}
 															height={1070}
-
-
-
 															src="/images/shop/products/hmgoepprod11.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -706,9 +658,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-
-
-
 															src="/images/shop/products/hmgoepprod12.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -725,9 +674,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-
-
-
 															src="/images/shop/products/hmgoepprod13.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -744,9 +690,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-
-
-
 															src="/images/shop/products/hmgoepprod14.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -763,9 +706,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-
-
-
 															src="/images/shop/products/hmgoepprod15.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -782,9 +722,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-
-
-
 															src="/images/shop/products/hmgoepprod16.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -801,9 +738,6 @@ export default function ProductDetails() {
 															loading="lazy"
 															width={768}
 															height={1152}
-
-
-
 															src="/images/shop/products/hmgoepprod17.jpg"
 															style={{ color: "transparent" }}
 														/>
@@ -855,13 +789,13 @@ export default function ProductDetails() {
 														>
 															<span className="countdown__item">
 																<span className="countdown__value countdown__value--0 js-countdown__value--0">
-																	162{" "}
+																	162
 																</span>
 																<span className="countdown__label">Days :</span>
 															</span>
 															<span className="countdown__item">
 																<span className="countdown__value countdown__value--1 js-countdown__value--1">
-																	8{" "}
+																	8
 																</span>
 																<span className="countdown__label">
 																	Hours :
@@ -869,13 +803,13 @@ export default function ProductDetails() {
 															</span>
 															<span className="countdown__item">
 																<span className="countdown__value countdown__value--2 js-countdown__value--2">
-																	4{" "}
+																	4
 																</span>
 																<span className="countdown__label">Mins :</span>
 															</span>
 															<span className="countdown__item">
 																<span className="countdown__value countdown__value--3 js-countdown__value--3">
-																	27{" "}
+																	27
 																</span>
 																<span className="countdown__label">Secs</span>
 															</span>
@@ -884,7 +818,16 @@ export default function ProductDetails() {
 												</div>
 											</div>
 										</div>
-
+										<div className="tf-product-info-variant-picker">
+											<div className="variant-picker-item">
+												<div className="variant-picker-label">
+													Size:
+													<span className="fw-6 variant-picker-label-value">
+														450 Gm
+													</span>
+												</div>
+											</div>
+										</div>
 										<div className="tf-product-info-quantity">
 											<div className="quantity-title fw-6">Quantity</div>
 											<div className="wg-quantity">
@@ -899,37 +842,42 @@ export default function ProductDetails() {
 											</div>
 										</div>
 										<div className="tf-product-info-buy-button">
-											<form >
-												<Link href="#" className="tf-btn btn-fill justify-content-center fw-6 fs-16 flex-grow-1 animate-hover-btn ">
+											<form>
+												<Link
+													href="#"
+													className="tf-btn btn-fill justify-content-center fw-6 fs-16 flex-grow-1 animate-hover-btn "
+												>
 													<span> Add to cart - </span>
 													<span className="tf-qty-price">$10.00</span>
 												</Link>
-												<Link href="#" className="tf-product-btn-wishlist hover-tooltip box-icon bg_white wishlist btn-icon-action">
+												<Link
+													href="#"
+													className="tf-product-btn-wishlist hover-tooltip box-icon bg_white wishlist btn-icon-action"
+												>
 													<span className="icon icon-heart " />
 													<span className="tooltip"> Add to Wishlist</span>
 													<span className="icon icon-delete" />
 												</Link>
-												<Link href="#compare"
+												<Link
+													href="#compare"
 													data-bs-toggle="offcanvas"
 													aria-controls="offcanvasLeft"
 													className="tf-product-btn-wishlist hover-tooltip box-icon bg_white compare btn-icon-action"
 												>
-													<span className="icon icon-compare " />
-													<span className="tooltip"> Add to Compare</span>
+													<span className="icon icon-share " />
+													<span className="tooltip">Share</span>
 													<span className="icon icon-check" />
 												</Link>
 												<div className="w-100">
 													<Link href="#" className="btns-full">
-														Buy with{" "}
-														<img
-															alt="image"
+														Buy with
+														<Image
+															alt="PayPal"
 															loading="lazy"
 															width={64}
 															height={18}
-
-
-															src="/images/payments/paypal.png"
-															style={{ color: "transparent" }}
+															src={paypal}
+															
 														/>
 													</Link>
 													<Link href="#" className="payment-more-option">
@@ -945,18 +893,9 @@ export default function ProductDetails() {
 												className="tf-product-extra-icon"
 											>
 												<div className="icon">
-													<img
-														alt="image"
-														loading="lazy"
-														width={20}
-														height={20}
-
-
-														src="/images/item/compare.svg"
-														style={{ color: "transparent" }}
-													/>
+												<i className="icon-compare" />
 												</div>
-												<div className="text fw-6">Compare color</div>
+												<div className="text fw-6">Compare product</div>
 											</Link>
 											<Link
 												href="#ask_question"
@@ -1006,9 +945,9 @@ export default function ProductDetails() {
 															<i className="icon-delivery-time" />
 														</div>
 														<p>
-															Estimate delivery times:{" "}
-															<span className="fw-7">12-26 days</span>{" "}
-															(International),{" "}
+															Estimate delivery times:
+															<span className="fw-7">12-26 days</span>
+															(International),
 															<span className="fw-7">3-6 days</span> (United
 															States).
 														</p>
@@ -1020,7 +959,7 @@ export default function ProductDetails() {
 															<i className="icon-return-order" />
 														</div>
 														<p>
-															Return within{" "}
+															Return within
 															<span className="fw-7">30 days</span> of purchase.
 															Duties &amp; taxes are non-refundable.
 														</p>
@@ -1036,56 +975,11 @@ export default function ProductDetails() {
 												</p>
 											</div>
 											<div className="tf-payment">
-												<img
-													alt="image"
-													loading="lazy"
-													width={48}
-													height={30}
-
-
-													src="/images/payments/visa.png"
-													style={{ color: "transparent" }}
-												/>
-												<img
-													alt="image"
-													loading="lazy"
-													width={49}
-													height={30}
-
-
-													src="/images/payments/img-1.png"
-													style={{ color: "transparent" }}
-												/>
-												<img
-													alt="image"
-													loading="lazy"
-													width={48}
-													height={30}
-
-
-													src="/images/payments/img-2.png"
-													style={{ color: "transparent" }}
-												/>
-												<img
-													alt="image"
-													loading="lazy"
-													width={57}
-													height={30}
-
-
-													src="/images/payments/img-3.png"
-													style={{ color: "transparent" }}
-												/>
-												<img
-													alt="image"
-													loading="lazy"
-													width={49}
-													height={30}
-
-
-													src="/images/payments/img-4.png"
-													style={{ color: "transparent" }}
-												/>
+												<Image loading="lazy" width={48} height={30} style={{ color: 'transparent' }} src={visa} alt='payment' />
+												<Image loading="lazy" width={49} height={30} style={{ color: 'transparent' }} src={img1} alt='payment' />
+												<Image loading="lazy" width={48} height={30} style={{ color: 'transparent' }} src={img2} alt='payment' />
+												<Image loading="lazy" width={57} height={30} style={{ color: 'transparent' }} src={img3} alt='payment' />
+												<Image loading="lazy" width={49} height={30} style={{ color: 'transparent' }} src={img4} alt='payment' />
 											</div>
 										</div>
 									</div>
@@ -1099,14 +993,12 @@ export default function ProductDetails() {
 						<div className="tf-height-observer w-100 d-flex align-items-center">
 							<div className="tf-sticky-atc-product d-flex align-items-center">
 								<div className="tf-sticky-atc-img">
-									<img
+									<Image
 										data-src="/images/shop/products/p-d1.png"
 										alt="image"
 										loading="lazy"
 										width={770}
 										height={1075}
-
-
 										className="lazyloaded"
 										src="/images/shop/products/p-d1.png"
 										style={{ color: "transparent" }}
@@ -1117,45 +1009,26 @@ export default function ProductDetails() {
 								</div>
 							</div>
 							<div className="tf-sticky-atc-infos">
-								<form >
-									<div className="tf-sticky-atc-variant-price text-center">
-										<select className="tf-select">
-											<option value="Beige / S">Beige / S</option>
-											<option value="Beige / M">Beige / M</option>
-											<option value="Beige / L">Beige / L</option>
-											<option value="Beige / XL">Beige / XL</option>
-											<option value="Black / S">Black / S</option>
-											<option value="Black / M">Black / M</option>
-											<option value="Black / L">Black / L</option>
-											<option value="Black / XL">Black / XL</option>
-											<option value="Blue / S">Blue / S</option>
-											<option value="Blue / M">Blue / M</option>
-											<option value="Blue / L">Blue / L</option>
-											<option value="Blue / XL">Blue / XL</option>
-											<option value="White / S">White / S</option>
-											<option value="White / M">White / M</option>
-											<option value="White / L">White / L</option>
-											<option value="White / XL">White / XL</option>
-										</select>
-									</div>
-									<div className="tf-sticky-atc-btns">
-										<div className="tf-product-info-quantity">
-											<div className="wg-quantity">
-												<span className="btn-quantity minus-btn">-</span>
-												<input
-													min={1}
-													type="text"
-													defaultValue={1}
-													name="number"
-												/>
-												<span className="btn-quantity plus-btn">+</span>
-											</div>
+								<div className="tf-sticky-atc-btns">
+									<div className="tf-product-info-quantity">
+										<div className="wg-quantity">
+											<span className="btn-quantity minus-btn">-</span>
+											<input
+												min={1}
+												type="text"
+												defaultValue={1}
+												name="number"
+											/>
+											<span className="btn-quantity plus-btn">+</span>
 										</div>
-										<Link href="#" className="tf-btn btn-fill radius-3 justify-content-center fw-6 fs-14 flex-grow-1 animate-hover-btn">
-											<span>Add to cart</span>
-										</Link>
 									</div>
-								</form>
+									<Link
+										href="#"
+										className="tf-btn btn-fill radius-3 justify-content-center fw-6 fs-14 flex-grow-1 animate-hover-btn"
+									>
+										<span>Add to cart</span>
+									</Link>
+								</div>
 							</div>
 						</div>
 					</div>

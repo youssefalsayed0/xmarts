@@ -4,7 +4,9 @@ import Link from "next/link";
 export default function SearchBar() {
 	return (
 		<>
-			<div className="tf-search-head">
+		<section className="flat-spacing-10 page-search-inner">
+			<div className="container">
+			<div className="tf-search-head mb-2">
 				<form className="tf-mini-search-frm">
 					<fieldset className="text">
 						<input
@@ -29,6 +31,8 @@ export default function SearchBar() {
 					<Link href="/shop-collection-sub">Accessories</Link>
 				</div>
 			</div>
+			</div>
+		</section>
 		</>
 	);
 }

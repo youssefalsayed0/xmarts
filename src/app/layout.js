@@ -8,12 +8,14 @@ import "swiper/css/navigation"; // For navigation arrows
 import "swiper/css/pagination"; // For pagination dots
 import 'animate.css/animate.min.css'; // This points to version 3.x of animate.css
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import '../assets/css/bootstrap-select.min.css'; // Import Animate.css styles
 import "./globals.css";
 import "./page.module.css";
 import Footer from "./_Components/Footer/Footer";
 import Navbar from "./_Components/Navbar/Navbar";
 import AddBootstrap from './AddBootstrap';
 import ToolBar from './_Components/ToolBar/ToolBar';
+import TopBar from './_Components/TopBar/TopBar';
 
 
 export default function RootLayout({ children }) {
@@ -30,6 +32,7 @@ export default function RootLayout({ children }) {
     <html lang="en" >
       <body >
         <AddBootstrap/>
+       < TopBar/>
         <Navbar />
         <main>
           {children}

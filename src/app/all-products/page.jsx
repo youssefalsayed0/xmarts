@@ -6,10 +6,8 @@ import CategoryCircular from '../_Components/CategoryCircular/CategoryCircular'
 export default function page() {
   return (
    <>
-   
      <CategoryCircular />
      <GetProducts />
-   
     </>
   )
 }

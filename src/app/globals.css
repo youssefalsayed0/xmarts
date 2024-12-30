@@ -2697,7 +2697,7 @@ header.header-bg {
     color: var(--primary)
 }
 
-.widget-tabs .widget-menu-tab .item-title:not(.default) {
+.widget-tabs .widget-menu-tab .inner:not(.default) {
     font-size: 18px;
     font-weight: 600;
     line-height: 30px;
@@ -2705,7 +2705,7 @@ header.header-bg {
     position: relative
 }
 
-.widget-tabs .widget-menu-tab .item-title:not(.default):after {
+.widget-tabs .widget-menu-tab .inner:not(.default):after {
     position: absolute;
     content: "";
     background-color: var(--main);
@@ -2757,19 +2757,19 @@ header.header-bg {
     overflow-x: auto
 }
 
-.widget-tabs.style-has-border .widget-menu-tab .item-title {
+.widget-tabs.style-has-border .widget-menu-tab .inner {
     padding: 15px 0;
     min-width: max-content
 }
 
-.widget-tabs.style-has-border .widget-menu-tab .item-title:after {
+.widget-tabs.style-has-border .widget-menu-tab .inner:after {
     bottom: 0;
     left: 0;
     width: 0;
     height: 2px
 }
 
-.widget-tabs.style-has-border .widget-menu-tab .item-title.active:after {
+.widget-tabs.style-has-border .widget-menu-tab .inner.active:after {
     width: 100%
 }
 
@@ -2788,18 +2788,18 @@ header.header-bg {
     height: max-content
 }
 
-.widget-tabs.style-two-col .widget-menu-tab .item-title {
+.widget-tabs.style-two-col .widget-menu-tab .inner {
     padding: 15px 38px
 }
 
-.widget-tabs.style-two-col .widget-menu-tab .item-title:after {
+.widget-tabs.style-two-col .widget-menu-tab .inner:after {
     top: 0;
     left: -2px;
     width: 2px;
     height: 0
 }
 
-.widget-tabs.style-two-col .widget-menu-tab .item-title.active:after {
+.widget-tabs.style-two-col .widget-menu-tab .inner.active:after {
     height: 100%
 }
 
@@ -15068,23 +15068,23 @@ blockquote .text {
     gap: 20px!important
 }
 
-.widget-order-tab.widget-tabs .widget-menu-tab .item-title {
+.widget-order-tab.widget-tabs .widget-menu-tab .inner {
     padding: 5px 0;
     font-weight: 500;
     transition: all .3s ease
 }
 
-.widget-order-tab.widget-tabs .widget-menu-tab .item-title:after {
+.widget-order-tab.widget-tabs .widget-menu-tab .innere:after {
     left: 50%;
     transition: all .3s ease;
     transform: translateX(-50%)
 }
 
-.widget-order-tab.widget-tabs .widget-menu-tab .item-title.active,.widget-order-tab.widget-tabs .widget-menu-tab .item-title:hover {
+.widget-order-tab.widget-tabs .widget-menu-tab .inner.active,.widget-order-tab.widget-tabs .widget-menu-tab .inner:hover {
     color: var(--primary)
 }
 
-.widget-order-tab.widget-tabs .widget-menu-tab .item-title.active:after,.widget-order-tab.widget-tabs .widget-menu-tab .item-title:hover:after {
+.widget-order-tab.widget-tabs .widget-menu-tab .inner.active:after,.widget-order-tab.widget-tabs .widget-menu-tab .inner:hover:after {
     background-color: var(--primary);
     width: 100%
 }
@@ -18343,7 +18343,7 @@ blockquote .text {
         margin: 0 15px
     }
 
-    .widget-tabs.style-has-border .widget-menu-tab .item-title {
+    .widget-tabs.style-has-border .widget-menu-tab .inner {
         padding: 12px 0;
         font-size: 14px;
         line-height: 18px
@@ -18363,13 +18363,13 @@ blockquote .text {
         border: 0
     }
 
-    .widget-tabs.style-two-col .widget-menu-tab .item-title {
+    .widget-tabs.style-two-col .widget-menu-tab .inner {
         padding: 12px 0;
         font-size: 14px;
         line-height: 18px
     }
 
-    .widget-tabs.style-two-col .widget-menu-tab .item-title:after {
+    .widget-tabs.style-two-col .widget-menu-tab .inner:after {
         top: unset;
         bottom: 0;
         left: 0;
@@ -18377,7 +18377,7 @@ blockquote .text {
         height: 2px!important
     }
 
-    .widget-tabs.style-two-col .widget-menu-tab .item-title.active:after {
+    .widget-tabs.style-two-col .widget-menu-tab .inner.active:after {
         width: 100%
     }
 
@@ -20939,3 +20939,6 @@ html[dir=rtl] .swiper-wrapper {
 }
 
 /*  */
+
+
+

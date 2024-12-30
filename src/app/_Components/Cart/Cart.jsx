@@ -7,7 +7,7 @@ import bg from "@images/cart.jpg";
 export default function Cart() {
 	return (
 		<>
-		<Banner text="Shopping Cart" bg={bg.src}/>
+			<Banner text="Shopping Cart" bg={bg.src} />
 			<section className="flat-spacing-11">
 				<div className="container">
 					<div className="tf-cart-countdown">
@@ -159,7 +159,7 @@ export default function Cart() {
 										</span>
 									</div>
 									<div className="tf-progress-msg">
-										Buy <span className="price fw-6">$75.00</span> more to enjoy{" "}
+										Buy <span className="price fw-6">$75.00</span> more to enjoy
 										<span className="fw-6">Free Shipping</span>
 									</div>
 								</div>
@@ -346,7 +346,7 @@ export default function Cart() {
 										<span className="total-value">$18.95 USD</span>
 									</div>
 									<p className="tf-cart-tax">
-										Taxes and<Link href="/shipping-delivery">shipping</Link>{" "}
+										Taxes and<Link href="/shipping-delivery">shipping</Link>
 										calculated at checkout
 									</p>
 									<div className="cart-checkbox">

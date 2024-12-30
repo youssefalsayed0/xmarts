@@ -6,6 +6,7 @@ import img2 from "@images/footer/img-2.png"
 import img3 from "@images/footer/img-3.png"
 import img4 from "@images/footer/img-4.png"
 import visa from "@images/footer/visa.png"
+
 import logo1 from "@images/Xmarts.png"
 export default function Footer() {
   return (

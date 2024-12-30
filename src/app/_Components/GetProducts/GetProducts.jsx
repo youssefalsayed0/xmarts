@@ -63,6 +63,7 @@ export default function GetProducts() {
 						>
 							12 product(s) found
 						</div> */}
+						
 						<div className="grid-layout wrapper-shop" data-grid="grid-4">
 							<div className="card-product fl-item">
 								<div className="card-product-wrapper">
@@ -72,7 +73,7 @@ export default function GetProducts() {
 											alt="image-product"
 											loading="lazy"
 											width={720}
-											height={1005}
+											height={10}
 											placeholder="blur"
 											className="lazyload img-product"
 											src={product1}
