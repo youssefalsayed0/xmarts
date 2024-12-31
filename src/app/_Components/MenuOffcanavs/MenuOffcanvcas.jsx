@@ -66,11 +66,7 @@ export default function MenuOffcanvcas() {
           <span>BLOG</span>
         </Link>
       </li>
-      <li className="nav-mb-item">
-        <Link href="/cart" className="mb-menu-link">
-          <span>Buy now</span>
-        </Link>
-      </li>
+    
     </ul>
 						<div className="mb-other-content">
 							<div className="d-flex group-icon">

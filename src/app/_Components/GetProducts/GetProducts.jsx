@@ -6,7 +6,7 @@ import product2 from "@images/products/product2.jpg";
 import product3 from "@images/products/product3.jpg";
 import product4 from "@images/products/product4.jpg";
 import Image from "next/image";
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function GetProducts() {
 	return (
@@ -160,7 +160,6 @@ export default function GetProducts() {
 									</Link>
 									<div className="list-product-btn">
 										<span
-
 											data-bs-toggle="modal"
 											className="box-icon bg_white quick-add tf-btn-loading"
 										>
@@ -183,13 +182,42 @@ export default function GetProducts() {
 											<span className="icon icon-check" />
 										</span>
 										<span
-
 											data-bs-toggle="modal"
 											className="box-icon bg_white quickview tf-btn-loading"
 										>
 											<span className="icon icon-view" />
 											<span className="tooltip">Quick View</span>
 										</span>
+									</div>
+									<div className="countdown-box">
+										<div className="js-countdown">
+											<div aria-hidden="true" className="countdown__timer">
+												<span className="countdown__item">
+													<span className="countdown__value countdown__value--0 js-countdown__value--0">
+														157{" "}
+													</span>
+													<span className="countdown__label">d :</span>
+												</span>
+												<span className="countdown__item">
+													<span className="countdown__value countdown__value--1 js-countdown__value--1">
+														4{" "}
+													</span>
+													<span className="countdown__label">h :</span>
+												</span>
+												<span className="countdown__item">
+													<span className="countdown__value countdown__value--2 js-countdown__value--2">
+														50{" "}
+													</span>
+													<span className="countdown__label">m :</span>
+												</span>
+												<span className="countdown__item">
+													<span className="countdown__value countdown__value--3 js-countdown__value--3">
+														38{" "}
+													</span>
+													<span className="countdown__label">s</span>
+												</span>
+											</div>
+										</div>
 									</div>
 								</div>
 								<div className="card-product-info">
@@ -227,7 +255,6 @@ export default function GetProducts() {
 									</Link>
 									<div className="list-product-btn">
 										<span
-
 											data-bs-toggle="modal"
 											className="box-icon bg_white quick-add tf-btn-loading"
 										>
@@ -240,7 +267,6 @@ export default function GetProducts() {
 											<span className="icon icon-delete" />
 										</span>
 										<span
-
 											data-bs-toggle="offcanvas"
 											aria-controls="offcanvasLeft"
 											className="box-icon bg_white compare btn-icon-action"
@@ -250,7 +276,6 @@ export default function GetProducts() {
 											<span className="icon icon-check" />
 										</span>
 										<span
-
 											data-bs-toggle="modal"
 											className="box-icon bg_white quickview tf-btn-loading"
 										>
@@ -294,7 +319,6 @@ export default function GetProducts() {
 									</Link>
 									<div className="list-product-btn">
 										<span
-
 											data-bs-toggle="modal"
 											className="box-icon bg_white quick-add tf-btn-loading"
 										>
@@ -307,7 +331,6 @@ export default function GetProducts() {
 											<span className="icon icon-delete" />
 										</span>
 										<span
-
 											data-bs-toggle="offcanvas"
 											aria-controls="offcanvasLeft"
 											className="box-icon bg_white compare btn-icon-action"
@@ -317,7 +340,6 @@ export default function GetProducts() {
 											<span className="icon icon-check" />
 										</span>
 										<span
-
 											data-bs-toggle="modal"
 											className="box-icon bg_white quickview tf-btn-loading"
 										>
@@ -337,16 +359,24 @@ export default function GetProducts() {
 
 						<ul className="tf-pagination-wrap tf-pagination-list tf-pagination-btn">
 							<li className="active">
-								<Link href="/" className="pagination-link">1</Link>
+								<Link href="/" className="pagination-link">
+									1
+								</Link>
 							</li>
-							<li >
-								<Link href="/" className="pagination-link animate-hover-btn">2</Link>
+							<li>
+								<Link href="/" className="pagination-link animate-hover-btn">
+									2
+								</Link>
 							</li>
-							<li >
-								<Link href="/" className="pagination-link animate-hover-btn">3</Link>
+							<li>
+								<Link href="/" className="pagination-link animate-hover-btn">
+									3
+								</Link>
 							</li>
-							<li >
-								<Link href="/" className="pagination-link animate-hover-btn">4</Link>
+							<li>
+								<Link href="/" className="pagination-link animate-hover-btn">
+									4
+								</Link>
 							</li>
 							<li>
 								<Link href="/" className="pagination-link animate-hover-btn">
