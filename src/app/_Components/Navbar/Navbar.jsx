@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import logo from "@images/Xmarts.png";
@@ -8,6 +8,14 @@ import Image from "next/image";
 import MenuOffcanvas from "../MenuOffcanavs/MenuOffcanvcas";
 
 export default function Navbar() {
+
+    const [isClicked, setIsClicked] = useState(false);
+  
+    // Function to toggle classes
+    const toggleClasses = () => {
+      setIsClicked((prev) => !prev);
+    };
+
   const pathname = usePathname();
 
   const isActive = (path) => pathname === path;
@@ -24,8 +32,8 @@ export default function Navbar() {
             <div className="col-md-4 col-3 tf-lg-hidden">
               <Link
                 href="#mobileMenu"
-                data-bs-toggle="offcanvas"
-                aria-controls="offcanvasLeft"
+              
+                onClick={toggleClasses}
               >
                	<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +138,8 @@ export default function Navbar() {
         </div>
       </header>
 
-      <MenuOffcanvas />
+      <MenuOffcanvas toggleClasses={toggleClasses} isClicked={isClicked} />
+      <div className={`offcanvas-backdrop fade  ${isClicked ? "show" : ""} `}  onClick={toggleClasses}></div>
     </>
   );
 }

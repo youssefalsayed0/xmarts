@@ -5658,16 +5658,19 @@ header.header-bg {
 
 .offcanvas {
     z-index: 3000;
-    border: none!important
+    border: none!important;
+    transition: all 0.3s ease-in;
 }
 
 .offcanvas-backdrop {
     background-color: var(--backdrop);
-    cursor: url(../assets/images/cursor-close.svg),auto
+    cursor: url(../assets/images/cursor-close.svg),auto;
+    display: none;
 }
 
 .offcanvas-backdrop.show {
-    opacity: 1
+    opacity: 1;
+    display: block;
 }
 
 .overflow-x-auto::-webkit-scrollbar,.overflow-y-auto::-webkit-scrollbar {
