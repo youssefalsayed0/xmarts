@@ -151,7 +151,7 @@ export default function CategoryCircular() {
 										<div className="collection-content text-center">
 											<Link
 												className="link title fw-6"
-												href="/shop-collection-sub"
+												href="/all-products"
 											>
 												Shop all
 											</Link>

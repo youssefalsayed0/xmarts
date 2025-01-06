@@ -63,18 +63,10 @@ export default function MenuOffcanvcas({ toggleClasses, isClicked }) {
 									<span>CART</span>
 								</Link>
 							</li>
-							<li className="nav-mb-item">
-								<Link
-									href="/blog"
-									className={`collapsed mb-menu-link ${isActive("/blog") ? "activeMenu" : ""}`}
-									onClick={toggleClasses}
-								>
-									<span>BLOG</span>
-								</Link>
-							</li>
+							
 
 						</ul>
-						<div className="mb-other-content">
+						<div className="mb-other-content mt-4">
 							<div className="d-flex group-icon">
 								<Link className="site-nav-icon" href="/wish-list" onClick={toggleClasses}>
 									<i className="icon icon-heart" />

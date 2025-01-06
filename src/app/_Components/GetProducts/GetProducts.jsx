@@ -7,6 +7,7 @@ import product3 from "@images/products/product3.jpg";
 import product4 from "@images/products/product4.jpg";
 import Image from "next/image";
 import Link from "next/link";
+import QuickView from "../QuickView/QuickView";
 
 export default function GetProducts() {
 	return (
@@ -182,7 +183,7 @@ export default function GetProducts() {
 											<span className="icon icon-check" />
 										</span>
 										<span
-											data-bs-toggle="modal"
+										 href="#quick_view" data-bs-toggle="modal" 
 											className="box-icon bg_white quickview tf-btn-loading"
 										>
 											<span className="icon icon-view" />
@@ -276,7 +277,7 @@ export default function GetProducts() {
 											<span className="icon icon-check" />
 										</span>
 										<span
-											data-bs-toggle="modal"
+											 href="#quick_view" data-bs-toggle="modal" 
 											className="box-icon bg_white quickview tf-btn-loading"
 										>
 											<span className="icon icon-view" />
@@ -340,7 +341,7 @@ export default function GetProducts() {
 											<span className="icon icon-check" />
 										</span>
 										<span
-											data-bs-toggle="modal"
+											 href="#quick_view" data-bs-toggle="modal" 
 											className="box-icon bg_white quickview tf-btn-loading"
 										>
 											<span className="icon icon-view" />
@@ -387,7 +388,8 @@ export default function GetProducts() {
 					</div>
 				</div>
 			</section>
-			<FilterOffcanvas />
+			{/* <FilterOffcanvas /> */}
+			<QuickView/>
 		</>
 	);
 }

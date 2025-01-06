@@ -6,6 +6,7 @@ import product3 from "@images/products/product3.jpg";
 import product4 from "@images/products/product4.jpg";
 import Image from 'next/image';
 import Link from 'next/link';
+import QuickView from '../QuickView/QuickView';
 export default function ProductCard({ text }) {
     return (
         <>
@@ -300,7 +301,7 @@ export default function ProductCard({ text }) {
                 </div>
             </section>
 
-
+           < QuickView/>
 
         </>
     )

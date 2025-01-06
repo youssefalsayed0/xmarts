@@ -83,14 +83,7 @@ export default function Navbar() {
                       CART
                     </Link>
                   </li>
-                  <li className="menu-item position-relative">
-                    <Link
-                      href="/blog"
-                      className={`item-link ${isActive("/blog") ? "activeMenu" : ""}`}
-                    >
-                      Blog
-                    </Link>
-                  </li>
+             
                 </ul>
               </nav>
             </div>
