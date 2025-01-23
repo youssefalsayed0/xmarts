@@ -54,16 +54,16 @@ export default function TopBar() {
 						</ul>
 						<div className="text-center overflow-hidden">
 							<Swiper
-						  modules={[ Autoplay]}
-						slidesPerView={1}
-						centeredSlides={true}
-						loop={true}
-						autoplay={{
-							delay: 2500, // Delay between slides (in milliseconds)
-							disableOnInteraction: false,
-							
-						  }}
-						  speed={1500}
+								modules={[Autoplay]}
+								slidesPerView={1}
+								centeredSlides={true}
+								loop={true}
+								autoplay={{
+									delay: 2500, // Delay between slides (in milliseconds)
+									disableOnInteraction: false,
+
+								}}
+								speed={1500}
 								className=" swiper-horizontal tf-sw-top_bar swiper-backface-hidden"
 								dir="ltr"
 							>
@@ -75,40 +75,33 @@ export default function TopBar() {
 									}}
 								>
 									<SwiperSlide
-									
-									style={{ width: 1100 }}
-								
-								>
-									<p className="top-bar-text fw-5">
-										Spring Fashion Sale{" "}
+
+										style={{ width: 1100 }}
+
+									>
+										<p className="top-bar-text fw-5">
+										Summer sale discount off 70%
 										<Link
-											title="all collection"
-											className="tf-btn btn-line"
-											href="/shop-default"
-										>
-											Shop now
-											<i className="icon icon-arrow1-top-left" />
-										</Link>
-									</p>
-								</SwiperSlide>
-									<SwiperSlide
-										style={{ width: 1100 }}
-										
-									>
-										<p className="top-bar-text fw-5">
-											Summer sale discount off 70%
+												title="all collection"
+												className="tf-btn btn-line"
+												href="/all-products"
+											>
+												Shop now
+												<i className="icon icon-arrow1-top-left" />
+											</Link>
 										</p>
 									</SwiperSlide>
-									<SwiperSlide
-										
 								
+									<SwiperSlide
+
+
 										style={{ width: 1100 }}
 									>
 										<p className="top-bar-text fw-5">
-											Time to refresh your wardrobe.
+										Black Friday  discount off 70%
 										</p>
 									</SwiperSlide>
-									
+
 								</div>
 							</Swiper>
 						</div>

@@ -29,7 +29,7 @@ export default function QuickView() {
 							/>
 						</div>
 						<div className="wrap">
-						<div className="tf-product-media-wrap thumbs-bottom sticky-top">
+						<div className="tf-product-media-wrap thumbs-bottom ">
 									<div className="thumbs-slider">
 										<Swiper
 											modules={[Navigation]}
@@ -38,8 +38,6 @@ export default function QuickView() {
 												nextEl: ".product-next",
 											}}
 									
-
-
 											className=" swiper-initialized swiper-horizontal tf-product-media-main"
 											dir="ltr"
 											id="gallery-swiper-started"

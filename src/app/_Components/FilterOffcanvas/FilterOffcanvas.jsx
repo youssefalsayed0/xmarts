@@ -37,28 +37,28 @@ export default function FilterOffcanvas() {
 							<div id="categories" className="collapse show">
 								<ul className="list-categoris current-scrollbar mb_36">
 									<li className="cate-item">
-										<Link href="/shop-default">
-											<span>Fashion</span>
+										<Link href="/all-products">
+											<span>Baby Products</span>
 										</Link>
 									</li>
 									<li className="cate-item">
 										<Link href="/shop-men">
-											<span>Men</span>
+											<span>Beverages</span>
 										</Link>
 									</li>
 									<li className="cate-item">
 										<Link href="/shop-women">
-											<span>Women</span>
+											<span>Household Items</span>
 										</Link>
 									</li>
 									<li className="cate-item">
-										<Link href="/shop-default">
-											<span>Denim</span>
+										<Link href="/all-products">
+											<span>Health and Wellness</span>
 										</Link>
 									</li>
 									<li className="cate-item">
-										<Link href="/shop-default">
-											<span>Dress</span>
+										<Link href="/all-products">
+											<span>Frozen Foods</span>
 										</Link>
 									</li>
 								</ul>
@@ -110,42 +110,7 @@ export default function FilterOffcanvas() {
 								</div>
 								<div id="price" className="collapse show">
 									<div className="widget-price filter-price">
-										<div className="rc-slider rc-slider-horizontal" id="slider">
-											<div className="rc-slider-rail" />
-											<div
-												className="rc-slider-track rc-slider-track-1"
-												style={{ left: "29.4118%", width: "58.8235%" }}
-											/>
-											<div className="rc-slider-step" />
-											<div
-												className="rc-slider-handle rc-slider-handle-1"
-												tabIndex={0}
-												role="slider"
-												aria-valuemin={5}
-												aria-valuemax={22}
-												aria-valuenow={10}
-												aria-disabled="false"
-												aria-orientation="horizontal"
-												style={{
-													left: "29.4118%",
-													transform: "translateX(-50%)",
-												}}
-											/>
-											<div
-												className="rc-slider-handle rc-slider-handle-2"
-												tabIndex={0}
-												role="slider"
-												aria-valuemin={5}
-												aria-valuemax={22}
-												aria-valuenow={20}
-												aria-disabled="false"
-												aria-orientation="horizontal"
-												style={{
-													left: "88.2353%",
-													transform: "translateX(-50%)",
-												}}
-											/>
-										</div>
+										
 										<div className="box-title-price">
 											<span className="title-price">Price :</span>
 											<div className="caption-price">
@@ -179,247 +144,23 @@ export default function FilterOffcanvas() {
 										<li className="list-item d-flex gap-12 align-items-center">
 											<input className="tf-check" readOnly type="radio" />
 											<label className="label">
-												<span>Ecomus</span>&nbsp;<span>(9)</span>
+												<span>brand</span>&nbsp;<span>(9)</span>
 											</label>
 										</li>
 										<li className="list-item d-flex gap-12 align-items-center">
 											<input className="tf-check" readOnly type="radio" />
 											<label className="label">
-												<span>M&amp;H</span>&nbsp;<span>(3)</span>
+												<span>brand</span>&nbsp;<span>(3)</span>
 											</label>
 										</li>
 									</ul>
 								</div>
 							</div>
-							<div className="widget-facet">
-								<div
-									className="facet-title"
-									data-bs-target="#color"
-									data-bs-toggle="collapse"
-									aria-expanded="true"
-									aria-controls="color"
-								>
-									<span>Color</span>
-									<span className="icon icon-arrow-up" />
-								</div>
-								<div id="color" className="collapse show">
-									<ul className="tf-filter-group filter-color current-scrollbar mb_36">
-										<li className="list-item d-flex gap-12 align-items-center">
-											<input
-												className="tf-check-color bg_orange-3"
-												readOnly
-												type="checkbox"
-												name="color"
-											/>
-											<label className="label">
-												<span>Orange</span>&nbsp;<span>(1)</span>
-											</label>
-										</li>
-										<li className="list-item d-flex gap-12 align-items-center">
-											<input
-												className="tf-check-color bg_dark"
-												readOnly
-												type="checkbox"
-												name="color"
-											/>
-											<label className="label">
-												<span>Black</span>&nbsp;<span>(6)</span>
-											</label>
-										</li>
-										<li className="list-item d-flex gap-12 align-items-center">
-											<input
-												className="tf-check-color bg_white"
-												readOnly
-												type="checkbox"
-												name="color"
-											/>
-											<label className="label">
-												<span>White</span>&nbsp;<span>(6)</span>
-											</label>
-										</li>
-										<li className="list-item d-flex gap-12 align-items-center">
-											<input
-												className="tf-check-color bg_brown"
-												readOnly
-												type="checkbox"
-												name="color"
-											/>
-											<label className="label">
-												<span>Brown</span>&nbsp;<span>(3)</span>
-											</label>
-										</li>
-										<li className="list-item d-flex gap-12 align-items-center">
-											<input
-												className="tf-check-color bg_purple"
-												readOnly
-												type="checkbox"
-												name="color"
-											/>
-											<label className="label">
-												<span>Light Purple</span>&nbsp;<span>(1)</span>
-											</label>
-										</li>
-										<li className="list-item d-flex gap-12 align-items-center">
-											<input
-												className="tf-check-color bg_light-green"
-												readOnly
-												type="checkbox"
-												name="color"
-											/>
-											<label className="label">
-												<span>Light Green</span>&nbsp;<span>(2)</span>
-											</label>
-										</li>
-										<li className="list-item d-flex gap-12 align-items-center">
-											<input
-												className="tf-check-color bg_purple"
-												readOnly
-												type="checkbox"
-												name="color"
-											/>
-											<label className="label">
-												<span>Pink</span>&nbsp;<span>(2)</span>
-											</label>
-										</li>
-										<li className="list-item d-flex gap-12 align-items-center">
-											<input
-												className="tf-check-color bg_blue-2"
-												readOnly
-												type="checkbox"
-												name="color"
-											/>
-											<label className="label">
-												<span>Blue</span>&nbsp;<span>(1)</span>
-											</label>
-										</li>
-										<li className="list-item d-flex gap-12 align-items-center">
-											<input
-												className="tf-check-color bg_dark-blue"
-												readOnly
-												type="checkbox"
-												name="color"
-											/>
-											<label className="label">
-												<span>Dark Blue</span>&nbsp;<span>(2)</span>
-											</label>
-										</li>
-										<li className="list-item d-flex gap-12 align-items-center">
-											<input
-												className="tf-check-color bg_light-grey"
-												readOnly
-												type="checkbox"
-												name="color"
-											/>
-											<label className="label">
-												<span>Light Grey</span>&nbsp;<span>(1)</span>
-											</label>
-										</li>
-										<li className="list-item d-flex gap-12 align-items-center">
-											<input
-												className="tf-check-color bg_beige"
-												readOnly
-												type="checkbox"
-												name="color"
-											/>
-											<label className="label">
-												<span>Beige</span>&nbsp;<span>(1)</span>
-											</label>
-										</li>
-										<li className="list-item d-flex gap-12 align-items-center">
-											<input
-												className="tf-check-color bg_light-blue"
-												readOnly
-												type="checkbox"
-												name="color"
-											/>
-											<label className="label">
-												<span>Light Blue</span>&nbsp;<span>(1)</span>
-											</label>
-										</li>
-										<li className="list-item d-flex gap-12 align-items-center">
-											<input
-												className="tf-check-color bg_grey"
-												readOnly
-												type="checkbox"
-												name="color"
-											/>
-											<label className="label">
-												<span>Grey</span>&nbsp;<span>(1)</span>
-											</label>
-										</li>
-										<li className="list-item d-flex gap-12 align-items-center">
-											<input
-												className="tf-check-color bg_light-pink"
-												readOnly
-												type="checkbox"
-												name="color"
-											/>
-											<label className="label">
-												<span>Light Pink</span>&nbsp;<span>(1)</span>
-											</label>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div className="widget-facet">
-								<div
-									className="facet-title"
-									data-bs-target="#size"
-									data-bs-toggle="collapse"
-									aria-expanded="true"
-									aria-controls="size"
-								>
-									<span>Size</span>
-									<span className="icon icon-arrow-up" />
-								</div>
-								<div id="size" className="collapse show">
-									<ul className="tf-filter-group current-scrollbar">
-										<li className="list-item d-flex gap-12 align-items-center">
-											<input
-												className="tf-check tf-check-size"
-												readOnly
-												type="radio"
-											/>
-											<label className="label">
-												<span>S</span>&nbsp;<span>(9)</span>
-											</label>
-										</li>
-										<li className="list-item d-flex gap-12 align-items-center">
-											<input
-												className="tf-check tf-check-size"
-												readOnly
-												type="radio"
-											/>
-											<label className="label">
-												<span>M</span>&nbsp;<span>(11)</span>
-											</label>
-										</li>
-										<li className="list-item d-flex gap-12 align-items-center">
-											<input
-												className="tf-check tf-check-size"
-												readOnly
-												type="radio"
-											/>
-											<label className="label">
-												<span>L</span>&nbsp;<span>(11)</span>
-											</label>
-										</li>
-										<li className="list-item d-flex gap-12 align-items-center">
-											<input
-												className="tf-check tf-check-size"
-												readOnly
-												type="radio"
-											/>
-											<label className="label">
-												<span>XL</span>&nbsp;<span>(7)</span>
-											</label>
-										</li>
-									</ul>
-								</div>
-							</div>
+					
+				
 						</form>
 						<div className="mt-5" />
-						<span  className="tf-btn style-2 btn-fill rounded animate-hover-btn">
+						<span className="tf-btn style-2 btn-fill rounded animate-hover-btn">
 							Clear Filter
 						</span>
 					</div>

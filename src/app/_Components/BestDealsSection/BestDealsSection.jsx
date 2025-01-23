@@ -31,8 +31,8 @@ export default function BestDealsSection() {
 								SALE UP TO 30% OFF TODAY
 							</div>
 							<Link
-								className="rounded-full tf-btn btn-color-1 style-3 border-0 fw-6 btn-light-icon animate-hover-btn mt-5"
-								href="/shop-default"
+								className=" tf-btn btn-color-1 style-3 border-0 fw-6 btn-light-icon animate-hover-btn mt-5"
+								href="/all-products"
 							>
 								<span>Shop Now</span>
 							</Link>

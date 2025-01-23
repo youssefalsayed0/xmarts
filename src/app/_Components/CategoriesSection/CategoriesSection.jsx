@@ -10,12 +10,14 @@ import slider5 from "@images/category/slider5.jpeg";
 import slider6 from "@images/category/slider6.jpeg";
 import Image from "next/image";
 import Link from "next/link";
+import SectionTitle from "../SectionTitle/SectionTitle";
 
 export default function CategoriesSection() {
 	return (
 		<>
-			<section className="flat-spacing-10 flat-testimonial catg-slider">
+			<section className="flat-spacing-15 flat-testimonial catg-slider">
 				<div className="container">
+							  <SectionTitle text="Shop by categorise" />
 					<div className="wrap-carousel style-2">
 						<Swiper
 							modules={[Navigation, Pagination]}
@@ -41,7 +43,7 @@ export default function CategoriesSection() {
 									slidesPerView: 6, // 6 slides for desktops
 								},
 							}}
-							className=" swiper-horizontal tf-sw-testimonial swiper-backface-hidden"
+							className=" swiper-horizontal tf-sw-testimonial swiper-backface-hidden pt-4"
 							dir="ltr"
 						>
 							<div className="swiper-wrapper">

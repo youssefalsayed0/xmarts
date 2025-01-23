@@ -4,7 +4,7 @@ import Image from "next/image";
 import React, { useEffect } from "react";
 import hero from "../../../assets/images/sneaker-1.jpg.png";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination , Autoplay } from 'swiper/modules';
+import { Pagination, Autoplay } from 'swiper/modules';
 
 
 export default function Hero() {
@@ -12,17 +12,17 @@ export default function Hero() {
 		<div className="tf-slideshow slider-effect-fade position-relative hero">
 
 			<Swiper
-				modules={[Pagination , Autoplay]}
+				modules={[Pagination, Autoplay]}
 				pagination={{
 					clickable: true,
 					el: '.swiper-pagination'
 				}}
-				loop={true} 
-				speed={1200} 
+				loop={true}
+				speed={1200}
 				autoplay={{
-					delay: 3000, 
-					disableOnInteraction: false, 
-				  }}
+					delay: 3000,
+					disableOnInteraction: false,
+				}}
 				className="  swiper-horizontal tf-sw-slideshow swiper-backface-hidden"
 				dir="ltr"
 			>
@@ -31,7 +31,7 @@ export default function Hero() {
 						<div className="wrap-slider">
 							<Image
 								alt="fashion-slideshow"
-							
+
 								width={1800}
 								height={785}
 
@@ -45,7 +45,7 @@ export default function Hero() {
 									<h1 className="fade-item fade-item-2 fw-8">Best Market</h1>
 									<Link
 										className="fade-item fade-item-3 tf-btn btn-fill animate-hover-btn btn-xl radius-3"
-										href="/shop-default"
+										href="/all-products"
 									>
 										<span>Shop collection </span>
 										<i className="icon icon-arrow-right" />
@@ -59,7 +59,7 @@ export default function Hero() {
 						<div className="wrap-slider">
 							<Image
 								alt="fashion-slideshow"
-								
+
 								width={1800}
 								height={785}
 
@@ -73,7 +73,7 @@ export default function Hero() {
 									<h1 className="fade-item fade-item-2 fw-8">Best Market</h1>
 									<Link
 										className="fade-item fade-item-3 tf-btn btn-fill animate-hover-btn btn-xl radius-3"
-										href="/shop-default"
+										href="/all-products"
 									>
 										<span>Shop collection </span>
 										<i className="icon icon-arrow-right" />
@@ -98,7 +98,7 @@ export default function Hero() {
 									<h1 className="fade-item fade-item-2 fw-8">Best Market</h1>
 									<Link
 										className="fade-item fade-item-3 tf-btn btn-fill animate-hover-btn btn-xl radius-3"
-										href="/shop-default"
+										href="/all-products"
 									>
 										<span>Shop collection </span>
 										<i className="icon icon-arrow-right" />

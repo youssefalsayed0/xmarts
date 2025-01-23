@@ -6,11 +6,14 @@ import you2 from "@images/you might like 2.jpg"
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination , Autoplay } from 'swiper/modules';
+import SectionTitle from "../SectionTitle/SectionTitle";
 export default function YouMightLike() {
 	return (
 		<>
 			<section className="flat-spacing-29">
 				<div className="container">
+					<SectionTitle text="you might like" />
+					
 					<Swiper
 
 					    spaceBetween={30} // Space between slides

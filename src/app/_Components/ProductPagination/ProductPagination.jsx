@@ -4,9 +4,6 @@ import Link from "next/link";
 export default function ProductPagination() {
     return (
         <>
-
-            <section className='pagg '>
-                <div className="container">
                     <ul className="tf-pagination-wrap tf-pagination-list tf-pagination-btn pb-5">
                         <li className="active">
                             <Link href="#" className="pagination-link">1</Link>
@@ -26,8 +23,6 @@ export default function ProductPagination() {
                             </Link>
                         </li>
                     </ul>
-                </div>
-            </section>
         </>
     )
 }

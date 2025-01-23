@@ -59,7 +59,7 @@ export default function CartOffcanvas() {
 														<Link
 															className="tf-btn btn-fill animate-hover-btn radius-3 w-100 justify-content-center"
 															style={{ width: "fit-content" }}
-															href="/shop-default"
+															href="/all-products"
 														>
 															Explore Products!
 														</Link>

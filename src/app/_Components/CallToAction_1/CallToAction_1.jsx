@@ -66,12 +66,7 @@ export default function CallToAction_1() {
 							<p className="desc fade-item fade-item-2">
 								With our online supermarket, we offer you the best quality products at great prices with fast delivery to your doorstep
 							</p>
-							<Link
-								className="tf-btn btn-line letter-spacing-1 fw-6"
-								href="/all-products"
-							>
-								SHOP NOW
-							</Link>
+							<Link className="fade-item fade-item-3 tf-btn btn-fill animate-hover-btn btn-xl radius-3" href="/all-products"><span>Shop Now </span><i className="icon icon-arrow-right"></i></Link>
 						</div>
 					</div>
 				</div>

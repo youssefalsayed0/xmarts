@@ -1,45 +1,35 @@
 "use client";
 
-import { useEffect } from 'react';
-
-import '../assets/css/font-icons.css'; // Import Animate.css styles
-import "swiper/css"; // Base Swiper styles
-import "swiper/css/navigation"; // For navigation arrows
-import "swiper/css/pagination"; // For pagination dots
-import 'animate.css/animate.min.css'; // This points to version 3.x of animate.css
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
-import '../assets/css/bootstrap-select.min.css'; // Import Animate.css styles
+import "../assets/css/font-icons.css"; 
+import "swiper/css"; 
+import "swiper/css/navigation"; 
+import "swiper/css/pagination"; 
+import "animate.css/animate.min.css"; 
+import "bootstrap/dist/css/bootstrap.min.css"; 
+import "../assets/css/bootstrap-select.min.css"; 
 import "./globals.css";
 import "./page.module.css";
-import Footer from "./_Components/Footer/Footer";
+import AddBootstrap from "./AddBootstrap";
+import AddWow from "./AddWow";
+import TopBar from "./_Components/TopBar/TopBar";
 import Navbar from "./_Components/Navbar/Navbar";
-import AddBootstrap from './AddBootstrap';
-import ToolBar from './_Components/ToolBar/ToolBar';
-import TopBar from './_Components/TopBar/TopBar';
-
+import ToolBar from "./_Components/ToolBar/ToolBar";
+import Footer from "./_Components/Footer/Footer";
+import BackTop from "./_Components/BackTop/BackTop";
 
 export default function RootLayout({ children }) {
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const script = document.createElement('script');
-      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js';
-      script.onload = () => new WOW().init();
-      document.body.appendChild(script);
-    }
-  }, []);
-
-  return (
-    <html lang="en" >
-      <body >
-        <AddBootstrap/>
-       < TopBar/>
-        <Navbar />
-        <main>
-          {children}
-        </main>
-        <ToolBar/>
-        <Footer />
-      </body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<body>
+				<AddWow />
+				<AddBootstrap />
+				<TopBar />
+				<Navbar />
+				<main>{children}</main>
+				<ToolBar />
+				<BackTop/>
+				<Footer />
+			</body>
+		</html>
+	);
 }
