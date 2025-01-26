@@ -33,16 +33,7 @@ export default function ProductCard() {
 		<>
 		<div className="py-4">
    
-				<div className="wrapper-control-shop">
-					<div
-                            style={{
-                                width: "fit-content",
-                                margin: "0px auto 24px",
-                                fontSize: 17,
-                            }}
-                        >
-                            12 product(s) found
-                        </div>
+			
 					<div className="grid-layout wrapper-shop" data-grid="grid-4">
 						<div className="card-product fl-item">
 							<div className="card-product-wrapper">
