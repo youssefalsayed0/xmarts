@@ -33,7 +33,7 @@ export default function ProductCard() {
 		<>
 		<div className="py-4">
    
-			
+				<div className="wrapper-control-shop">
 					<div className="grid-layout wrapper-shop" data-grid="grid-4">
 						<div className="card-product fl-item">
 							<div className="card-product-wrapper">
